@@ -1,0 +1,440 @@
+[
+  {
+    "id": "the-lab-coffee",
+    "name": "The Lab Coffee",
+    "nameJa": "スペシャルティコーヒーの静かな空間",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "address": "26 Lê Thanh Nghị, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "07:00", "close": "22:00" },
+      "tuesday": { "open": "07:00", "close": "22:00" },
+      "wednesday": { "open": "07:00", "close": "22:00" },
+      "thursday": { "open": "07:00", "close": "22:00" },
+      "friday": { "open": "07:00", "close": "23:00" },
+      "saturday": { "open": "08:00", "close": "23:00" },
+      "sunday": { "open": "08:00", "close": "21:00" }
+    },
+    "availability": "available",
+    "rating": 4.5,
+    "reviewCount": 128,
+    "description": "HUSTから徒歩5分、静かなカフェ。高速Wi-Fiとコンセント完備で、勉強に最適な環境です。",
+    "amenities": ["wifi", "power", "ac"],
+    "quietnessLevel": 4,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 0.3,
+    "areaSize": 45,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": ["高速Wi-Fi", "静か", "個別電源", "エアコン", "HUST近い"]
+  },
+  {
+    "id": "hust-workspace",
+    "name": "HUST Workspace",
+    "nameJa": "大学公式コワーキングスペース",
+    "category": "coworking",
+    "categoryLabelJa": "コワーキング",
+    "address": "1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "06:00", "close": "22:00" },
+      "tuesday": { "open": "06:00", "close": "22:00" },
+      "wednesday": { "open": "06:00", "close": "22:00" },
+      "thursday": { "open": "06:00", "close": "22:00" },
+      "friday": { "open": "06:00", "close": "22:00" },
+      "saturday": { "open": "07:00", "close": "20:00" },
+      "sunday": { "open": "07:00", "close": "20:00" }
+    },
+    "availability": "busy",
+    "rating": 4.2,
+    "reviewCount": 256,
+    "description": "HUSTキャンパス内の公式コワーキングスペース。プロジェクターと会議室を完備しています。",
+    "amenities": ["wifi", "power", "ac", "projector"],
+    "quietnessLevel": 3,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 0.1,
+    "areaSize": 120,
+    "budgetRange": {
+      "min": 0,
+      "max": 50000
+    },
+    "featureTags": ["チームワーク", "プロジェクター", "会議室", "Wi-Fi無料", "広々"]
+  },
+  {
+    "id": "green-garden-cafe",
+    "name": "Green Garden Cafe",
+    "nameJa": "緑あふれるガーデンカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "address": "15 Tạ Quang Bửu, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1510972527921-ce03766a1cf1?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "07:30", "close": "22:30" },
+      "tuesday": { "open": "07:30", "close": "22:30" },
+      "wednesday": { "open": "07:30", "close": "22:30" },
+      "thursday": { "open": "07:30", "close": "22:30" },
+      "friday": { "open": "07:30", "close": "23:00" },
+      "saturday": { "open": "08:00", "close": "23:00" },
+      "sunday": { "open": "08:00", "close": "22:00" }
+    },
+    "availability": "available",
+    "rating": 4.3,
+    "reviewCount": 89,
+    "description": "自然光あふれるカフェ。テラス席があり、リラックスしながら勉強できます。",
+    "amenities": ["wifi", "power", "parking"],
+    "quietnessLevel": 2,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 0.5,
+    "areaSize": 80,
+    "budgetRange": {
+      "min": 30000,
+      "max": 65000
+    },
+    "featureTags": ["テラス席", "開放的", "駐車場", "リラックス", "自然光"]
+  },
+  {
+    "id": "libre-book-coffee",
+    "name": "Libre Book Coffee",
+    "nameJa": "静かなブックカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "address": "42 Trần Đại Nghĩa, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "08:00", "close": "22:00" },
+      "tuesday": { "open": "08:00", "close": "22:00" },
+      "wednesday": { "open": "08:00", "close": "22:00" },
+      "thursday": { "open": "08:00", "close": "22:00" },
+      "friday": { "open": "08:00", "close": "23:00" },
+      "saturday": { "open": "09:00", "close": "23:00" },
+      "sunday": { "open": "09:00", "close": "21:00" }
+    },
+    "availability": "available",
+    "rating": 4.6,
+    "reviewCount": 167,
+    "description": "数千冊の本に囲まれたブックカフェ。静かな空間で、読書や勉強に最適です。",
+    "amenities": ["wifi", "power", "ac"],
+    "quietnessLevel": 5,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 0.4,
+    "areaSize": 55,
+    "budgetRange": {
+      "min": 25000,
+      "max": 60000
+    },
+    "featureTags": ["書籍あり", "静か", "集中", "個別電源", "読書向き"]
+  },
+  {
+    "id": "the-workshop-coffee",
+    "name": "The Workshop Coffee",
+    "nameJa": "グループ向けクリエイティブカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "address": "68 Bạch Mai, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1462826303086-329426d1aef5?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "07:00", "close": "23:00" },
+      "tuesday": { "open": "07:00", "close": "23:00" },
+      "wednesday": { "open": "07:00", "close": "23:00" },
+      "thursday": { "open": "07:00", "close": "23:00" },
+      "friday": { "open": "07:00", "close": "24:00" },
+      "saturday": { "open": "08:00", "close": "24:00" },
+      "sunday": { "open": "08:00", "close": "22:00" }
+    },
+    "availability": "busy",
+    "rating": 4.1,
+    "reviewCount": 203,
+    "description": "広々としたカフェで、グループワークに最適。大きなテーブルとホワイトボードを完備。",
+    "amenities": ["wifi", "power", "ac", "projector"],
+    "quietnessLevel": 1,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 1.2,
+    "areaSize": 100,
+    "budgetRange": {
+      "min": 40000,
+      "max": 85000
+    },
+    "featureTags": ["チームワーク", "ホワイトボード", "プロジェクター", "深夜営業", "活気あり"]
+  },
+  {
+    "id": "quiet-zone-library",
+    "name": "Quiet Zone Library",
+    "nameJa": "完全静寂の学習図書館",
+    "category": "library",
+    "categoryLabelJa": "図書館",
+    "address": "5 Giải Phóng, Đống Đa, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "06:30", "close": "21:00" },
+      "tuesday": { "open": "06:30", "close": "21:00" },
+      "wednesday": { "open": "06:30", "close": "21:00" },
+      "thursday": { "open": "06:30", "close": "21:00" },
+      "friday": { "open": "06:30", "close": "21:00" },
+      "saturday": { "open": "07:00", "close": "18:00" },
+      "sunday": { "open": "07:00", "close": "18:00" }
+    },
+    "availability": "available",
+    "rating": 4.7,
+    "reviewCount": 312,
+    "description": "学習専用の図書館で、完全に静かな環境。試験期間に最適です。",
+    "amenities": ["wifi", "power", "ac"],
+    "quietnessLevel": 5,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 0.8,
+    "areaSize": 200,
+    "budgetRange": {
+      "min": 0,
+      "max": 20000
+    },
+    "featureTags": ["完全静寂", "学習向き", "広々", "無料", "試験対策"]
+  },
+  {
+    "id": "bach-khoa-hub",
+    "name": "Bach Khoa Hub",
+    "nameJa": "学生イノベーションセンター",
+    "category": "coworking",
+    "categoryLabelJa": "コワーキング",
+    "address": "17 Trần Đại Nghĩa, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "08:00", "close": "21:00" },
+      "tuesday": { "open": "08:00", "close": "21:00" },
+      "wednesday": { "open": "08:00", "close": "21:00" },
+      "thursday": { "open": "08:00", "close": "21:00" },
+      "friday": { "open": "08:00", "close": "21:00" },
+      "saturday": { "open": "09:00", "close": "18:00" },
+      "sunday": { "open": "09:00", "close": "18:00" }
+    },
+    "availability": "available",
+    "rating": 4.4,
+    "reviewCount": 145,
+    "description": "スタートアップの雰囲気あふれるコワーキングスペース。会議室とイベントスペースを完備。",
+    "amenities": ["wifi", "power", "ac", "projector", "parking"],
+    "quietnessLevel": 2,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 0.3,
+    "areaSize": 150,
+    "budgetRange": {
+      "min": 50000,
+      "max": 120000
+    },
+    "featureTags": ["クリエイティブ", "会議室", "イベント", "駐車場", "スタートアップ"]
+  },
+  {
+    "id": "study-corner-hbt",
+    "name": "Study Corner",
+    "nameJa": "個室付き自習室",
+    "category": "study-room",
+    "categoryLabelJa": "自習室",
+    "address": "88 Phố Vọng, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "06:00", "close": "23:00" },
+      "tuesday": { "open": "06:00", "close": "23:00" },
+      "wednesday": { "open": "06:00", "close": "23:00" },
+      "thursday": { "open": "06:00", "close": "23:00" },
+      "friday": { "open": "06:00", "close": "24:00" },
+      "saturday": { "open": "06:00", "close": "24:00" },
+      "sunday": { "open": "07:00", "close": "22:00" }
+    },
+    "availability": "busy",
+    "rating": 4.0,
+    "reviewCount": 78,
+    "description": "個別ブース付きの自習室。一人で集中したい時に最適。時間制料金です。",
+    "amenities": ["wifi", "power", "ac"],
+    "quietnessLevel": 5,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 1.5,
+    "areaSize": 35,
+    "budgetRange": {
+      "min": 20000,
+      "max": 45000
+    },
+    "featureTags": ["個室", "集中", "時間制", "深夜営業", "個人向け"]
+  },
+  {
+    "id": "dong-da-library",
+    "name": "Đống Đa District Library",
+    "nameJa": "ドンダ区公共図書館",
+    "category": "library",
+    "categoryLabelJa": "図書館",
+    "address": "28 Khâm Thiên, Đống Đa, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "08:00", "close": "17:00" },
+      "tuesday": { "open": "08:00", "close": "17:00" },
+      "wednesday": { "open": "08:00", "close": "17:00" },
+      "thursday": { "open": "08:00", "close": "17:00" },
+      "friday": { "open": "08:00", "close": "17:00" },
+      "saturday": { "open": "08:00", "close": "12:00" },
+      "sunday": { "open": "closed", "close": "closed" }
+    },
+    "availability": "closed",
+    "rating": 3.8,
+    "reviewCount": 45,
+    "description": "静かな公共図書館。利用無料で、参考書も豊富に揃っています。",
+    "amenities": ["wifi", "ac"],
+    "quietnessLevel": 4,
+    "hasWifi": true,
+    "hasPowerOutlets": false,
+    "distanceFromHust": 2.0,
+    "areaSize": 180,
+    "budgetRange": {
+      "min": 0,
+      "max": 0
+    },
+    "featureTags": ["無料", "参考書", "静か", "公共", "エアコン"]
+  },
+  {
+    "id": "cong-cafe-bach-khoa",
+    "name": "Cộng Cà Phê - Bách Khoa",
+    "nameJa": "ベトナムレトロスタイルカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "address": "52 Tạ Quang Bửu, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "07:00", "close": "23:30" },
+      "tuesday": { "open": "07:00", "close": "23:30" },
+      "wednesday": { "open": "07:00", "close": "23:30" },
+      "thursday": { "open": "07:00", "close": "23:30" },
+      "friday": { "open": "07:00", "close": "24:00" },
+      "saturday": { "open": "07:00", "close": "24:00" },
+      "sunday": { "open": "07:30", "close": "23:00" }
+    },
+    "availability": "available",
+    "rating": 4.3,
+    "reviewCount": 198,
+    "description": "戦時レトロスタイルのカフェ。ユニークな空間で、ベトナムコーヒーを楽しめます。",
+    "amenities": ["wifi", "ac", "parking"],
+    "quietnessLevel": 2,
+    "hasWifi": true,
+    "hasPowerOutlets": false,
+    "distanceFromHust": 0.6,
+    "areaSize": 65,
+    "budgetRange": {
+      "min": 29000,
+      "max": 55000
+    },
+    "featureTags": ["レトロ", "おしゃれ空間", "ベトナムコーヒー", "フォトスポット", "人気店"]
+  },
+  {
+    "id": "ta-quang-buu-library",
+    "name": "Thư viện Tạ Quang Bửu",
+    "nameJa": "タクアンブー図書館（HUST中央図書館）",
+    "category": "library",
+    "categoryLabelJa": "図書館",
+    "address": "1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1568667256549-094345857637?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "07:00", "close": "21:30" },
+      "tuesday": { "open": "07:00", "close": "21:30" },
+      "wednesday": { "open": "07:00", "close": "21:30" },
+      "thursday": { "open": "07:00", "close": "21:30" },
+      "friday": { "open": "07:00", "close": "21:30" },
+      "saturday": { "open": "07:30", "close": "17:00" },
+      "sunday": { "open": "closed", "close": "closed" }
+    },
+    "availability": "available",
+    "rating": 4.8,
+    "reviewCount": 420,
+    "description": "HUSTの中央図書館。6階建てで、静かな自習スペース、グループ学習室、電子リソースを完備。",
+    "amenities": ["wifi", "power", "ac"],
+    "quietnessLevel": 5,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 0.0,
+    "areaSize": 500,
+    "budgetRange": { "min": 0, "max": 0 },
+    "featureTags": ["完全無料", "静寂", "6階建て", "電子資料", "キャンパス内"]
+  },
+  {
+    "id": "hust-study-rooms",
+    "name": "HUST自習室 D3-D5",
+    "nameJa": "HUST棟内自習スペース",
+    "category": "study-room",
+    "categoryLabelJa": "自習室",
+    "address": "Tòa D3-D5, 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội",
+    "photos": [
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800&h=600&fit=crop"
+    ],
+    "businessHours": {
+      "monday": { "open": "06:00", "close": "22:00" },
+      "tuesday": { "open": "06:00", "close": "22:00" },
+      "wednesday": { "open": "06:00", "close": "22:00" },
+      "thursday": { "open": "06:00", "close": "22:00" },
+      "friday": { "open": "06:00", "close": "22:00" },
+      "saturday": { "open": "07:00", "close": "18:00" },
+      "sunday": { "open": "07:00", "close": "18:00" }
+    },
+    "availability": "available",
+    "rating": 4.0,
+    "reviewCount": 95,
+    "description": "HUST各棟にある自習スペース。授業の合間に利用でき、エアコン完備で快適。",
+    "amenities": ["wifi", "power", "ac"],
+    "quietnessLevel": 4,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": 0.0,
+    "areaSize": 60,
+    "budgetRange": { "min": 0, "max": 0 },
+    "featureTags": ["無料", "キャンパス内", "エアコン", "静か", "授業間利用"]
+  }
+]

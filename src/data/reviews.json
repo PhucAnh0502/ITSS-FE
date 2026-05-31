@@ -1,0 +1,303 @@
+[
+  {
+    "id": "review-001",
+    "workspaceId": "the-lab-coffee",
+    "reviewerName": "田中太郎",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=1",
+    "badge": "Top Reviewer",
+    "badgeLabelJa": "トップレビュアー",
+    "rating": 4.5,
+    "text": "静かな空間で、勉強に集中できます。Wi-Fiも安定していて、コーヒーも美味しい。長時間の学習に最適です。",
+    "media": [
+      { "url": "https://picsum.photos/seed/rev001a/400/300", "type": "image" }
+    ],
+    "postedAt": "2024-12-15T10:30:00Z",
+    "helpfulCount": 12,
+    "comments": [
+      {
+        "id": "comment-001",
+        "authorName": "佐藤花子",
+        "text": "私もそう思います！朝は空いていてとても快適です。",
+        "postedAt": "2024-12-15T14:00:00Z"
+      }
+    ],
+    "category": "cafe"
+  },
+  {
+    "id": "review-002",
+    "workspaceId": "the-lab-coffee",
+    "reviewerName": "鈴木一郎",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=2",
+    "badge": "Regular",
+    "badgeLabelJa": "レギュラー",
+    "rating": 4.0,
+    "text": "コンセントが多くて便利です。週末は混むので平日がおすすめ。スタッフも親切です。",
+    "media": [],
+    "postedAt": "2024-12-10T08:15:00Z",
+    "helpfulCount": 5,
+    "comments": [
+      {
+        "id": "comment-002",
+        "authorName": "高橋健太",
+        "text": "週末は確かに混みますね。朝早く行けば大丈夫です。",
+        "postedAt": "2024-12-10T12:30:00Z"
+      }
+    ],
+    "category": "cafe"
+  },
+  {
+    "id": "review-003",
+    "workspaceId": "the-lab-coffee",
+    "reviewerName": "渡辺美咲",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=3",
+    "badge": "New Member",
+    "badgeLabelJa": "新メンバー",
+    "rating": 4.8,
+    "text": "HUSTから近くて、歩いてすぐ。インテリアもおしゃれで、勉強のモチベーションが上がります。常連になりました。",
+    "media": [
+      { "url": "https://picsum.photos/seed/rev003a/400/300", "type": "image" },
+      { "url": "https://picsum.photos/seed/rev003b/400/300", "type": "image" }
+    ],
+    "postedAt": "2024-12-20T16:45:00Z",
+    "helpfulCount": 8,
+    "comments": [
+      {
+        "id": "comment-003",
+        "authorName": "山本大輔",
+        "text": "同感です！空間がとてもきれいですよね。",
+        "postedAt": "2024-12-21T09:00:00Z"
+      }
+    ],
+    "category": "near-hust"
+  },
+  {
+    "id": "review-004",
+    "workspaceId": "hust-workspace",
+    "reviewerName": "伊藤さくら",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=4",
+    "badge": "Top Reviewer",
+    "badgeLabelJa": "トップレビュアー",
+    "rating": 4.2,
+    "text": "キャンパス内なので移動が楽です。グループスペースがあり、プロジェクターも使えます。事前予約すれば確実に席が取れます。",
+    "media": [
+      { "url": "https://picsum.photos/seed/rev004a/400/300", "type": "image" }
+    ],
+    "postedAt": "2024-12-18T09:00:00Z",
+    "helpfulCount": 15,
+    "comments": [
+      {
+        "id": "comment-004",
+        "authorName": "中村翔太",
+        "text": "予約システムが便利ですよね。私もよく使っています。",
+        "postedAt": "2024-12-18T11:30:00Z"
+      },
+      {
+        "id": "comment-004b",
+        "authorName": "小林愛",
+        "text": "グループプレゼンの練習にぴったりです。",
+        "postedAt": "2024-12-18T15:00:00Z"
+      }
+    ],
+    "category": "near-hust"
+  },
+  {
+    "id": "review-005",
+    "workspaceId": "hust-workspace",
+    "reviewerName": "加藤雄大",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=5",
+    "badge": "Regular",
+    "badgeLabelJa": "レギュラー",
+    "rating": 3.8,
+    "text": "設備は充実していますが、試験期間はとても混みます。早めに予約するのがおすすめ。エアコンが効いていて快適です。",
+    "media": [],
+    "postedAt": "2024-12-05T14:20:00Z",
+    "helpfulCount": 7,
+    "comments": [
+      {
+        "id": "comment-005",
+        "authorName": "松本理恵",
+        "text": "試験期間は本当に混みますね。朝一番がベストです。",
+        "postedAt": "2024-12-06T08:00:00Z"
+      }
+    ],
+    "category": "near-hust"
+  },
+  {
+    "id": "review-006",
+    "workspaceId": "hust-workspace",
+    "reviewerName": "吉田真由",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=6",
+    "badge": "New Member",
+    "badgeLabelJa": "新メンバー",
+    "rating": 4.6,
+    "text": "1年生です。先輩に教えてもらいました。静かで集中できます。これから頻繁に通います。",
+    "media": [
+      { "url": "https://picsum.photos/seed/rev006a/400/300", "type": "image" }
+    ],
+    "postedAt": "2024-12-22T11:00:00Z",
+    "helpfulCount": 3,
+    "comments": [
+      {
+        "id": "comment-006",
+        "authorName": "田中太郎",
+        "text": "ようこそ！ぜひ頻繁に来てくださいね。",
+        "postedAt": "2024-12-22T13:45:00Z"
+      }
+    ],
+    "category": "near-hust"
+  },
+  {
+    "id": "review-007",
+    "workspaceId": "green-garden-cafe",
+    "reviewerName": "山本大輔",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=7",
+    "badge": "Top Reviewer",
+    "badgeLabelJa": "トップレビュアー",
+    "rating": 4.7,
+    "text": "緑豊かな素晴らしいカフェ。テラス席で勉強するととてもリラックスできます。ドリンクメニューも豊富です。",
+    "media": [
+      { "url": "https://picsum.photos/seed/rev007a/400/300", "type": "image" },
+      { "url": "https://picsum.photos/seed/rev007b/400/300", "type": "image" }
+    ],
+    "postedAt": "2024-12-19T15:30:00Z",
+    "helpfulCount": 20,
+    "comments": [
+      {
+        "id": "comment-007",
+        "authorName": "渡辺美咲",
+        "text": "テラス席は本当に気持ちいいですよね！天気がいい日は最高です。",
+        "postedAt": "2024-12-19T18:00:00Z"
+      }
+    ],
+    "category": "cafe"
+  },
+  {
+    "id": "review-008",
+    "workspaceId": "green-garden-cafe",
+    "reviewerName": "佐藤花子",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=8",
+    "badge": "Regular",
+    "badgeLabelJa": "レギュラー",
+    "rating": 4.3,
+    "text": "友達とグループ学習によく来ます。テーブルが広くて資料を広げやすい。Wi-Fiも速いです。",
+    "media": [],
+    "postedAt": "2024-12-12T13:00:00Z",
+    "helpfulCount": 9,
+    "comments": [
+      { "id": "comment-008", "authorName": "鈴木一郎", "text": "グループ学習にいいですよね。事前にテーブル予約できますか？", "postedAt": "2024-12-12T16:30:00Z" }
+    ],
+    "category": "cafe"
+  },
+  {
+    "id": "review-009",
+    "workspaceId": "green-garden-cafe",
+    "reviewerName": "小林愛",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=9",
+    "badge": "New Member",
+    "badgeLabelJa": "新メンバー",
+    "rating": 4.1,
+    "text": "空間はきれいですが、雨の日はテラスに座れません。室内も悪くないですが席が少ないです。",
+    "media": [
+      { "url": "https://picsum.photos/seed/rev009a/400/300", "type": "image" }
+    ],
+    "postedAt": "2024-12-08T10:45:00Z",
+    "helpfulCount": 4,
+    "comments": [
+      { "id": "comment-009", "authorName": "伊藤さくら", "text": "雨の日は早めに行けば室内の席が取れますよ。", "postedAt": "2024-12-08T14:15:00Z" }
+    ],
+    "category": "cafe"
+  },
+  {
+    "id": "review-010",
+    "workspaceId": "libre-book-coffee",
+    "reviewerName": "中村翔太",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=10",
+    "badge": "Top Reviewer",
+    "badgeLabelJa": "トップレビュアー",
+    "rating": 4.4,
+    "text": "本に囲まれた静かな空間。読書しながらコーヒーを楽しめます。照明が柔らかくて心地よいです。",
+    "media": [
+      { "url": "https://picsum.photos/seed/rev010a/400/300", "type": "image" }
+    ],
+    "postedAt": "2024-12-17T12:00:00Z",
+    "helpfulCount": 11,
+    "comments": [
+      { "id": "comment-010", "authorName": "加藤雄大", "text": "長時間読書するには照明が大事ですよね。", "postedAt": "2024-12-17T15:30:00Z" }
+    ],
+    "category": "cafe"
+  },
+  {
+    "id": "review-011",
+    "workspaceId": "libre-book-coffee",
+    "reviewerName": "松本理恵",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=11",
+    "badge": "Regular",
+    "badgeLabelJa": "レギュラー",
+    "rating": 4.0,
+    "text": "一人で集中したい時に最適な場所です。各テーブルにコンセントがあり、ノートPCでの作業も快適です。",
+    "media": [],
+    "postedAt": "2024-12-14T09:30:00Z",
+    "helpfulCount": 6,
+    "comments": [
+      { "id": "comment-011", "authorName": "吉田真由", "text": "各テーブルにコンセントがあるのは便利ですね！", "postedAt": "2024-12-14T11:00:00Z" }
+    ],
+    "category": "cafe"
+  },
+  {
+    "id": "review-012",
+    "workspaceId": "libre-book-coffee",
+    "reviewerName": "木村拓也",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=12",
+    "badge": "New Member",
+    "badgeLabelJa": "新メンバー",
+    "rating": 4.6,
+    "text": "初めて試験勉強で来ましたが、とても気に入りました。静かで集中力が高まる空間です。",
+    "media": [
+      { "url": "https://picsum.photos/seed/rev012a/400/300", "type": "image" },
+      { "url": "https://picsum.photos/seed/rev012b/400/300", "type": "video" }
+    ],
+    "postedAt": "2024-12-21T17:00:00Z",
+    "helpfulCount": 2,
+    "comments": [
+      { "id": "comment-012", "authorName": "山本大輔", "text": "動画レビューいいですね！今度行ってみます。", "postedAt": "2024-12-21T20:00:00Z" }
+    ],
+    "category": "cafe"
+  },
+  {
+    "id": "review-019",
+    "workspaceId": "bach-khoa-hub",
+    "reviewerName": "小林愛",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=19",
+    "badge": "Top Reviewer",
+    "badgeLabelJa": "トップレビュアー",
+    "rating": 4.4,
+    "text": "グループプロジェクトに最適な場所。ホワイトボードとプロジェクターが自由に使えて、ディスカッションがとても捗ります。",
+    "media": [
+      { "url": "https://picsum.photos/seed/rev019a/400/300", "type": "image" },
+      { "url": "https://picsum.photos/seed/rev019b/400/300", "type": "video" }
+    ],
+    "postedAt": "2024-12-19T10:00:00Z",
+    "helpfulCount": 18,
+    "comments": [
+      { "id": "comment-019", "authorName": "加藤雄大", "text": "プロジェクターが使えるのは本当に便利ですね！", "postedAt": "2024-12-19T13:00:00Z" }
+    ],
+    "category": "group-activity"
+  },
+  {
+    "id": "review-022",
+    "workspaceId": "study-corner-hbt",
+    "reviewerName": "加藤雄大",
+    "reviewerAvatar": "https://i.pravatar.cc/150?img=22",
+    "badge": "Regular",
+    "badgeLabelJa": "レギュラー",
+    "rating": 3.5,
+    "text": "寮内にあるので深夜でも勉強できます。設備は基本的ですが十分で、静かです。",
+    "media": [],
+    "postedAt": "2024-12-06T22:00:00Z",
+    "helpfulCount": 13,
+    "comments": [
+      { "id": "comment-022", "authorName": "木村拓也", "text": "深夜まで使えるのは寮生にとって本当に便利ですね。", "postedAt": "2024-12-07T01:00:00Z" }
+    ],
+    "category": "dormitory"
+  }
+]

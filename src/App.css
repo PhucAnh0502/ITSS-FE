@@ -1,0 +1,14 @@
+/* Main Layout */
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg, #f5f7fa);
+}
+
+.main-layout__content {
+  flex: 1;
+  width: 100%;
+  overflow-x: hidden;
+}
