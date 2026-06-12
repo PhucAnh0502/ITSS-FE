@@ -11,8 +11,8 @@ describe('NavigationBar', () => {
   it('renders 3 tabs with Japanese labels', () => {
     render(<NavigationBar {...defaultProps} />);
 
-    expect(screen.getByText('探索')).toBeInTheDocument();
     expect(screen.getByText('おすすめ')).toBeInTheDocument();
+    expect(screen.getByText('検索')).toBeInTheDocument();
     expect(screen.getByText('コミュニティ')).toBeInTheDocument();
   });
 

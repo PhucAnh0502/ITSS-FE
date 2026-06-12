@@ -5,8 +5,8 @@
 export const LOCALIZATION = {
   // Navigation
   nav: {
-    explore: '探索',
-    recommend: 'おすすめ',
+    explore: 'おすすめ',
+    recommend: '検索',
     community: 'コミュニティ',
     profile: 'プロフィール',
   },
@@ -48,7 +48,6 @@ export const LOCALIZATION = {
     wifiAvailable: 'Wi-Fiあり',
     power: '電源',
     powerAvailable: '電源あり',
-    distance: '距離',
     nearHust: 'HUST周辺',
     people: '人数',
   },
@@ -61,7 +60,7 @@ export const LOCALIZATION = {
   },
   // Section headings
   headings: {
-    searchSpaces: 'スペースを探す',
+    searchSpaces: 'スペースをおすすめ',
     smartSearch: 'スマート検索',
     smartSearchSubtitle: 'いくつかの質問に答えて、最適なスペースを見つけましょう',
     communityReviews: 'HUSTコミュニティ',
