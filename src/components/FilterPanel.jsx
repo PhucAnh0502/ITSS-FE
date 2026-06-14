@@ -34,16 +34,16 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
   };
 
   return (
-    <div className="bg-white border border-gray-200 rounded-2xl p-4 mb-4" role="region" aria-label={LOCALIZATION.aria.filterRegion}>
+    <div className="bg-white border border-violet-100 ring-1 ring-violet-50 rounded-2xl p-4 mb-4 shadow-sm shadow-violet-500/5" role="region" aria-label={LOCALIZATION.aria.filterRegion}>
       <div className="flex items-center justify-between mb-4">
         <span className="text-[0.9375rem] font-semibold text-gray-900">
           {LOCALIZATION.filters.title}
           {activeFilters > 0 && (
-            <span className="ml-1 text-green-500">({activeFilters})</span>
+            <span className="ml-1 text-violet-600">({activeFilters})</span>
           )}
         </span>
         {activeFilters > 0 && (
-          <button className="text-[0.8125rem] text-green-500 font-medium px-2 py-1 rounded transition-colors hover:bg-green-500/10" onClick={onClear}>
+          <button className="text-[0.8125rem] text-violet-600 font-medium px-2 py-1 rounded transition-colors hover:bg-violet-500/10" onClick={onClear}>
             {LOCALIZATION.buttons.clear}
           </button>
         )}
@@ -57,8 +57,8 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
               key={opt.value}
               className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
                 filters.availability === opt.value
-                  ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
-                  : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
+                  ? 'bg-brand-gradient border border-transparent text-white shadow-sm shadow-violet-500/30 hover:opacity-90'
+                  : 'bg-white border border-violet-200 text-violet-600 hover:border-violet-400 hover:bg-violet-50'
               }`}
               onClick={() => handleAvailability(opt.value)}
               aria-pressed={filters.availability === opt.value}
@@ -77,8 +77,8 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
               key={level}
               className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
                 filters.quietnessLevel === level
-                  ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
-                  : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
+                  ? 'bg-brand-gradient border border-transparent text-white shadow-sm shadow-violet-500/30 hover:opacity-90'
+                  : 'bg-white border border-violet-200 text-violet-600 hover:border-violet-400 hover:bg-violet-50'
               }`}
               onClick={() => handleQuietness(level)}
               aria-pressed={filters.quietnessLevel === level}
@@ -95,8 +95,8 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
           <button
             className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
               filters.hasWifi
-                ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
-                : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
+                ? 'bg-brand-gradient border border-transparent text-white shadow-sm shadow-violet-500/30 hover:opacity-90'
+                : 'bg-white border border-violet-200 text-violet-600 hover:border-violet-400 hover:bg-violet-50'
             }`}
             onClick={handleWifi}
             aria-pressed={!!filters.hasWifi}
@@ -112,8 +112,8 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
           <button
             className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
               filters.hasPowerOutlets
-                ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
-                : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
+                ? 'bg-brand-gradient border border-transparent text-white shadow-sm shadow-violet-500/30 hover:opacity-90'
+                : 'bg-white border border-violet-200 text-violet-600 hover:border-violet-400 hover:bg-violet-50'
             }`}
             onClick={handlePower}
             aria-pressed={!!filters.hasPowerOutlets}
@@ -130,8 +130,8 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
               key={opt.value}
               className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
                 filters.maxDistance === opt.value
-                  ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
-                  : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
+                  ? 'bg-brand-gradient border border-transparent text-white shadow-sm shadow-violet-500/30 hover:opacity-90'
+                  : 'bg-white border border-violet-200 text-violet-600 hover:border-violet-400 hover:bg-violet-50'
               }`}
               onClick={() => handleDistance(opt.value)}
               aria-pressed={filters.maxDistance === opt.value}

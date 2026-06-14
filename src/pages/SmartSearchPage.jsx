@@ -92,7 +92,7 @@ function SmartSearchPage() {
   return (
     <div className="p-6 max-w-3xl mx-auto md:p-4">
       <motion.h1
-        className="text-[1.75rem] font-bold mb-2 text-gray-900 text-center"
+        className="text-[1.75rem] font-extrabold mb-2 text-brand-gradient text-center"
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -117,7 +117,7 @@ function SmartSearchPage() {
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-violet-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.people}
         </h2>
         <div className="flex gap-3 flex-wrap">
@@ -126,8 +126,8 @@ function SmartSearchPage() {
               key={option.value}
               className={`flex flex-col items-center justify-center gap-1 py-3.5 px-5 border-2 rounded-xl cursor-pointer transition-all min-w-[80px] ${
                 conditions.peopleCount === option.value
-                  ? 'border-green-500 bg-green-500 text-white hover:bg-green-600'
-                  : 'border-gray-200 bg-white text-inherit hover:border-green-500 hover:bg-green-500/5'
+                  ? 'border-transparent bg-brand-gradient text-white shadow-sm shadow-violet-500/30 hover:opacity-90'
+                  : 'border-violet-200 bg-white text-inherit hover:border-violet-400 hover:bg-violet-50'
               }`}
               onClick={() => handlePeopleSelect(option.value)}
               type="button"
@@ -151,7 +151,7 @@ function SmartSearchPage() {
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-fuchsia-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.purpose}
         </h2>
         <div className="flex gap-3 flex-wrap">
@@ -160,8 +160,8 @@ function SmartSearchPage() {
               key={option.value}
               className={`flex flex-col items-center justify-center gap-1 py-3.5 px-5 border-2 rounded-xl cursor-pointer transition-all min-w-[80px] ${
                 conditions.purpose === option.value
-                  ? 'border-green-500 bg-green-500 text-white hover:bg-green-600'
-                  : 'border-gray-200 bg-white text-inherit hover:border-green-500 hover:bg-green-500/5'
+                  ? 'border-transparent bg-brand-gradient text-white shadow-sm shadow-violet-500/30 hover:opacity-90'
+                  : 'border-violet-200 bg-white text-inherit hover:border-violet-400 hover:bg-violet-50'
               }`}
               onClick={() => handlePurposeSelect(option.value)}
               type="button"
@@ -185,7 +185,7 @@ function SmartSearchPage() {
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-amber-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.quietness}
         </h2>
         <div className="flex flex-col gap-3">
@@ -200,7 +200,7 @@ function SmartSearchPage() {
               max="5"
               value={quietnessValue}
               onChange={handleQuietnessChange}
-              className="w-full h-1.5 appearance-none rounded-sm bg-gray-200 outline-none cursor-pointer accent-green-500"
+              className="w-full h-1.5 appearance-none rounded-sm bg-gray-200 outline-none cursor-pointer accent-amber-500"
               aria-label={LOCALIZATION.smartSearch.quietness}
             />
           </div>
@@ -216,7 +216,7 @@ function SmartSearchPage() {
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-teal-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.amenities}
         </h2>
         <div className="flex flex-wrap gap-2">
@@ -225,8 +225,8 @@ function SmartSearchPage() {
               key={option.value}
               className={`px-4 py-2 border-2 rounded-[20px] cursor-pointer text-sm transition-all ${
                 (conditions.amenities || []).includes(option.value)
-                  ? 'border-green-500 bg-green-500 text-white hover:bg-green-600'
-                  : 'border-gray-200 bg-white text-inherit hover:border-green-500 hover:bg-green-500/5'
+                  ? 'border-transparent bg-brand-gradient text-white shadow-sm shadow-violet-500/30 hover:opacity-90'
+                  : 'border-violet-200 bg-white text-inherit hover:border-violet-400 hover:bg-violet-50'
               }`}
               onClick={() => handleAmenityToggle(option.value)}
               type="button"
@@ -242,7 +242,7 @@ function SmartSearchPage() {
 
       {/* Submit Button */}
       <motion.button
-        className="block w-full py-4 border-none rounded-xl bg-green-500 text-white text-base font-semibold cursor-pointer transition-colors mt-2 mb-6 hover:bg-green-600 active:bg-green-700"
+        className="block w-full py-4 border-none rounded-xl bg-brand-gradient text-white text-base font-semibold cursor-pointer transition-all mt-2 mb-6 shadow-lg shadow-violet-500/30 hover:opacity-95 hover:shadow-xl hover:shadow-fuchsia-500/30"
         onClick={handleSubmit}
         type="button"
         whileHover={{ scale: 1.02 }}
@@ -276,7 +276,7 @@ function SmartSearchPage() {
               {results.map((workspace, index) => (
                 <motion.article
                   key={workspace.id}
-                  className="flex gap-4 p-4 rounded-2xl bg-white shadow-sm cursor-pointer transition-all hover:shadow-md hover:-translate-y-px focus:outline-2 focus:outline-green-500 focus:outline-offset-2"
+                  className="flex gap-4 p-4 rounded-2xl bg-white ring-1 ring-violet-100 shadow-sm cursor-pointer transition-all hover:shadow-xl hover:shadow-violet-500/15 hover:ring-violet-300 hover:-translate-y-px focus:outline-2 focus:outline-violet-500 focus:outline-offset-2"
                   custom={index}
                   variants={resultVariants}
                   initial="hidden"
@@ -307,7 +307,7 @@ function SmartSearchPage() {
                   <div className="flex-1 flex flex-col gap-1 min-w-0">
                     <h3 className="text-base font-semibold text-gray-900 m-0 whitespace-nowrap overflow-hidden text-ellipsis">{workspace.name}</h3>
                     <div className="flex gap-3 text-[0.8125rem] text-gray-500 items-center">
-                      <span className="flex items-center gap-1 text-green-500">
+                      <span className="flex items-center gap-1 text-fuchsia-500">
                         <MapPin size={12} /> {workspace.distanceFromHust != null ? `${workspace.distanceFromHust}km` : '—'}
                       </span>
                       <span className="text-amber-500 font-semibold flex items-center gap-1">
@@ -317,7 +317,7 @@ function SmartSearchPage() {
                     {workspace.featureTags && workspace.featureTags.length > 0 && (
                       <div className="flex flex-wrap gap-1.5 mt-1.5">
                         {workspace.featureTags.slice(0, 5).map((tag, index) => (
-                          <span key={index} className="px-2 py-0.5 rounded-[10px] border border-green-500 text-[0.6875rem] text-green-500 font-medium">
+                          <span key={index} className="px-2 py-0.5 rounded-[10px] border border-violet-100 bg-violet-50 text-[0.6875rem] text-violet-700 font-medium">
                             {tag}
                           </span>
                         ))}

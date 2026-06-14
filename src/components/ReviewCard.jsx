@@ -55,7 +55,7 @@ export default function ReviewCard({ review, onHelpful, isHelpfulActive, helpful
           />
           <div className="flex flex-col gap-0.5 flex-1 min-w-0">
             <span className="text-sm font-semibold text-gray-900 whitespace-nowrap overflow-hidden text-ellipsis">{review.reviewerName}</span>
-            <span className="text-[0.6875rem] text-white font-semibold bg-green-500 px-2 py-0.5 rounded-full inline-block w-fit">{review.badgeLabelJa || '認証済み学生'}</span>
+            <span className="text-[0.6875rem] text-white font-semibold bg-brand-gradient px-2 py-0.5 rounded-full inline-block w-fit">{review.badgeLabelJa || '認証済み学生'}</span>
           </div>
           <span className="text-xs text-gray-500 whitespace-nowrap shrink-0">{formatRelativeTime(review.postedAt)}</span>
         </div>
@@ -70,7 +70,7 @@ export default function ReviewCard({ review, onHelpful, isHelpfulActive, helpful
           </p>
           {isLongText && (
             <button
-              className="inline-block mt-1 p-0 border-none bg-transparent text-green-500 text-[0.8125rem] font-medium cursor-pointer hover:opacity-70 transition-opacity"
+              className="inline-block mt-1 p-0 border-none bg-transparent text-violet-600 text-[0.8125rem] font-medium cursor-pointer hover:opacity-70 transition-opacity"
               onClick={() => setExpanded(!expanded)}
             >
               {expanded ? '閉じる' : 'もっと見る'}
@@ -95,8 +95,8 @@ export default function ReviewCard({ review, onHelpful, isHelpfulActive, helpful
           <button
             className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-[0.8125rem] transition-all ${
               isHelpfulActive
-                ? 'bg-green-50 border border-green-500 text-green-500'
-                : 'text-gray-500 bg-slate-50 border border-gray-200 hover:border-green-500 hover:text-green-500'
+                ? 'bg-violet-50 border border-violet-400 text-violet-600'
+                : 'text-gray-500 bg-slate-50 border border-gray-200 hover:border-violet-400 hover:text-violet-600'
             }`}
             onClick={() => onHelpful && onHelpful(review.id)}
           >
@@ -106,7 +106,7 @@ export default function ReviewCard({ review, onHelpful, isHelpfulActive, helpful
           </button>
 
           <button
-            className="flex items-center gap-1 px-3 py-1.5 rounded-full text-[0.8125rem] text-gray-500 bg-slate-50 border border-gray-200 cursor-pointer transition-all hover:border-green-500 hover:text-green-500"
+            className="flex items-center gap-1 px-3 py-1.5 rounded-full text-[0.8125rem] text-gray-500 bg-slate-50 border border-gray-200 cursor-pointer transition-all hover:border-fuchsia-400 hover:text-fuchsia-600"
             onClick={handleCommentClick}
           >
             <MessageCircle size={14} />

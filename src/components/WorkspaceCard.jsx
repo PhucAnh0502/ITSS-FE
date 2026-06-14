@@ -42,7 +42,7 @@ export default function WorkspaceCard({ workspace, onClick }) {
 
   return (
     <article
-      className="rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all cursor-pointer flex flex-col min-h-[420px] focus-visible:outline-2 focus-visible:outline-green-500 focus-visible:outline-offset-2"
+      className="rounded-2xl overflow-hidden bg-white ring-1 ring-violet-100 shadow-sm hover:shadow-xl hover:shadow-violet-500/15 hover:-translate-y-1 hover:ring-violet-300 transition-all cursor-pointer flex flex-col min-h-[420px] focus-visible:outline-2 focus-visible:outline-violet-500 focus-visible:outline-offset-2"
       onClick={() => onClick && onClick(workspace)}
       role="button"
       tabIndex={0}
@@ -66,7 +66,7 @@ export default function WorkspaceCard({ workspace, onClick }) {
         )}
         {/* Favorite heart icon */}
         <button
-          className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 flex items-center justify-center cursor-pointer border-none hover:scale-110 transition-transform"
+          className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center cursor-pointer border-none text-rose-500 hover:scale-110 hover:bg-white transition-all"
           onClick={(e) => e.stopPropagation()}
           aria-label="お気に入り"
         >
@@ -88,7 +88,7 @@ export default function WorkspaceCard({ workspace, onClick }) {
 
         {/* Location */}
         <p className="text-[0.8rem] text-gray-500 m-0 flex items-center gap-1">
-          <MapPin size={14} className="text-green-500 shrink-0" aria-hidden="true" />
+          <MapPin size={14} className="text-fuchsia-500 shrink-0" aria-hidden="true" />
           {address}
         </p>
 
@@ -101,7 +101,7 @@ export default function WorkspaceCard({ workspace, onClick }) {
         {displayTags.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mt-1.5">
             {displayTags.map((tag, index) => (
-              <span key={index} className="px-2.5 py-0.5 rounded-xl text-[0.7rem] font-medium text-green-500 border border-green-500 whitespace-nowrap shrink-0">
+              <span key={index} className="px-2.5 py-0.5 rounded-xl text-[0.7rem] font-medium text-violet-700 bg-violet-50 border border-violet-100 whitespace-nowrap shrink-0">
                 {tag}
               </span>
             ))}

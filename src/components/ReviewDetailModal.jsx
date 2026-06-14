@@ -114,14 +114,14 @@ export default function ReviewDetailModal({ review, isOpen, onClose, onAddCommen
             <form className="flex gap-2 pt-4 border-t border-gray-200" onSubmit={handleSubmit}>
               <input
                 type="text"
-                className="flex-1 px-3.5 py-2.5 border border-gray-200 rounded-full text-sm outline-none transition-all focus:border-green-500 focus:ring-2 focus:ring-green-500/10"
+                className="flex-1 px-3.5 py-2.5 border border-violet-200 rounded-full text-sm outline-none transition-all focus:border-violet-500 focus:ring-2 focus:ring-violet-500/15"
                 placeholder="コメントを書く..."
                 value={commentText}
                 onChange={(e) => setCommentText(e.target.value)}
               />
               <button
                 type="submit"
-                className="flex items-center gap-1 px-4 py-2.5 bg-green-500 text-white rounded-full text-[0.8125rem] font-semibold transition-colors hover:bg-green-600 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="flex items-center gap-1 px-4 py-2.5 bg-brand-gradient text-white rounded-full text-[0.8125rem] font-semibold shadow-sm shadow-violet-500/30 transition-opacity hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed"
                 disabled={!commentText.trim()}
               >
                 <Send size={16} />

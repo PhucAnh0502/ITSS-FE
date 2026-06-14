@@ -121,7 +121,7 @@ function ReviewPage() {
       {/* Header */}
       <header className="mb-2">
         <motion.h1
-          className="text-[1.75rem] font-bold m-0 mb-1 text-gray-900"
+          className="text-[1.75rem] font-extrabold m-0 mb-1 text-brand-gradient"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -144,7 +144,7 @@ function ReviewPage() {
             onSelect={(tag) => setCategory(tag || 'all')}
           />
           <motion.button
-            className="bg-green-500 text-white border-none rounded-3xl px-5 py-2.5 text-sm font-semibold cursor-pointer transition-colors whitespace-nowrap flex items-center gap-1.5 hover:bg-green-600 focus-visible:outline-2 focus-visible:outline-green-500 focus-visible:outline-offset-2"
+            className="bg-brand-gradient text-white border-none rounded-3xl px-5 py-2.5 text-sm font-semibold cursor-pointer transition-opacity whitespace-nowrap flex items-center gap-1.5 shadow-sm shadow-violet-500/30 hover:opacity-90 focus-visible:outline-2 focus-visible:outline-violet-500 focus-visible:outline-offset-2"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => setWriteModalOpen(true)}

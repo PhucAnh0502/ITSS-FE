@@ -94,7 +94,7 @@ export default function WriteReviewModal({ isOpen, onClose, onSubmit, workspaces
               <div className="flex flex-col gap-1">
                 <label className="text-[0.8125rem] font-semibold text-gray-900">ワークスペースを選択</label>
                 <select
-                  className="px-3.5 py-2.5 border border-gray-200 rounded-lg text-sm text-gray-900 bg-white outline-none transition-all focus:border-green-500 focus:ring-2 focus:ring-green-500/10"
+                  className="px-3.5 py-2.5 border border-gray-200 rounded-lg text-sm text-gray-900 bg-white outline-none transition-all focus:border-violet-500 focus:ring-2 focus:ring-violet-500/15"
                   value={selectedWorkspace}
                   onChange={(e) => setSelectedWorkspace(e.target.value)}
                 >
@@ -135,7 +135,7 @@ export default function WriteReviewModal({ isOpen, onClose, onSubmit, workspaces
               <div className="flex flex-col gap-1">
                 <label className="text-[0.8125rem] font-semibold text-gray-900">レビュー内容</label>
                 <textarea
-                  className="px-3.5 py-3 border border-gray-200 rounded-lg text-sm text-gray-900 resize-y min-h-[100px] outline-none transition-all focus:border-green-500 focus:ring-2 focus:ring-green-500/10"
+                  className="px-3.5 py-3 border border-gray-200 rounded-lg text-sm text-gray-900 resize-y min-h-[100px] outline-none transition-all focus:border-violet-500 focus:ring-2 focus:ring-violet-500/15"
                   placeholder="あなたの体験を共有してください..."
                   value={reviewText}
                   onChange={(e) => setReviewText(e.target.value)}
@@ -146,7 +146,7 @@ export default function WriteReviewModal({ isOpen, onClose, onSubmit, workspaces
               {/* Submit button */}
               <button
                 type="submit"
-                className="self-end px-6 py-3 bg-green-500 text-white rounded-full text-[0.9375rem] font-semibold transition-colors hover:bg-green-600 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="self-end px-6 py-3 bg-brand-gradient text-white rounded-full text-[0.9375rem] font-semibold shadow-sm shadow-violet-500/30 transition-opacity hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed"
                 disabled={!isValid}
               >
                 投稿する

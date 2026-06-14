@@ -36,9 +36,9 @@ export default function PaginationControls({ currentPage, totalPages, onPageChan
   const pageNumbers = getPageNumbers();
 
   const btnBase = 'flex items-center justify-center min-w-[40px] h-10 px-3 border border-gray-200 rounded-lg bg-white text-gray-700 text-sm font-medium cursor-pointer transition-all select-none';
-  const btnHover = 'hover:border-green-500 hover:text-green-500 hover:bg-green-50';
+  const btnHover = 'hover:border-violet-400 hover:text-violet-600 hover:bg-violet-50';
   const btnDisabled = 'disabled:opacity-40 disabled:cursor-not-allowed';
-  const btnActive = 'bg-green-500 border-green-500 text-black font-semibold hover:bg-green-600 hover:border-green-600 hover:text-white';
+  const btnActive = 'bg-brand-gradient border-transparent text-white font-semibold shadow-sm shadow-violet-500/30 hover:opacity-90';
 
   return (
     <nav className="flex items-center justify-center gap-2 mt-8 py-4 flex-wrap" aria-label="ページネーション">

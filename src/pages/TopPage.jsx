@@ -109,9 +109,9 @@ function TopPage() {
 
       {/* Section Header */}
       <div className="flex items-center justify-between mb-4 mt-2">
-        <h2 className="text-2xl font-bold m-0 text-gray-900">{LOCALIZATION.headings.searchSpaces}</h2>
+        <h2 className="text-2xl font-extrabold m-0 text-brand-gradient">{LOCALIZATION.headings.searchSpaces}</h2>
         <button
-          className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white border border-gray-200 text-gray-500 text-sm font-medium cursor-pointer transition-all hover:border-green-500 hover:text-green-500"
+          className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white border border-violet-200 text-violet-600 text-sm font-medium cursor-pointer transition-all hover:bg-violet-50 hover:border-violet-400"
           onClick={() => setShowFilters(!showFilters)}
         >
           <SlidersHorizontal size={16} />
@@ -180,7 +180,7 @@ function TopPage() {
 
       {/* Floating Action Button */}
       <motion.button
-        className="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-green-500 text-white border-none flex items-center justify-center text-2xl shadow-lg shadow-green-500/30 cursor-pointer z-50 hover:scale-105 hover:shadow-xl hover:shadow-green-500/40 transition-all md:bottom-6 md:right-6 md:w-12 md:h-12"
+        className="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-brand-gradient text-white border-none flex items-center justify-center text-2xl shadow-lg shadow-violet-500/40 cursor-pointer z-50 hover:scale-105 hover:shadow-xl hover:shadow-fuchsia-500/50 transition-all md:bottom-6 md:right-6 md:w-12 md:h-12"
         aria-label="ブックマーク"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

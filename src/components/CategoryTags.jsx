@@ -23,8 +23,8 @@ export function CategoryTags({ tags, selectedTag, onSelect }) {
             key={tag.value}
             className={`shrink-0 px-4 py-2 rounded-full text-[0.8125rem] font-medium cursor-pointer transition-all whitespace-nowrap ${
               selectedTag === tag.value
-                ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
-                : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
+                ? 'bg-brand-gradient border border-transparent text-white shadow-sm shadow-violet-500/30 hover:opacity-90'
+                : 'bg-white border border-violet-200 text-violet-600 hover:border-violet-400 hover:bg-violet-50'
             }`}
             onClick={() => handleClick(tag.value)}
             aria-pressed={selectedTag === tag.value}
