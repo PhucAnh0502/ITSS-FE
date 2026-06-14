@@ -24,7 +24,6 @@ describe('FilterPanel', () => {
     expect(screen.getByText('静かさ')).toBeInTheDocument();
     expect(screen.getByText('Wi-Fi')).toBeInTheDocument();
     expect(screen.getByText('電源')).toBeInTheDocument();
-    expect(screen.getByText('距離')).toBeInTheDocument();
   });
 
   it('renders availability buttons in Japanese', () => {
@@ -62,10 +61,6 @@ describe('FilterPanel', () => {
         onClear={() => {}}
       />
     );
-    expect(screen.getByText('1km')).toBeInTheDocument();
-    expect(screen.getByText('2km')).toBeInTheDocument();
-    expect(screen.getByText('3km')).toBeInTheDocument();
-    expect(screen.getByText('5km')).toBeInTheDocument();
   });
 
   it('calls onFilterChange with key and value when availability is clicked', () => {

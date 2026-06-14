@@ -17,13 +17,6 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
 
   const quietnessLevels = [1, 2, 3, 4, 5];
 
-  const distanceOptions = [
-    { value: 1, label: '1km' },
-    { value: 2, label: '2km' },
-    { value: 3, label: '3km' },
-    { value: 5, label: '5km' },
-  ];
-
   const handleAvailability = (value) => {
     onFilterChange('availability', filters.availability === value ? null : value);
   };
@@ -38,10 +31,6 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
 
   const handlePower = () => {
     onFilterChange('hasPowerOutlets', filters.hasPowerOutlets ? null : true);
-  };
-
-  const handleDistance = (value) => {
-    onFilterChange('maxDistance', filters.maxDistance === value ? null : value);
   };
 
   return (
@@ -126,23 +115,6 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
         </div>
       </div>
 
-      <div className="filter-panel__section">
-        <span className="filter-panel__label">{LOCALIZATION.filters.distance}</span>
-        <div className="filter-panel__buttons">
-          {distanceOptions.map((opt) => (
-            <button
-              key={opt.value}
-              className={`filter-panel__btn ${
-                filters.maxDistance === opt.value ? 'filter-panel__btn--active' : ''
-              }`}
-              onClick={() => handleDistance(opt.value)}
-              aria-pressed={filters.maxDistance === opt.value}
-            >
-              {opt.label}
-            </button>
-          ))}
-        </div>
-      </div>
     </div>
   );
 }
