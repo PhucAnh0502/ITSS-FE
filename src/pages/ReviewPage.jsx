@@ -159,7 +159,7 @@ function ReviewPage() {
       {filteredReviews.length === 0 ? (
         <EmptyState message={LOCALIZATION.empty.noReviews} />
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-4">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-5 mt-4">
           {filteredReviews.map((review, index) => (
             <motion.div
               key={review.id}
@@ -167,7 +167,7 @@ function ReviewPage() {
               variants={cardVariants}
               initial="hidden"
               animate="visible"
-              className="flex min-w-0"
+              className="mb-5 break-inside-avoid"
             >
               <ReviewCard
                 review={review}

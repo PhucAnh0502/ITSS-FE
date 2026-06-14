@@ -83,3 +83,47 @@
 /* Scrollbar hide utility */
 .scrollbar-hide::-webkit-scrollbar { display: none; }
 .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Gradient range slider (Smart Search quietness): thick track + large glowing thumb */
+.range-quiet {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+.range-quiet:focus { outline: none; }
+
+.range-quiet::-webkit-slider-runnable-track {
+  height: 12px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #fb923c 0%, #fbbf24 35%, #34d399 70%, #2dd4bf 100%);
+}
+.range-quiet::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  margin-top: -7px;
+  border-radius: 9999px;
+  background: #ffffff;
+  border: 3px solid #8b5cf6;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.45);
+  transition: transform 0.15s ease;
+}
+.range-quiet:active::-webkit-slider-thumb { transform: scale(1.18); }
+
+.range-quiet::-moz-range-track {
+  height: 12px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #fb923c 0%, #fbbf24 35%, #34d399 70%, #2dd4bf 100%);
+}
+.range-quiet::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 9999px;
+  background: #ffffff;
+  border: 3px solid #8b5cf6;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.45);
+  cursor: pointer;
+}
