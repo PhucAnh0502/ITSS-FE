@@ -64,7 +64,7 @@ export default function WriteReviewModal({ isOpen, onClose, onSubmit, workspaces
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          className="modal-overlay"
+          className="fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4"
           variants={overlayVariants}
           initial="hidden"
           animate="visible"
@@ -72,7 +72,7 @@ export default function WriteReviewModal({ isOpen, onClose, onSubmit, workspaces
           onClick={handleOverlayClick}
         >
           <motion.div
-            className="modal-content"
+            className="bg-white rounded-2xl p-6 max-w-[600px] w-full max-h-[85vh] overflow-y-auto relative shadow-lg"
             ref={modalRef}
             variants={modalVariants}
             initial="hidden"
@@ -83,18 +83,18 @@ export default function WriteReviewModal({ isOpen, onClose, onSubmit, workspaces
             aria-label="レビューを書く"
           >
             {/* Close button */}
-            <button className="modal-close-btn" onClick={onClose} aria-label="閉じる">
+            <button className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full bg-slate-50 text-gray-500 hover:bg-gray-200 hover:text-gray-900 transition-all" onClick={onClose} aria-label="閉じる">
               <X size={20} />
             </button>
 
-            <h2 className="modal-title">レビューを書く</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-6">レビューを書く</h2>
 
-            <form className="write-review-form" onSubmit={handleSubmit}>
+            <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
               {/* Workspace selector */}
-              <div className="write-review-form__field">
-                <label className="write-review-form__label">ワークスペースを選択</label>
+              <div className="flex flex-col gap-1">
+                <label className="text-[0.8125rem] font-semibold text-gray-900">ワークスペースを選択</label>
                 <select
-                  className="write-review-form__select"
+                  className="px-3.5 py-2.5 border border-gray-200 rounded-lg text-sm text-gray-900 bg-white outline-none transition-all focus:border-green-500 focus:ring-2 focus:ring-green-500/10"
                   value={selectedWorkspace}
                   onChange={(e) => setSelectedWorkspace(e.target.value)}
                 >
@@ -108,14 +108,14 @@ export default function WriteReviewModal({ isOpen, onClose, onSubmit, workspaces
               </div>
 
               {/* Star rating */}
-              <div className="write-review-form__field">
-                <label className="write-review-form__label">評価</label>
-                <div className="write-review-form__stars">
+              <div className="flex flex-col gap-1">
+                <label className="text-[0.8125rem] font-semibold text-gray-900">評価</label>
+                <div className="flex gap-1">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <button
                       key={star}
                       type="button"
-                      className="write-review-form__star-btn"
+                      className="p-1 rounded transition-transform hover:scale-125"
                       onClick={() => setRating(star)}
                       onMouseEnter={() => setHoverRating(star)}
                       onMouseLeave={() => setHoverRating(0)}
@@ -132,10 +132,10 @@ export default function WriteReviewModal({ isOpen, onClose, onSubmit, workspaces
               </div>
 
               {/* Review text */}
-              <div className="write-review-form__field">
-                <label className="write-review-form__label">レビュー内容</label>
+              <div className="flex flex-col gap-1">
+                <label className="text-[0.8125rem] font-semibold text-gray-900">レビュー内容</label>
                 <textarea
-                  className="write-review-form__textarea"
+                  className="px-3.5 py-3 border border-gray-200 rounded-lg text-sm text-gray-900 resize-y min-h-[100px] outline-none transition-all focus:border-green-500 focus:ring-2 focus:ring-green-500/10"
                   placeholder="あなたの体験を共有してください..."
                   value={reviewText}
                   onChange={(e) => setReviewText(e.target.value)}
@@ -146,7 +146,7 @@ export default function WriteReviewModal({ isOpen, onClose, onSubmit, workspaces
               {/* Submit button */}
               <button
                 type="submit"
-                className="write-review-form__submit"
+                className="self-end px-6 py-3 bg-green-500 text-white rounded-full text-[0.9375rem] font-semibold transition-colors hover:bg-green-600 disabled:opacity-50 disabled:cursor-not-allowed"
                 disabled={!isValid}
               >
                 投稿する

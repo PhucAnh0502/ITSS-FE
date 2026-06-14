@@ -10,7 +10,7 @@ export default function StarRating({ rating, count }) {
       <Star
         key={i}
         size={14}
-        className={`star ${i <= roundedRating ? 'star--filled' : 'star--empty'}`}
+        className={i <= roundedRating ? 'text-amber-400' : 'text-gray-300'}
         fill={i <= roundedRating ? '#f59e0b' : 'none'}
         stroke={i <= roundedRating ? '#f59e0b' : '#d1d5db'}
       />
@@ -18,11 +18,11 @@ export default function StarRating({ rating, count }) {
   }
 
   return (
-    <span className="star-rating">
-      <span className="star-rating__stars">{stars}</span>
-      <span className="star-rating__value">{rating}</span>
+    <span className="inline-flex items-center gap-1 text-sm">
+      <span className="inline-flex gap-px">{stars}</span>
+      <span className="font-semibold text-gray-900 ml-0.5">{rating}</span>
       {count != null && (
-        <span className="star-rating__count">({count}件)</span>
+        <span className="text-gray-400 text-xs">({count}件)</span>
       )}
     </span>
   );

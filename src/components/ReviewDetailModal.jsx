@@ -52,7 +52,7 @@ export default function ReviewDetailModal({ review, isOpen, onClose, onAddCommen
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          className="modal-overlay"
+          className="fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4"
           variants={overlayVariants}
           initial="hidden"
           animate="visible"
@@ -60,7 +60,7 @@ export default function ReviewDetailModal({ review, isOpen, onClose, onAddCommen
           onClick={handleOverlayClick}
         >
           <motion.div
-            className="modal-content"
+            className="bg-white rounded-2xl p-6 max-w-[600px] w-full max-h-[85vh] overflow-y-auto relative shadow-lg"
             ref={modalRef}
             variants={modalVariants}
             initial="hidden"
@@ -71,57 +71,57 @@ export default function ReviewDetailModal({ review, isOpen, onClose, onAddCommen
             aria-label="レビュー詳細"
           >
             {/* Close button */}
-            <button className="modal-close-btn" onClick={onClose} aria-label="閉じる">
+            <button className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full bg-slate-50 text-gray-500 hover:bg-gray-200 hover:text-gray-900 transition-all" onClick={onClose} aria-label="閉じる">
               <X size={20} />
             </button>
 
             {/* Original review */}
-            <div className="modal-review">
-              <div className="modal-review__header">
+            <div className="pb-4 border-b border-gray-200 mb-4">
+              <div className="flex items-center gap-2 mb-2">
                 <img
-                  className="modal-review__avatar"
+                  className="w-11 h-11 rounded-full object-cover"
                   src={review.reviewerAvatar}
                   alt={review.reviewerName}
                 />
-                <div className="modal-review__info">
-                  <span className="modal-review__name">{review.reviewerName}</span>
+                <div className="flex flex-col gap-1">
+                  <span className="text-[0.9375rem] font-semibold text-gray-900">{review.reviewerName}</span>
                   <StarRating rating={review.rating} />
                 </div>
               </div>
-              <p className="modal-review__text">{review.text}</p>
+              <p className="text-sm text-gray-900 leading-relaxed mt-2">{review.text}</p>
             </div>
 
             {/* Comments section */}
-            <div className="modal-comments">
-              <h3 className="modal-comments__title">
+            <div className="mb-4">
+              <h3 className="text-[0.9375rem] font-semibold text-gray-900 mb-2">
                 コメント ({review.comments?.length || 0})
               </h3>
-              <div className="modal-comments__list">
+              <div className="flex flex-col gap-2 max-h-[250px] overflow-y-auto">
                 {review.comments && review.comments.length > 0 ? (
                   review.comments.map((comment) => (
-                    <div key={comment.id} className="modal-comment">
-                      <span className="modal-comment__author">{comment.authorName}</span>
-                      <p className="modal-comment__text">{comment.text}</p>
+                    <div key={comment.id} className="bg-slate-50 rounded-lg px-4 py-2">
+                      <span className="text-[0.8125rem] font-semibold text-gray-900 block mb-0.5">{comment.authorName}</span>
+                      <p className="text-[0.8125rem] text-gray-500 leading-relaxed m-0">{comment.text}</p>
                     </div>
                   ))
                 ) : (
-                  <p className="modal-comments__empty">まだコメントはありません</p>
+                  <p className="text-[0.8125rem] text-gray-500 italic">まだコメントはありません</p>
                 )}
               </div>
             </div>
 
             {/* New comment input */}
-            <form className="modal-comment-form" onSubmit={handleSubmit}>
+            <form className="flex gap-2 pt-4 border-t border-gray-200" onSubmit={handleSubmit}>
               <input
                 type="text"
-                className="modal-comment-form__input"
+                className="flex-1 px-3.5 py-2.5 border border-gray-200 rounded-full text-sm outline-none transition-all focus:border-green-500 focus:ring-2 focus:ring-green-500/10"
                 placeholder="コメントを書く..."
                 value={commentText}
                 onChange={(e) => setCommentText(e.target.value)}
               />
               <button
                 type="submit"
-                className="modal-comment-form__btn"
+                className="flex items-center gap-1 px-4 py-2.5 bg-green-500 text-white rounded-full text-[0.8125rem] font-semibold transition-colors hover:bg-green-600 disabled:opacity-50 disabled:cursor-not-allowed"
                 disabled={!commentText.trim()}
               >
                 <Send size={16} />

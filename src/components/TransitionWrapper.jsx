@@ -34,7 +34,7 @@ function TransitionWrapper({ direction = 'fade', children, locationKey }) {
     <AnimatePresence mode="wait">
       <motion.div
         key={locationKey}
-        className="transition-wrapper"
+        className="w-full min-h-full"
         initial={variant.initial}
         animate={variant.animate}
         exit={variant.exit}

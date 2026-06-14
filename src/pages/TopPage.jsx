@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SlidersHorizontal, Bookmark } from 'lucide-react';
@@ -12,10 +12,10 @@ import WorkspaceCard from '../components/WorkspaceCard';
 import { SearchBar } from '../components/SearchBar';
 import { CategoryTags } from '../components/CategoryTags';
 import { FilterPanel } from '../components/FilterPanel';
+import PaginationControls from '../components/PaginationControls';
 import LoadingIndicator from '../components/LoadingIndicator';
 import ErrorMessage from '../components/ErrorMessage';
 import EmptyState from '../components/EmptyState';
-import './TopPage.css';
 
 const cardVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -26,6 +26,8 @@ const cardVariants = {
   }),
 };
 
+const PAGE_SIZE = 6;
+
 /**
  * TopPage - Main workspace listing page with search, category tags, and filters.
  */
@@ -33,6 +35,8 @@ function TopPage() {
   const navigate = useNavigate();
   const { direction, onNavigate } = useTransition();
   const [showFilters, setShowFilters] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const gridRef = useRef(null);
 
   // Data loading
   const { workspaces, loading, error } = useWorkspaces();
@@ -56,6 +60,24 @@ function TopPage() {
     results: filteredWorkspaces,
   } = useFilters(categoryResults);
 
+  // Reset to page 1 when search/filter/category changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [query, selectedCategory, activeFilters]);
+
+  // Pagination calculations
+  const totalPages = Math.ceil(filteredWorkspaces.length / PAGE_SIZE);
+  const startIndex = (currentPage - 1) * PAGE_SIZE;
+  const paginatedWorkspaces = filteredWorkspaces.slice(startIndex, startIndex + PAGE_SIZE);
+
+  // Handle page change with scroll to grid
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    if (gridRef.current) {
+      gridRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   // Navigate to detail page on card click
   const handleCardClick = (workspace) => {
     onNavigate('forward');
@@ -65,7 +87,7 @@ function TopPage() {
   // Loading state
   if (loading) {
     return (
-      <div className="top-page">
+      <div className="p-6 max-w-6xl mx-auto">
         <LoadingIndicator />
       </div>
     );
@@ -74,22 +96,22 @@ function TopPage() {
   // Error state
   if (error) {
     return (
-      <div className="top-page">
+      <div className="p-6 max-w-6xl mx-auto">
         <ErrorMessage message={error} />
       </div>
     );
   }
 
   return (
-    <div className="top-page">
+    <div className="p-6 max-w-6xl mx-auto md:p-4">
       {/* Search */}
       <SearchBar value={query} onChange={setQuery} />
 
       {/* Section Header */}
-      <div className="top-page__section-header">
-        <h2 className="top-page__section-title">{LOCALIZATION.headings.searchSpaces}</h2>
+      <div className="flex items-center justify-between mb-4 mt-2">
+        <h2 className="text-2xl font-bold m-0 text-gray-900">{LOCALIZATION.headings.searchSpaces}</h2>
         <button
-          className="top-page__filter-btn"
+          className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white border border-gray-200 text-gray-500 text-sm font-medium cursor-pointer transition-all hover:border-green-500 hover:text-green-500"
           onClick={() => setShowFilters(!showFilters)}
         >
           <SlidersHorizontal size={16} />
@@ -128,27 +150,37 @@ function TopPage() {
       {filteredWorkspaces.length === 0 ? (
         <EmptyState message={LOCALIZATION.empty.noWorkspaces} />
       ) : (
-        <div className="top-page__grid">
-          {filteredWorkspaces.map((workspace, index) => (
-            <motion.div
-              key={workspace.id}
-              custom={index}
-              variants={cardVariants}
-              initial="hidden"
-              animate="visible"
-            >
-              <WorkspaceCard
-                workspace={workspace}
-                onClick={handleCardClick}
-              />
-            </motion.div>
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-4 auto-rows-fr items-stretch" ref={gridRef}>
+            {paginatedWorkspaces.map((workspace, index) => (
+              <motion.div
+                key={workspace.id}
+                custom={index}
+                variants={cardVariants}
+                initial="hidden"
+                animate="visible"
+              >
+                <WorkspaceCard
+                  workspace={workspace}
+                  onClick={handleCardClick}
+                />
+              </motion.div>
+            ))}
+          </div>
+
+          {totalPages > 1 && (
+            <PaginationControls
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={handlePageChange}
+            />
+          )}
+        </>
       )}
 
       {/* Floating Action Button */}
       <motion.button
-        className="top-page__fab"
+        className="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-green-500 text-white border-none flex items-center justify-center text-2xl shadow-lg shadow-green-500/30 cursor-pointer z-50 hover:scale-105 hover:shadow-xl hover:shadow-green-500/40 transition-all md:bottom-6 md:right-6 md:w-12 md:h-12"
         aria-label="ブックマーク"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

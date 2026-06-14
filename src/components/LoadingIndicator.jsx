@@ -3,9 +3,9 @@ import { LOCALIZATION } from '../utils/localization';
 
 export default function LoadingIndicator() {
   return (
-    <div className="loading-indicator">
-      <div className="loading-indicator__spinner" aria-hidden="true" />
-      <p className="loading-indicator__text">{LOCALIZATION.misc.loading}</p>
+    <div className="flex flex-col items-center justify-center py-12 gap-4">
+      <div className="w-10 h-10 border-3 border-gray-200 border-t-green-500 rounded-full animate-spin" aria-hidden="true" />
+      <p className="text-sm text-gray-500">{LOCALIZATION.misc.loading}</p>
     </div>
   );
 }

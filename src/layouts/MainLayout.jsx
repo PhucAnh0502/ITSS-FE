@@ -48,9 +48,9 @@ function MainLayout() {
   };
 
   return (
-    <div className="main-layout">
+    <div className="flex flex-col min-h-screen min-h-dvh bg-slate-50">
       <NavigationBar activeTab={activeTab} onTabChange={handleTabChange} />
-      <main className="main-layout__content">
+      <main className="flex-1 w-full overflow-x-hidden">
         <TransitionWrapper direction={direction} locationKey={location.key}>
           <Outlet />
         </TransitionWrapper>

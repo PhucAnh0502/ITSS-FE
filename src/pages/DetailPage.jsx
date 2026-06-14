@@ -10,7 +10,6 @@ import StatusBadge from '../components/StatusBadge';
 import ReviewCard from '../components/ReviewCard';
 import LoadingIndicator from '../components/LoadingIndicator';
 import ErrorMessage from '../components/ErrorMessage';
-import './DetailPage.css';
 
 /**
  * Amenity icon mapping for display.
@@ -49,7 +48,7 @@ function DetailPage() {
   // Loading state
   if (wsLoading) {
     return (
-      <div className="detail-page">
+      <div className="px-4 pb-8 text-left max-w-3xl mx-auto">
         <LoadingIndicator />
       </div>
     );
@@ -58,7 +57,7 @@ function DetailPage() {
   // Error state
   if (wsError || !workspace) {
     return (
-      <div className="detail-page">
+      <div className="px-4 pb-8 text-left max-w-3xl mx-auto">
         <ErrorMessage message={wsError || LOCALIZATION.errors.workspaceNotFound} />
       </div>
     );
@@ -84,27 +83,27 @@ function DetailPage() {
   };
 
   return (
-    <div className="detail-page">
+    <div className="px-4 pb-8 text-left max-w-3xl mx-auto">
       {/* Photo Gallery */}
-      <section className="detail-page__gallery">
-        <div className="detail-page__hero">
+      <section className="-mx-4 mb-6 md:mx-0">
+        <div className="w-full aspect-[4/3] overflow-hidden rounded-b-xl md:rounded-xl">
           <img
-            className="detail-page__hero-img"
+            className="w-full h-full object-cover block"
             src={workspace.photos?.[0]}
             alt={workspace.name}
           />
         </div>
-        <div className="detail-page__thumbnails">
+        <div className="flex gap-2 mt-2 px-4 md:px-0">
           {workspace.photos?.[1] && (
             <img
-              className="detail-page__thumbnail"
+              className="flex-1 aspect-[4/3] object-cover rounded-lg max-h-[120px] md:max-h-[160px]"
               src={workspace.photos[1]}
               alt={`${workspace.name} 写真2`}
             />
           )}
           {workspace.photos?.[2] && (
             <img
-              className="detail-page__thumbnail"
+              className="flex-1 aspect-[4/3] object-cover rounded-lg max-h-[120px] md:max-h-[160px]"
               src={workspace.photos[2]}
               alt={`${workspace.name} 写真3`}
             />
@@ -113,45 +112,45 @@ function DetailPage() {
       </section>
 
       {/* Workspace Info */}
-      <section className="detail-page__info">
-        <h1 className="detail-page__name">{workspace.name}</h1>
-        {workspace.nameJa && <p className="detail-page__name-ja">{workspace.nameJa}</p>}
-        <span className="detail-page__category">{workspace.categoryLabelJa}</span>
+      <section className="mb-6">
+        <h1 className="text-2xl font-semibold m-0 mb-1 text-gray-900 tracking-tight">{workspace.name}</h1>
+        {workspace.nameJa && <p className="text-sm text-gray-500 m-0 mb-2">{workspace.nameJa}</p>}
+        <span className="inline-block bg-green-500/10 text-green-500 text-xs font-medium px-2.5 py-1 rounded-xl mb-3">{workspace.categoryLabelJa}</span>
 
-        <div className="detail-page__rating">
+        <div className="mb-4">
           <StarRating rating={workspace.rating} count={workspace.reviewCount} />
         </div>
 
-        <div className="detail-page__meta">
-          <div className="detail-page__meta-item">
-            <MapPin size={16} className="detail-page__meta-icon" />
-            <span className="detail-page__meta-text">{workspace.address}</span>
+        <div className="flex flex-col gap-2 mb-3">
+          <div className="flex items-center gap-2 text-sm text-gray-500">
+            <MapPin size={16} className="shrink-0" />
+            <span className="leading-snug">{workspace.address}</span>
           </div>
-          <div className="detail-page__meta-item">
-            <Clock size={16} className="detail-page__meta-icon" />
-            <span className="detail-page__meta-text">
+          <div className="flex items-center gap-2 text-sm text-gray-500">
+            <Clock size={16} className="shrink-0" />
+            <span className="leading-snug">
               {LOCALIZATION.misc.today}: {getTodayHours(workspace.businessHours)}
             </span>
           </div>
         </div>
 
-        <div className="detail-page__availability">
+        <div className="mt-3">
           <StatusBadge status={workspace.availability} />
         </div>
       </section>
 
       {/* Amenities */}
-      <section className="detail-page__amenities">
-        <h2 className="detail-page__section-title">{LOCALIZATION.headings.amenities}</h2>
-        <div className="detail-page__amenities-list">
+      <section className="mb-6 pt-4 border-t border-gray-200">
+        <h2 className="text-lg font-semibold text-gray-900 m-0 mb-3">{LOCALIZATION.headings.amenities}</h2>
+        <div className="flex flex-wrap gap-3">
           {workspace.amenities?.map((amenity) => {
             const config = amenityIcons[amenity];
             if (!config) return null;
             const IconComponent = config.icon;
             return (
-              <div key={amenity} className="detail-page__amenity-item">
-                <IconComponent size={18} className="detail-page__amenity-icon" />
-                <span className="detail-page__amenity-label">{config.label}</span>
+              <div key={amenity} className="flex items-center gap-1.5 bg-gray-100 px-3 py-2 rounded-lg text-sm">
+                <IconComponent size={18} />
+                <span className="text-gray-900 font-medium">{config.label}</span>
               </div>
             );
           })}
@@ -159,12 +158,12 @@ function DetailPage() {
       </section>
 
       {/* Reviews Preview */}
-      <section className="detail-page__reviews">
-        <div className="detail-page__reviews-header">
-          <h2 className="detail-page__section-title">{LOCALIZATION.headings.communityReviews}</h2>
+      <section className="mb-6 pt-4 border-t border-gray-200">
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-lg font-semibold text-gray-900 m-0">{LOCALIZATION.headings.communityReviews}</h2>
           {reviews.length > 0 && (
             <button
-              className="detail-page__see-all"
+              className="bg-transparent border-none text-green-500 text-sm font-medium cursor-pointer px-2 py-1 rounded transition-colors hover:bg-green-500/10"
               onClick={handleSeeAllReviews}
             >
               {LOCALIZATION.misc.seeAll}
@@ -174,9 +173,9 @@ function DetailPage() {
         {revLoading ? (
           <LoadingIndicator />
         ) : previewReviews.length === 0 ? (
-          <p className="detail-page__no-reviews">{LOCALIZATION.misc.noReviewsYet}</p>
+          <p className="text-sm text-gray-500 text-center py-6">{LOCALIZATION.misc.noReviewsYet}</p>
         ) : (
-          <div className="detail-page__reviews-list">
+          <div className="flex flex-col gap-4">
             {previewReviews.map((review) => (
               <ReviewCard key={review.id} review={review} />
             ))}
@@ -185,15 +184,15 @@ function DetailPage() {
       </section>
 
       {/* Action Buttons */}
-      <section className="detail-page__actions">
+      <section className="flex gap-3 pt-4 border-t border-gray-200 md:max-w-[400px]">
         <button
-          className="detail-page__btn detail-page__btn--reserve"
+          className="flex-1 py-3.5 px-5 border-none rounded-xl text-base font-semibold cursor-pointer transition-all active:scale-[0.97] bg-green-500 text-white hover:opacity-90"
           onClick={handleReserve}
         >
           {LOCALIZATION.buttons.reserve}
         </button>
         <button
-          className="detail-page__btn detail-page__btn--directions"
+          className="flex-1 py-3.5 px-5 rounded-xl text-base font-semibold cursor-pointer transition-all active:scale-[0.97] bg-gray-100 text-gray-900 border border-gray-200 hover:bg-gray-200"
           onClick={handleGetDirections}
         >
           {LOCALIZATION.buttons.getDirections}
@@ -204,7 +203,7 @@ function DetailPage() {
       <AnimatePresence>
         {showModal && (
           <motion.div
-            className="detail-page__modal-overlay"
+            className="fixed inset-0 bg-black/50 flex items-center justify-center z-[1000]"
             onClick={handleCloseModal}
             role="dialog"
             aria-modal="true"
@@ -215,16 +214,16 @@ function DetailPage() {
             transition={{ duration: 0.2 }}
           >
             <motion.div
-              className="detail-page__modal"
+              className="bg-slate-50 rounded-2xl py-8 px-6 text-center max-w-[320px] w-[90%] shadow-lg"
               onClick={(e) => e.stopPropagation()}
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
               transition={{ duration: 0.2 }}
             >
-              <p className="detail-page__modal-message">{LOCALIZATION.misc.reservationComplete}</p>
+              <p className="text-lg font-semibold text-gray-900 m-0 mb-5">{LOCALIZATION.misc.reservationComplete}</p>
               <button
-                className="detail-page__modal-close"
+                className="bg-green-500 text-white border-none rounded-lg px-6 py-2.5 text-sm font-medium cursor-pointer transition-opacity hover:opacity-90"
                 onClick={handleCloseModal}
               >
                 {LOCALIZATION.misc.close}

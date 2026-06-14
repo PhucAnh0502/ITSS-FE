@@ -13,7 +13,6 @@ import LoadingIndicator from '../components/LoadingIndicator';
 import ErrorMessage from '../components/ErrorMessage';
 import EmptyState from '../components/EmptyState';
 import workspacesData from '../data/workspaces.json';
-import './ReviewPage.css';
 
 /** Review category tags for filtering */
 const reviewCategoryTags = [
@@ -102,7 +101,7 @@ function ReviewPage() {
   // Loading state
   if (loading) {
     return (
-      <div className="review-page">
+      <div className="p-6 max-w-6xl mx-auto">
         <LoadingIndicator />
       </div>
     );
@@ -111,18 +110,18 @@ function ReviewPage() {
   // Error state
   if (error) {
     return (
-      <div className="review-page">
+      <div className="p-6 max-w-6xl mx-auto">
         <ErrorMessage message={error} />
       </div>
     );
   }
 
   return (
-    <div className="review-page">
+    <div className="p-6 max-w-6xl mx-auto md:p-4">
       {/* Header */}
-      <header className="review-page__header">
+      <header className="mb-2">
         <motion.h1
-          className="review-page__title"
+          className="text-[1.75rem] font-bold m-0 mb-1 text-gray-900"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -130,14 +129,14 @@ function ReviewPage() {
           {LOCALIZATION.headings.communityReviews}
         </motion.h1>
         <motion.p
-          className="review-page__subtitle"
+          className="text-[0.9rem] text-gray-500 m-0 mb-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
           {LOCALIZATION.headings.communitySubtitle}
         </motion.p>
-        <div className="review-page__header-row">
+        <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
           {/* Category Tags */}
           <CategoryTags
             tags={reviewCategoryTags}
@@ -145,7 +144,7 @@ function ReviewPage() {
             onSelect={(tag) => setCategory(tag || 'all')}
           />
           <motion.button
-            className="review-page__write-btn"
+            className="bg-green-500 text-white border-none rounded-3xl px-5 py-2.5 text-sm font-semibold cursor-pointer transition-colors whitespace-nowrap flex items-center gap-1.5 hover:bg-green-600 focus-visible:outline-2 focus-visible:outline-green-500 focus-visible:outline-offset-2"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => setWriteModalOpen(true)}
@@ -160,7 +159,7 @@ function ReviewPage() {
       {filteredReviews.length === 0 ? (
         <EmptyState message={LOCALIZATION.empty.noReviews} />
       ) : (
-        <div className="review-page__grid">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-4">
           {filteredReviews.map((review, index) => (
             <motion.div
               key={review.id}
@@ -168,6 +167,7 @@ function ReviewPage() {
               variants={cardVariants}
               initial="hidden"
               animate="visible"
+              className="flex min-w-0"
             >
               <ReviewCard
                 review={review}

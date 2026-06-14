@@ -34,29 +34,31 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
   };
 
   return (
-    <div className="filter-panel" role="region" aria-label={LOCALIZATION.aria.filterRegion}>
-      <div className="filter-panel__header">
-        <span className="filter-panel__title">
+    <div className="bg-white border border-gray-200 rounded-2xl p-4 mb-4" role="region" aria-label={LOCALIZATION.aria.filterRegion}>
+      <div className="flex items-center justify-between mb-4">
+        <span className="text-[0.9375rem] font-semibold text-gray-900">
           {LOCALIZATION.filters.title}
           {activeFilters > 0 && (
-            <span className="filter-panel__count">({activeFilters})</span>
+            <span className="ml-1 text-green-500">({activeFilters})</span>
           )}
         </span>
         {activeFilters > 0 && (
-          <button className="filter-panel__clear" onClick={onClear}>
+          <button className="text-[0.8125rem] text-green-500 font-medium px-2 py-1 rounded transition-colors hover:bg-green-500/10" onClick={onClear}>
             {LOCALIZATION.buttons.clear}
           </button>
         )}
       </div>
 
-      <div className="filter-panel__section">
-        <span className="filter-panel__label">{LOCALIZATION.filters.availability}</span>
-        <div className="filter-panel__buttons">
+      <div className="mb-4">
+        <span className="block text-[0.8125rem] font-medium text-gray-500 mb-2">{LOCALIZATION.filters.availability}</span>
+        <div className="flex flex-wrap gap-2">
           {availabilityOptions.map((opt) => (
             <button
               key={opt.value}
-              className={`filter-panel__btn ${
-                filters.availability === opt.value ? 'filter-panel__btn--active' : ''
+              className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
+                filters.availability === opt.value
+                  ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
+                  : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
               }`}
               onClick={() => handleAvailability(opt.value)}
               aria-pressed={filters.availability === opt.value}
@@ -67,14 +69,16 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
         </div>
       </div>
 
-      <div className="filter-panel__section">
-        <span className="filter-panel__label">{LOCALIZATION.filters.quietness}</span>
-        <div className="filter-panel__buttons">
+      <div className="mb-4">
+        <span className="block text-[0.8125rem] font-medium text-gray-500 mb-2">{LOCALIZATION.filters.quietness}</span>
+        <div className="flex flex-wrap gap-2">
           {quietnessLevels.map((level) => (
             <button
               key={level}
-              className={`filter-panel__btn ${
-                filters.quietnessLevel === level ? 'filter-panel__btn--active' : ''
+              className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
+                filters.quietnessLevel === level
+                  ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
+                  : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
               }`}
               onClick={() => handleQuietness(level)}
               aria-pressed={filters.quietnessLevel === level}
@@ -85,12 +89,14 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
         </div>
       </div>
 
-      <div className="filter-panel__section">
-        <span className="filter-panel__label">{LOCALIZATION.filters.wifi}</span>
-        <div className="filter-panel__buttons">
+      <div className="mb-4">
+        <span className="block text-[0.8125rem] font-medium text-gray-500 mb-2">{LOCALIZATION.filters.wifi}</span>
+        <div className="flex flex-wrap gap-2">
           <button
-            className={`filter-panel__btn filter-panel__btn--toggle ${
-              filters.hasWifi ? 'filter-panel__btn--active' : ''
+            className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
+              filters.hasWifi
+                ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
+                : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
             }`}
             onClick={handleWifi}
             aria-pressed={!!filters.hasWifi}
@@ -100,12 +106,14 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
         </div>
       </div>
 
-      <div className="filter-panel__section">
-        <span className="filter-panel__label">{LOCALIZATION.filters.power}</span>
-        <div className="filter-panel__buttons">
+      <div className="mb-4">
+        <span className="block text-[0.8125rem] font-medium text-gray-500 mb-2">{LOCALIZATION.filters.power}</span>
+        <div className="flex flex-wrap gap-2">
           <button
-            className={`filter-panel__btn filter-panel__btn--toggle ${
-              filters.hasPowerOutlets ? 'filter-panel__btn--active' : ''
+            className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
+              filters.hasPowerOutlets
+                ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
+                : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
             }`}
             onClick={handlePower}
             aria-pressed={!!filters.hasPowerOutlets}
@@ -114,7 +122,25 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
           </button>
         </div>
       </div>
-
+      <div>
+        <span className="block text-[0.8125rem] font-medium text-gray-500 mb-2">{LOCALIZATION.filters.distance}</span>
+        <div className="flex flex-wrap gap-2">
+          {distanceOptions.map((opt) => (
+            <button
+              key={opt.value}
+              className={`px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all ${
+                filters.maxDistance === opt.value
+                  ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
+                  : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
+              }`}
+              onClick={() => handleDistance(opt.value)}
+              aria-pressed={filters.maxDistance === opt.value}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

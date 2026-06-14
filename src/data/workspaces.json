@@ -37,7 +37,7 @@
     "featureTags": ["高速Wi-Fi", "静か", "個別電源", "エアコン", "HUST近い"]
   },
     {
-    "id": "hust-study-rooms",
+    "id": "hust-study-rooms-1",
     "name": "203 D35 - HUST自習室",
     "nameJa": "HUST棟内自習スペース",
     "category": "study-room",
@@ -76,9 +76,9 @@
     "categoryLabelJa": "カフェ",
     "address": "約200m（徒歩約2分）",
     "photos": [
-      "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/480578323_4046685078938821_25432658515049020_n.jpg?stp=dst-jpg_tt6&cstp=mx1040x1560&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHlENMEwBBv4LiebaFV85BKfCdraf3rG998J2tp_esb34u3niixu47zMHfl03pSqloSZ4wxAeU_S6KnputwXAHw&_nc_ohc=UIHcLga21h0Q7kNvwGiTTke&_nc_oc=AdqQfpL8-E2QPbcm6cY2g012-ZjcmtgRbu6C9G7b3yr1R6MMx-pjQJSxuXdJeXi3Ehw&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=DkO6T3oadTCiJQrGPlShkg&_nc_ss=7a2a8&oh=00_Af_80dLMoEc83C2crZA_Z9ShOaSlSgb_F8Q03ZqFFp3uHQ&oe=6A29CE4A",
-      "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/480546675_4046685022272160_1390890516501125160_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1366&ctp=s2048x1366&_nc_cat=105&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHwN1LTfuqrsJN1ayfMcfWcfevRszCrqjV969GzMKuqNftzh-ox9Fbgc9dZ2xnj0Rz6VmRebjpQu2rWceuJ5Ako&_nc_ohc=HM5ogFxTmSEQ7kNvwEUOdzg&_nc_oc=AdqNYjJTaHrKkC_d-VFM718FanAE8j0P3aZ-1j6jl8QqYDsGMivTZ_t_18TXaR9Z5UA&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=sHxGNHPOAMKLcz3_0QFxGw&_nc_ss=7a2a8&oh=00_Af8qko-uttRzTtpMOVh4vIR28OaDqF_IKE5Vk5WYGRMRVA&oe=6A29B41C",
-      "https://scontent.fhan14-5.fna.fbcdn.net/v/t39.30808-6/480538837_4046684968938832_171170887415228610_n.jpg?stp=dst-jpg_tt6&cstp=mx1560x1040&ctp=s1560x1040&_nc_cat=104&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeE-4TbMbSrv7oB7iD6sMFcBAAxRD9dglzgADFEP12CXOCf3AahNm4ebA5nVEw7A9aPEM6hwQs7goNvyIGFy-KXz&_nc_ohc=ot7jsNcZcr4Q7kNvwErQdMm&_nc_oc=AdpT6aWphCgYlYfBB7Re8u6nIt5WOUt4qVv7MAyMTNL2uObtR2_U2HtYDZT9ZrzAXeY&_nc_zt=23&_nc_ht=scontent.fhan14-5.fna&_nc_gid=QX2t8bHUpVbC8TVad1YkwA&_nc_ss=7a2a8&oh=00_Af9fTODfl1EvBltTepus-v40OegL31ZawvQ4eoy4QO0_Ww&oe=6A29B7A7"
+      "https://static.riviu.co/960/image/2021/01/06/d4aef2e13c8514768ee3384cd4918f72_output.jpeg",
+      "https://lofita.vn/wp-content/uploads/2026/01/cofehouse.png",
+      "https://lofita.vn/wp-content/uploads/2026/01/cofehouse2.png"
     ],
     "businessHours": {
       "monday": { "open": "07:00", "close": "22:00" },
@@ -106,7 +106,7 @@
     "featureTags": ["高速Wi-Fi", "静か", "個別電源", "エアコン", "HUST近い"]
   },
   {
-    "id": "hust-study-rooms",
+    "id": "hust-study-rooms-2",
     "name": "405 D35 - HUST自習室",
     "nameJa": "HUST棟内自習スペース",
     "category": "study-room",
@@ -138,7 +138,7 @@
     "featureTags": ["無料", "キャンパス内", "エアコン", "静か", "授業間利用"]
   },
    {
-    "id": "hust-study-rooms",
+    "id": "hust-study-rooms-3",
     "name": "503 D35 - HUST自習室",
     "nameJa": "HUST棟内自習スペース",
     "category": "study-room",

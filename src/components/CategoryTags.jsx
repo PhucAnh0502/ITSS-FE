@@ -16,13 +16,15 @@ export function CategoryTags({ tags, selectedTag, onSelect }) {
   };
 
   return (
-    <div className="category-tags" role="group" aria-label="カテゴリフィルター">
-      <div className="category-tags__scroll">
+    <div className="w-full overflow-hidden" role="group" aria-label="カテゴリフィルター">
+      <div className="flex gap-2 overflow-x-auto py-2 scrollbar-hide">
         {tags.map((tag) => (
           <button
             key={tag.value}
-            className={`category-tags__tag ${
-              selectedTag === tag.value ? 'category-tags__tag--active' : ''
+            className={`shrink-0 px-4 py-2 rounded-full text-[0.8125rem] font-medium cursor-pointer transition-all whitespace-nowrap ${
+              selectedTag === tag.value
+                ? 'bg-green-500 border border-green-500 text-white hover:bg-green-600 hover:border-green-600'
+                : 'bg-white border border-gray-200 text-gray-500 hover:border-green-500 hover:text-green-500'
             }`}
             onClick={() => handleClick(tag.value)}
             aria-pressed={selectedTag === tag.value}

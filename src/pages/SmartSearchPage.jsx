@@ -6,7 +6,6 @@ import { useRecommendation } from '../hooks/useRecommendation';
 import { useTransition } from '../hooks/useTransition';
 import { LOCALIZATION } from '../utils/localization';
 import LoadingIndicator from '../components/LoadingIndicator';
-import './SmartSearchPage.css';
 
 const PEOPLE_OPTIONS = [
   { value: '1', label: '1人', icon: <User size={20} /> },
@@ -91,9 +90,9 @@ function SmartSearchPage() {
   };
 
   return (
-    <div className="smart-search-page">
+    <div className="p-6 max-w-3xl mx-auto md:p-4">
       <motion.h1
-        className="smart-search-page__heading"
+        className="text-[1.75rem] font-bold mb-2 text-gray-900 text-center"
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -101,7 +100,7 @@ function SmartSearchPage() {
         {LOCALIZATION.headings.smartSearch}
       </motion.h1>
       <motion.p
-        className="smart-search-page__subtitle"
+        className="text-[0.9rem] text-gray-500 text-center mb-8"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.5 }}
@@ -111,22 +110,24 @@ function SmartSearchPage() {
 
       {/* People Count Section */}
       <motion.section
-        className="smart-search-page__section"
+        className="mb-7"
         custom={0}
         variants={sectionVariants}
         initial="hidden"
         animate="visible"
       >
-        <h2 className="smart-search-page__section-title">
-          <span className="smart-search-page__section-bullet"></span>
+        <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
+          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.people}
         </h2>
-        <div className="smart-search-page__icon-buttons">
+        <div className="flex gap-3 flex-wrap">
           {PEOPLE_OPTIONS.map((option) => (
             <motion.button
               key={option.value}
-              className={`smart-search-page__icon-btn ${
-                conditions.peopleCount === option.value ? 'smart-search-page__icon-btn--active' : ''
+              className={`flex flex-col items-center justify-center gap-1 py-3.5 px-5 border-2 rounded-xl cursor-pointer transition-all min-w-[80px] ${
+                conditions.peopleCount === option.value
+                  ? 'border-green-500 bg-green-500 text-white hover:bg-green-600'
+                  : 'border-gray-200 bg-white text-inherit hover:border-green-500 hover:bg-green-500/5'
               }`}
               onClick={() => handlePeopleSelect(option.value)}
               type="button"
@@ -134,8 +135,8 @@ function SmartSearchPage() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <span className="smart-search-page__icon-btn-icon">{option.icon}</span>
-              <span className="smart-search-page__icon-btn-label">{option.label}</span>
+              <span className="text-xl">{option.icon}</span>
+              <span className="text-xs font-medium">{option.label}</span>
             </motion.button>
           ))}
         </div>
@@ -143,22 +144,24 @@ function SmartSearchPage() {
 
       {/* Purpose Section */}
       <motion.section
-        className="smart-search-page__section"
+        className="mb-7"
         custom={1}
         variants={sectionVariants}
         initial="hidden"
         animate="visible"
       >
-        <h2 className="smart-search-page__section-title">
-          <span className="smart-search-page__section-bullet"></span>
+        <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
+          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.purpose}
         </h2>
-        <div className="smart-search-page__icon-buttons">
+        <div className="flex gap-3 flex-wrap">
           {PURPOSE_OPTIONS.map((option) => (
             <motion.button
               key={option.value}
-              className={`smart-search-page__icon-btn ${
-                conditions.purpose === option.value ? 'smart-search-page__icon-btn--active' : ''
+              className={`flex flex-col items-center justify-center gap-1 py-3.5 px-5 border-2 rounded-xl cursor-pointer transition-all min-w-[80px] ${
+                conditions.purpose === option.value
+                  ? 'border-green-500 bg-green-500 text-white hover:bg-green-600'
+                  : 'border-gray-200 bg-white text-inherit hover:border-green-500 hover:bg-green-500/5'
               }`}
               onClick={() => handlePurposeSelect(option.value)}
               type="button"
@@ -166,8 +169,8 @@ function SmartSearchPage() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <span className="smart-search-page__icon-btn-icon">{option.icon}</span>
-              <span className="smart-search-page__icon-btn-label">{option.label}</span>
+              <span className="text-xl">{option.icon}</span>
+              <span className="text-xs font-medium">{option.label}</span>
             </motion.button>
           ))}
         </div>
@@ -175,29 +178,29 @@ function SmartSearchPage() {
 
       {/* Quietness Section - Slider */}
       <motion.section
-        className="smart-search-page__section"
+        className="mb-7"
         custom={2}
         variants={sectionVariants}
         initial="hidden"
         animate="visible"
       >
-        <h2 className="smart-search-page__section-title">
-          <span className="smart-search-page__section-bullet"></span>
+        <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
+          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.quietness}
         </h2>
-        <div className="smart-search-page__quietness">
-          <div className="smart-search-page__quietness-labels">
+        <div className="flex flex-col gap-3">
+          <div className="flex justify-between text-xs text-gray-500">
             <span>{LOCALIZATION.smartSearch.lively}</span>
             <span>{LOCALIZATION.smartSearch.quiet}</span>
           </div>
-          <div className="smart-search-page__slider-container">
+          <div className="px-1">
             <input
               type="range"
               min="1"
               max="5"
               value={quietnessValue}
               onChange={handleQuietnessChange}
-              className="smart-search-page__slider"
+              className="w-full h-1.5 appearance-none rounded-sm bg-gray-200 outline-none cursor-pointer accent-green-500"
               aria-label={LOCALIZATION.smartSearch.quietness}
             />
           </div>
@@ -206,22 +209,24 @@ function SmartSearchPage() {
 
       {/* Amenities Section */}
       <motion.section
-        className="smart-search-page__section"
+        className="mb-7"
         custom={3}
         variants={sectionVariants}
         initial="hidden"
         animate="visible"
       >
-        <h2 className="smart-search-page__section-title">
-          <span className="smart-search-page__section-bullet"></span>
+        <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
+          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.amenities}
         </h2>
-        <div className="smart-search-page__chips">
+        <div className="flex flex-wrap gap-2">
           {AMENITY_OPTIONS.map((option) => (
             <motion.button
               key={option.value}
-              className={`smart-search-page__chip ${
-                (conditions.amenities || []).includes(option.value) ? 'smart-search-page__chip--active' : ''
+              className={`px-4 py-2 border-2 rounded-[20px] cursor-pointer text-sm transition-all ${
+                (conditions.amenities || []).includes(option.value)
+                  ? 'border-green-500 bg-green-500 text-white hover:bg-green-600'
+                  : 'border-gray-200 bg-white text-inherit hover:border-green-500 hover:bg-green-500/5'
               }`}
               onClick={() => handleAmenityToggle(option.value)}
               type="button"
@@ -237,7 +242,7 @@ function SmartSearchPage() {
 
       {/* Submit Button */}
       <motion.button
-        className="smart-search-page__submit"
+        className="block w-full py-4 border-none rounded-xl bg-green-500 text-white text-base font-semibold cursor-pointer transition-colors mt-2 mb-6 hover:bg-green-600 active:bg-green-700"
         onClick={handleSubmit}
         type="button"
         whileHover={{ scale: 1.02 }}
@@ -248,7 +253,7 @@ function SmartSearchPage() {
 
       {/* Loading State */}
       {loading && (
-        <div className="smart-search-page__loading">
+        <div className="flex justify-center py-8">
           <LoadingIndicator />
         </div>
       )}
@@ -257,21 +262,21 @@ function SmartSearchPage() {
       <AnimatePresence>
         {!loading && hasSearched && results.length > 0 && (
           <motion.section
-            className="smart-search-page__results"
+            className="mt-6"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.4 }}
           >
-            <h2 className="smart-search-page__results-title">
-              <Volume2 size={18} className="smart-search-page__results-icon" />
+            <h2 className="text-lg font-bold mb-4 text-gray-900 flex items-center gap-2">
+              <Volume2 size={18} />
               {LOCALIZATION.headings.results}
             </h2>
-            <div className="smart-search-page__results-list">
+            <div className="flex flex-col gap-4">
               {results.map((workspace, index) => (
                 <motion.article
                   key={workspace.id}
-                  className="smart-search-page__result-card"
+                  className="flex gap-4 p-4 rounded-2xl bg-white shadow-sm cursor-pointer transition-all hover:shadow-md hover:-translate-y-px focus:outline-2 focus:outline-green-500 focus:outline-offset-2"
                   custom={index}
                   variants={resultVariants}
                   initial="hidden"
@@ -287,32 +292,32 @@ function SmartSearchPage() {
                     }
                   }}
                 >
-                  <div className="smart-search-page__result-image-container">
+                  <div className="shrink-0 w-[120px] h-[90px] rounded-xl overflow-hidden">
                     {workspace.photos && workspace.photos[0] ? (
                       <img
-                        className="smart-search-page__result-image"
+                        className="w-full h-full object-cover"
                         src={workspace.photos[0]}
                         alt={workspace.name || 'ワークスペース'}
                         loading="lazy"
                       />
                     ) : (
-                      <div className="smart-search-page__result-image-placeholder" />
+                      <div className="w-full h-full bg-gray-200" />
                     )}
                   </div>
-                  <div className="smart-search-page__result-info">
-                    <h3 className="smart-search-page__result-name">{workspace.name}</h3>
-                    <div className="smart-search-page__result-meta">
-                      <span className="smart-search-page__result-distance">
+                  <div className="flex-1 flex flex-col gap-1 min-w-0">
+                    <h3 className="text-base font-semibold text-gray-900 m-0 whitespace-nowrap overflow-hidden text-ellipsis">{workspace.name}</h3>
+                    <div className="flex gap-3 text-[0.8125rem] text-gray-500 items-center">
+                      <span className="flex items-center gap-1 text-green-500">
                         <MapPin size={12} /> {workspace.distanceFromHust != null ? `${workspace.distanceFromHust}km` : '—'}
                       </span>
-                      <span className="smart-search-page__result-rating">
+                      <span className="text-amber-500 font-semibold flex items-center gap-1">
                         <Star size={12} fill="#f59e0b" stroke="#f59e0b" /> {typeof workspace.rating === 'number' ? workspace.rating.toFixed(1) : '0.0'}
                       </span>
                     </div>
                     {workspace.featureTags && workspace.featureTags.length > 0 && (
-                      <div className="smart-search-page__result-tags">
+                      <div className="flex flex-wrap gap-1.5 mt-1.5">
                         {workspace.featureTags.slice(0, 5).map((tag, index) => (
-                          <span key={index} className="smart-search-page__result-tag">
+                          <span key={index} className="px-2 py-0.5 rounded-[10px] border border-green-500 text-[0.6875rem] text-green-500 font-medium">
                             {tag}
                           </span>
                         ))}
@@ -329,7 +334,7 @@ function SmartSearchPage() {
       {/* No Results State */}
       {!loading && hasSearched && results.length === 0 && (
         <motion.div
-          className="smart-search-page__no-results"
+          className="text-center py-8 text-gray-500 text-[0.9375rem]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
