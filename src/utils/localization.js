@@ -58,6 +58,13 @@ export const LOCALIZATION = {
     closed: '閉店',
     open: '営業中',
   },
+  // Hero section
+  hero: {
+    title: '集中できる場所を、',
+    titleAccent: '見つけよう。',
+    subtitle: 'HUST周辺の学習スペースを、まとめて比べて、あなたのお気に入りを見つけよう。',
+    featured: '注目のスペース',
+  },
   // Section headings
   headings: {
     searchSpaces: 'スペースをおすすめ',

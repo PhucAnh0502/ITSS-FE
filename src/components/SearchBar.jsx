@@ -6,9 +6,9 @@ import { LOCALIZATION } from '../utils/localization';
  */
 export function SearchBar({ value, onChange, placeholder = LOCALIZATION.placeholders.search }) {
   return (
-    <div className="flex items-center gap-2 bg-white border border-violet-200 rounded-full px-4 py-2.5 shadow-sm shadow-violet-500/5 focus-within:border-violet-500 focus-within:ring-2 focus-within:ring-violet-500/15 transition-all">
+    <div className="flex items-center gap-2 bg-white/75 backdrop-blur-md border border-white/70 rounded-full px-5 py-3 shadow-xl shadow-violet-500/10 ring-1 ring-violet-100/60 focus-within:border-violet-400 focus-within:ring-2 focus-within:ring-violet-500/20 transition-all">
       <span className="text-violet-500 shrink-0" aria-hidden="true">
-        <Search size={18} />
+        <Search size={20} />
       </span>
       <input
         type="text"

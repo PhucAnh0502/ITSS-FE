@@ -34,7 +34,7 @@ export function FilterPanel({ filters, activeFilters, onFilterChange, onClear })
   };
 
   return (
-    <div className="bg-white border border-violet-100 ring-1 ring-violet-50 rounded-2xl p-4 mb-4 shadow-sm shadow-violet-500/5" role="region" aria-label={LOCALIZATION.aria.filterRegion}>
+    <div className="bg-white/80 backdrop-blur-md border border-white/70 ring-1 ring-violet-100/70 rounded-2xl p-4 mb-4 shadow-xl shadow-violet-500/10" role="region" aria-label={LOCALIZATION.aria.filterRegion}>
       <div className="flex items-center justify-between mb-4">
         <span className="text-[0.9375rem] font-semibold text-gray-900">
           {LOCALIZATION.filters.title}

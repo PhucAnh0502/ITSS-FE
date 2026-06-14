@@ -22,6 +22,23 @@
   color: transparent;
 }
 
+/* Faint grid pattern, layered behind the hero */
+@utility bg-grid-faint {
+  background-image:
+    linear-gradient(to right, rgba(124, 58, 237, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(124, 58, 237, 0.07) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* Vivid mesh gradient for the hero backdrop */
+@utility hero-mesh {
+  background-image:
+    radial-gradient(at 12% 18%, rgba(139, 92, 246, 0.45) 0px, transparent 50%),
+    radial-gradient(at 88% 12%, rgba(217, 70, 239, 0.40) 0px, transparent 50%),
+    radial-gradient(at 70% 88%, rgba(99, 102, 241, 0.40) 0px, transparent 50%),
+    radial-gradient(at 25% 90%, rgba(45, 212, 191, 0.30) 0px, transparent 50%);
+}
+
 /* Soft, colorful page backdrop */
 @utility app-gradient-bg {
   background-image:

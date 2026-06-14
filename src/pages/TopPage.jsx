@@ -104,14 +104,44 @@ function TopPage() {
 
   return (
     <div className="p-6 max-w-6xl mx-auto md:p-4">
-      {/* Search */}
-      <SearchBar value={query} onChange={setQuery} />
+      {/* Hero */}
+      <section className="relative overflow-hidden rounded-3xl bg-white ring-1 ring-violet-100 shadow-sm mb-6 px-6 py-10 md:px-10 md:py-14">
+        <div className="absolute inset-0 hero-mesh" aria-hidden="true" />
+        <div className="absolute inset-0 bg-grid-faint opacity-70" aria-hidden="true" />
+        <div className="relative">
+          <motion.h1
+            className="text-[2.5rem] md:text-6xl font-extrabold tracking-tight text-gray-900 leading-[1.05] m-0"
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
+          >
+            {LOCALIZATION.hero.title}
+            <br />
+            <span className="text-brand-gradient">{LOCALIZATION.hero.titleAccent}</span>
+          </motion.h1>
+          <motion.p
+            className="mt-4 mb-7 max-w-xl text-gray-600 text-sm md:text-base leading-relaxed"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.2, duration: 0.6 }}
+          >
+            {LOCALIZATION.hero.subtitle}
+          </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.5 }}
+          >
+            <SearchBar value={query} onChange={setQuery} />
+          </motion.div>
+        </div>
+      </section>
 
       {/* Section Header */}
       <div className="flex items-center justify-between mb-4 mt-2">
         <h2 className="text-2xl font-extrabold m-0 text-brand-gradient">{LOCALIZATION.headings.searchSpaces}</h2>
         <button
-          className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white border border-violet-200 text-violet-600 text-sm font-medium cursor-pointer transition-all hover:bg-violet-50 hover:border-violet-400"
+          className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/80 backdrop-blur-md border border-violet-200 text-violet-600 text-sm font-medium cursor-pointer transition-all shadow-sm shadow-violet-500/10 hover:bg-violet-50 hover:border-violet-400 hover:shadow-md"
           onClick={() => setShowFilters(!showFilters)}
         >
           <SlidersHorizontal size={16} />
@@ -152,20 +182,25 @@ function TopPage() {
       ) : (
         <>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-4 auto-rows-fr items-stretch" ref={gridRef}>
-            {paginatedWorkspaces.map((workspace, index) => (
-              <motion.div
-                key={workspace.id}
-                custom={index}
-                variants={cardVariants}
-                initial="hidden"
-                animate="visible"
-              >
-                <WorkspaceCard
-                  workspace={workspace}
-                  onClick={handleCardClick}
-                />
-              </motion.div>
-            ))}
+            {paginatedWorkspaces.map((workspace, index) => {
+              const isFeatured = index === 0;
+              return (
+                <motion.div
+                  key={workspace.id}
+                  custom={index}
+                  variants={cardVariants}
+                  initial="hidden"
+                  animate="visible"
+                  className={`h-full ${isFeatured ? 'md:col-span-2 lg:row-span-2' : ''}`}
+                >
+                  <WorkspaceCard
+                    workspace={workspace}
+                    onClick={handleCardClick}
+                    featured={isFeatured}
+                  />
+                </motion.div>
+              );
+            })}
           </div>
 
           {totalPages > 1 && (

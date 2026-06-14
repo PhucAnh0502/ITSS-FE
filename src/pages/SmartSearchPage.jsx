@@ -276,7 +276,7 @@ function SmartSearchPage() {
               {results.map((workspace, index) => (
                 <motion.article
                   key={workspace.id}
-                  className="flex gap-4 p-4 rounded-2xl bg-white ring-1 ring-violet-100 shadow-sm cursor-pointer transition-all hover:shadow-xl hover:shadow-violet-500/15 hover:ring-violet-300 hover:-translate-y-px focus:outline-2 focus:outline-violet-500 focus:outline-offset-2"
+                  className="group flex gap-4 p-4 rounded-2xl bg-white ring-1 ring-violet-100 shadow-sm cursor-pointer transition-all hover:shadow-2xl hover:shadow-violet-500/20 hover:ring-violet-300 hover:-translate-y-1 focus:outline-2 focus:outline-violet-500 focus:outline-offset-2"
                   custom={index}
                   variants={resultVariants}
                   initial="hidden"
@@ -295,7 +295,7 @@ function SmartSearchPage() {
                   <div className="shrink-0 w-[120px] h-[90px] rounded-xl overflow-hidden">
                     {workspace.photos && workspace.photos[0] ? (
                       <img
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                         src={workspace.photos[0]}
                         alt={workspace.name || 'ワークスペース'}
                         loading="lazy"
