@@ -144,7 +144,7 @@ function ReviewPage() {
             onSelect={(tag) => setCategory(tag || 'all')}
           />
           <motion.button
-            className="bg-brand-gradient text-white border-none rounded-3xl px-5 py-2.5 text-sm font-semibold cursor-pointer transition-opacity whitespace-nowrap flex items-center gap-1.5 shadow-sm shadow-violet-500/30 hover:opacity-90 focus-visible:outline-2 focus-visible:outline-violet-500 focus-visible:outline-offset-2"
+            className="bg-brand-gradient text-white border-none rounded-3xl px-5 py-2.5 text-sm font-semibold cursor-pointer transition-opacity whitespace-nowrap flex items-center gap-1.5 shadow-sm shadow-blue-500/30 hover:opacity-90 focus-visible:outline-2 focus-visible:outline-blue-500 focus-visible:outline-offset-2"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => setWriteModalOpen(true)}

@@ -105,7 +105,7 @@ function TopPage() {
   return (
     <div className="p-6 max-w-6xl mx-auto md:p-4">
       {/* Hero */}
-      <section className="relative overflow-hidden rounded-3xl bg-white ring-1 ring-violet-100 shadow-sm mb-6 px-6 py-10 md:px-10 md:py-14">
+      <section className="relative overflow-hidden rounded-3xl bg-white ring-1 ring-blue-100 shadow-sm mb-6 px-6 py-10 md:px-10 md:py-14">
         <div className="absolute inset-0 hero-mesh" aria-hidden="true" />
         <div className="absolute inset-0 bg-grid-faint opacity-70" aria-hidden="true" />
         <div className="relative">
@@ -141,7 +141,7 @@ function TopPage() {
       <div className="flex items-center justify-between mb-4 mt-2">
         <h2 className="text-2xl font-extrabold m-0 text-brand-gradient">{LOCALIZATION.headings.searchSpaces}</h2>
         <button
-          className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/80 backdrop-blur-md border border-violet-200 text-violet-600 text-sm font-medium cursor-pointer transition-all shadow-sm shadow-violet-500/10 hover:bg-violet-50 hover:border-violet-400 hover:shadow-md"
+          className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/80 backdrop-blur-md border border-blue-200 text-blue-600 text-sm font-medium cursor-pointer transition-all shadow-sm shadow-blue-500/10 hover:bg-blue-50 hover:border-blue-400 hover:shadow-md"
           onClick={() => setShowFilters(!showFilters)}
         >
           <SlidersHorizontal size={16} />
@@ -215,7 +215,7 @@ function TopPage() {
 
       {/* Floating Action Button */}
       <motion.button
-        className="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-brand-gradient text-white border-none flex items-center justify-center text-2xl shadow-lg shadow-violet-500/40 cursor-pointer z-50 hover:scale-105 hover:shadow-xl hover:shadow-fuchsia-500/50 transition-all md:bottom-6 md:right-6 md:w-12 md:h-12"
+        className="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-brand-gradient text-white border-none flex items-center justify-center text-2xl shadow-lg shadow-blue-500/40 cursor-pointer z-50 hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/50 transition-all md:bottom-6 md:right-6 md:w-12 md:h-12"
         aria-label="ブックマーク"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

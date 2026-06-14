@@ -129,7 +129,7 @@ function SmartSearchPage() {
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-violet-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-blue-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.people}
         </h2>
         <div className="flex gap-3 flex-wrap">
@@ -138,8 +138,8 @@ function SmartSearchPage() {
               key={option.value}
               className={`flex flex-col items-center justify-center gap-2.5 py-5 px-6 border-2 rounded-2xl cursor-pointer transition-all min-w-26 ${
                 conditions.peopleCount === option.value
-                  ? 'border-violet-500 bg-violet-50 text-violet-700 ring-2 ring-violet-400/60 shadow-lg shadow-violet-500/25'
-                  : 'border-gray-200 bg-white text-gray-600 hover:border-violet-300 hover:bg-violet-50/60 hover:shadow-md'
+                  ? 'border-blue-500 bg-blue-50 text-blue-700 ring-2 ring-blue-400/60 shadow-lg shadow-blue-500/25'
+                  : 'border-gray-200 bg-white text-gray-600 hover:border-blue-300 hover:bg-blue-50/60 hover:shadow-md'
               }`}
               onClick={() => handlePeopleSelect(option.value)}
               type="button"
@@ -164,7 +164,7 @@ function SmartSearchPage() {
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-fuchsia-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-cyan-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.purpose}
         </h2>
         <div className="flex gap-3 flex-wrap">
@@ -173,8 +173,8 @@ function SmartSearchPage() {
               key={option.value}
               className={`flex flex-col items-center justify-center gap-2.5 py-5 px-6 border-2 rounded-2xl cursor-pointer transition-all min-w-26 ${
                 conditions.purpose === option.value
-                  ? 'border-violet-500 bg-violet-50 text-violet-700 ring-2 ring-violet-400/60 shadow-lg shadow-violet-500/25'
-                  : 'border-gray-200 bg-white text-gray-600 hover:border-violet-300 hover:bg-violet-50/60 hover:shadow-md'
+                  ? 'border-blue-500 bg-blue-50 text-blue-700 ring-2 ring-blue-400/60 shadow-lg shadow-blue-500/25'
+                  : 'border-gray-200 bg-white text-gray-600 hover:border-blue-300 hover:bg-blue-50/60 hover:shadow-md'
               }`}
               onClick={() => handlePurposeSelect(option.value)}
               type="button"
@@ -213,9 +213,9 @@ function SmartSearchPage() {
               className="absolute top-0 -translate-x-1/2 transition-all duration-150 ease-out pointer-events-none"
               style={{ left: `calc(13px + (100% - 26px) * ${(quietnessValue - 1) / 4})` }}
             >
-              <div className="relative px-2.5 py-1 rounded-lg bg-violet-600 text-white text-xs font-bold shadow-md shadow-violet-500/40">
+              <div className="relative px-2.5 py-1 rounded-lg bg-blue-600 text-white text-xs font-bold shadow-md shadow-blue-500/40">
                 {quietnessValue}
-                <span className="absolute left-1/2 -translate-x-1/2 -bottom-1 w-2 h-2 rotate-45 bg-violet-600" />
+                <span className="absolute left-1/2 -translate-x-1/2 -bottom-1 w-2 h-2 rotate-45 bg-blue-600" />
               </div>
             </div>
             <input
@@ -249,8 +249,8 @@ function SmartSearchPage() {
               key={option.value}
               className={`px-5 py-2.5 border-2 rounded-full cursor-pointer text-sm font-medium transition-all ${
                 (conditions.amenities || []).includes(option.value)
-                  ? 'border-violet-500 bg-violet-50 text-violet-700 ring-2 ring-violet-400/60 shadow-lg shadow-violet-500/25'
-                  : 'border-gray-200 bg-white text-gray-600 hover:border-violet-300 hover:bg-violet-50/60 hover:shadow-md'
+                  ? 'border-blue-500 bg-blue-50 text-blue-700 ring-2 ring-blue-400/60 shadow-lg shadow-blue-500/25'
+                  : 'border-gray-200 bg-white text-gray-600 hover:border-blue-300 hover:bg-blue-50/60 hover:shadow-md'
               }`}
               onClick={() => handleAmenityToggle(option.value)}
               type="button"
@@ -266,7 +266,7 @@ function SmartSearchPage() {
 
       {/* Submit Button */}
       <motion.button
-        className="block w-full py-4 border-none rounded-xl bg-brand-gradient text-white text-base font-semibold cursor-pointer transition-all mt-2 mb-6 shadow-lg shadow-violet-500/30 hover:opacity-95 hover:shadow-xl hover:shadow-fuchsia-500/30"
+        className="block w-full py-4 border-none rounded-xl bg-brand-gradient text-white text-base font-semibold cursor-pointer transition-all mt-2 mb-6 shadow-lg shadow-blue-500/30 hover:opacity-95 hover:shadow-xl hover:shadow-cyan-500/30"
         onClick={handleSubmit}
         type="button"
         whileHover={{ scale: 1.02 }}
@@ -300,7 +300,7 @@ function SmartSearchPage() {
               {results.map((workspace, index) => (
                 <motion.article
                   key={workspace.id}
-                  className="group flex gap-4 p-4 rounded-2xl bg-white ring-1 ring-violet-100 shadow-sm cursor-pointer transition-all hover:shadow-2xl hover:shadow-violet-500/20 hover:ring-violet-300 hover:-translate-y-1 focus:outline-2 focus:outline-violet-500 focus:outline-offset-2"
+                  className="group flex gap-4 p-4 rounded-2xl bg-white ring-1 ring-blue-100 shadow-sm cursor-pointer transition-all hover:shadow-2xl hover:shadow-blue-500/20 hover:ring-blue-300 hover:-translate-y-1 focus:outline-2 focus:outline-blue-500 focus:outline-offset-2"
                   custom={index}
                   variants={resultVariants}
                   initial="hidden"
@@ -331,7 +331,7 @@ function SmartSearchPage() {
                   <div className="flex-1 flex flex-col gap-1 min-w-0">
                     <h3 className="text-base font-semibold text-gray-900 m-0 whitespace-nowrap overflow-hidden text-ellipsis">{workspace.name}</h3>
                     <div className="flex gap-3 text-[0.8125rem] text-gray-500 items-center">
-                      <span className="flex items-center gap-1 text-fuchsia-500">
+                      <span className="flex items-center gap-1 text-cyan-500">
                         <MapPin size={12} /> {workspace.distanceFromHust != null ? `${workspace.distanceFromHust}km` : '—'}
                       </span>
                       <span className="text-amber-500 font-semibold flex items-center gap-1">
@@ -341,7 +341,7 @@ function SmartSearchPage() {
                     {workspace.featureTags && workspace.featureTags.length > 0 && (
                       <div className="flex flex-wrap gap-1.5 mt-1.5">
                         {workspace.featureTags.slice(0, 5).map((tag, index) => (
-                          <span key={index} className="px-2 py-0.5 rounded-[10px] border border-violet-100 bg-violet-50 text-[0.6875rem] text-violet-700 font-medium">
+                          <span key={index} className="px-2 py-0.5 rounded-[10px] border border-blue-100 bg-blue-50 text-[0.6875rem] text-blue-700 font-medium">
                             {tag}
                           </span>
                         ))}

@@ -81,7 +81,7 @@ export default function WorkspaceCard({ workspace, onClick, featured = false }) 
   if (featured) {
     return (
       <article
-        className="group relative h-full min-h-[420px] rounded-3xl overflow-hidden cursor-pointer ring-1 ring-violet-100 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-violet-500/25 focus-visible:outline-2 focus-visible:outline-violet-500 focus-visible:outline-offset-2"
+        className="group relative h-full min-h-[420px] rounded-3xl overflow-hidden cursor-pointer ring-1 ring-blue-100 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/25 focus-visible:outline-2 focus-visible:outline-blue-500 focus-visible:outline-offset-2"
         onClick={handleActivate}
         role="button"
         tabIndex={0}
@@ -95,7 +95,7 @@ export default function WorkspaceCard({ workspace, onClick, featured = false }) 
             loading="lazy"
           />
         ) : (
-          <div className="absolute inset-0 bg-violet-100" aria-label="写真なし" />
+          <div className="absolute inset-0 bg-blue-100" aria-label="写真なし" />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
 
@@ -110,7 +110,7 @@ export default function WorkspaceCard({ workspace, onClick, featured = false }) 
           <h3 className="text-2xl font-extrabold leading-tight drop-shadow-sm line-clamp-2">{name}</h3>
           <div className="flex items-center gap-3 text-sm text-white/90">
             <span className="flex items-center gap-1 min-w-0">
-              <MapPin size={15} className="text-fuchsia-300 shrink-0" aria-hidden="true" />
+              <MapPin size={15} className="text-cyan-300 shrink-0" aria-hidden="true" />
               <span className="truncate">{address}</span>
             </span>
             <span className="flex items-center gap-1 shrink-0 font-semibold">
@@ -138,7 +138,7 @@ export default function WorkspaceCard({ workspace, onClick, featured = false }) 
   // STANDARD: edge-to-edge image with overlaid badges, details below.
   return (
     <article
-      className="group relative h-full rounded-2xl overflow-hidden bg-white ring-1 ring-violet-100 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-violet-500/20 hover:ring-violet-300 cursor-pointer flex flex-col min-h-[420px] focus-visible:outline-2 focus-visible:outline-violet-500 focus-visible:outline-offset-2"
+      className="group relative h-full rounded-2xl overflow-hidden bg-white ring-1 ring-blue-100 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/20 hover:ring-blue-300 cursor-pointer flex flex-col min-h-[420px] focus-visible:outline-2 focus-visible:outline-blue-500 focus-visible:outline-offset-2"
       onClick={handleActivate}
       role="button"
       tabIndex={0}
@@ -153,7 +153,7 @@ export default function WorkspaceCard({ workspace, onClick, featured = false }) 
             loading="lazy"
           />
         ) : (
-          <div className="w-full h-full bg-violet-100" aria-label="写真なし" />
+          <div className="w-full h-full bg-blue-100" aria-label="写真なし" />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/5 to-transparent" />
         <FavoriteButton />
@@ -168,10 +168,10 @@ export default function WorkspaceCard({ workspace, onClick, featured = false }) 
       </div>
 
       <div className="p-4 flex flex-col gap-1.5 flex-1 overflow-hidden">
-        <h3 className="text-base font-bold m-0 text-gray-900 leading-tight whitespace-nowrap overflow-hidden text-ellipsis group-hover:text-violet-700 transition-colors">{name}</h3>
+        <h3 className="text-base font-bold m-0 text-gray-900 leading-tight whitespace-nowrap overflow-hidden text-ellipsis group-hover:text-blue-700 transition-colors">{name}</h3>
 
         <p className="text-[0.8rem] text-gray-500 m-0 flex items-center gap-1">
-          <MapPin size={14} className="text-fuchsia-500 shrink-0" aria-hidden="true" />
+          <MapPin size={14} className="text-cyan-500 shrink-0" aria-hidden="true" />
           <span className="truncate">{address}</span>
         </p>
 
