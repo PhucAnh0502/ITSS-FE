@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { SlidersHorizontal, Bookmark } from 'lucide-react';
+import { Bookmark } from 'lucide-react';
 import { useWorkspaces } from '../hooks/useWorkspaces';
 import { useSearch } from '../hooks/useSearch';
 import { useCategoryFilter } from '../hooks/useCategoryFilter';
@@ -140,13 +140,6 @@ function TopPage() {
       {/* Section Header */}
       <div className="flex items-center justify-between mb-4 mt-2">
         <h2 className="text-2xl font-extrabold m-0 text-brand-gradient">{LOCALIZATION.headings.searchSpaces}</h2>
-        <button
-          className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/80 backdrop-blur-md border border-blue-200 text-blue-600 text-sm font-medium cursor-pointer transition-all shadow-sm shadow-blue-500/10 hover:bg-blue-50 hover:border-blue-400 hover:shadow-md"
-          onClick={() => setShowFilters(!showFilters)}
-        >
-          <SlidersHorizontal size={16} />
-          {LOCALIZATION.buttons.filter}
-        </button>
       </div>
 
       {/* Category Tags */}
