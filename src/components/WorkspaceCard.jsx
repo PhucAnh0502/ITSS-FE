@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Heart, MapPin, Star } from 'lucide-react';
 import { LOCALIZATION } from '../utils/localization';
@@ -28,31 +27,30 @@ function StatusPill({ status }) {
 }
 
 /** Heart favourite toggle with a "pop" micro-interaction on tap. */
-function FavoriteButton({ featured }) {
-  const [fav, setFav] = useState(false);
+function FavoriteButton({ featured, isFav, onToggle }) {
   return (
     <motion.button
       className={`absolute top-3 right-3 ${featured ? 'w-10 h-10' : 'w-8 h-8'} rounded-full bg-white/85 backdrop-blur-md flex items-center justify-center cursor-pointer border-none shadow-sm hover:bg-white transition-colors`}
       onClick={(e) => {
         e.stopPropagation();
-        setFav((v) => !v);
+        onToggle();
       }}
       aria-label="お気に入り"
-      aria-pressed={fav}
+      aria-pressed={isFav}
       whileTap={{ scale: 0.8 }}
-      animate={fav ? { scale: [1, 1.35, 1] } : { scale: 1 }}
+      animate={isFav ? { scale: [1, 1.35, 1] } : { scale: 1 }}
       transition={{ duration: 0.35, ease: 'easeOut' }}
     >
       <Heart
         size={featured ? 18 : 16}
-        className={fav ? 'text-rose-500' : 'text-rose-400'}
-        fill={fav ? '#f43f5e' : 'none'}
+        className={isFav ? 'text-rose-500' : 'text-rose-400'}
+        fill={isFav ? '#f43f5e' : 'none'}
       />
     </motion.button>
   );
 }
 
-export default function WorkspaceCard({ workspace, onClick, featured = false }) {
+export default function WorkspaceCard({ workspace, onClick, featured = false, isFavorite = false, onToggleFavorite }) {
   if (!workspace) return null;
 
   const {
@@ -103,7 +101,7 @@ export default function WorkspaceCard({ workspace, onClick, featured = false }) 
         <span className="absolute top-3 left-3 inline-flex items-center gap-1 px-3 py-1 rounded-full bg-brand-gradient text-white text-[0.7rem] font-bold tracking-wide shadow-sm">
           ★ {LOCALIZATION.hero.featured}
         </span>
-        <FavoriteButton featured />
+        <FavoriteButton featured isFav={isFavorite} onToggle={() => onToggleFavorite && onToggleFavorite(workspace.id)} />
 
         <div className="absolute bottom-0 left-0 right-0 p-5 flex flex-col gap-2 text-white">
           <StatusPill status={availability} />
@@ -156,7 +154,7 @@ export default function WorkspaceCard({ workspace, onClick, featured = false }) 
           <div className="w-full h-full bg-blue-100" aria-label="写真なし" />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/5 to-transparent" />
-        <FavoriteButton />
+        <FavoriteButton isFav={isFavorite} onToggle={() => onToggleFavorite && onToggleFavorite(workspace.id)} />
         {/* Status + rating overlaid on the gradient */}
         <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
           <StatusPill status={availability} />

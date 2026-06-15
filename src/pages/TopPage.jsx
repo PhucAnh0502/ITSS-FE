@@ -1,16 +1,17 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Bookmark } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { useWorkspaces } from '../hooks/useWorkspaces';
 import { useSearch } from '../hooks/useSearch';
 import { useCategoryFilter } from '../hooks/useCategoryFilter';
 import { useFilters } from '../hooks/useFilters';
 import { useTransition } from '../hooks/useTransition';
+import { useFavorites } from '../hooks/useFavorites';
 import { LOCALIZATION } from '../utils/localization';
 import WorkspaceCard from '../components/WorkspaceCard';
 import { SearchBar } from '../components/SearchBar';
-import { CategoryTags } from '../components/CategoryTags';
+
 import { FilterPanel } from '../components/FilterPanel';
 import PaginationControls from '../components/PaginationControls';
 import LoadingIndicator from '../components/LoadingIndicator';
@@ -34,7 +35,9 @@ const PAGE_SIZE = 6;
 function TopPage() {
   const navigate = useNavigate();
   const { direction, onNavigate } = useTransition();
+  const { isFavorite, toggleFavorite, count: favCount } = useFavorites();
   const [showFilters, setShowFilters] = useState(false);
+  const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const gridRef = useRef(null);
 
@@ -63,12 +66,17 @@ function TopPage() {
   // Reset to page 1 when search/filter/category changes
   useEffect(() => {
     setCurrentPage(1);
-  }, [query, selectedCategory, activeFilters]);
+  }, [query, selectedCategory, activeFilters, showFavoritesOnly]);
+
+  // Apply favorites filter
+  const displayWorkspaces = showFavoritesOnly
+    ? filteredWorkspaces.filter((w) => isFavorite(w.id))
+    : filteredWorkspaces;
 
   // Pagination calculations
-  const totalPages = Math.ceil(filteredWorkspaces.length / PAGE_SIZE);
+  const totalPages = Math.ceil(displayWorkspaces.length / PAGE_SIZE);
   const startIndex = (currentPage - 1) * PAGE_SIZE;
-  const paginatedWorkspaces = filteredWorkspaces.slice(startIndex, startIndex + PAGE_SIZE);
+  const paginatedWorkspaces = displayWorkspaces.slice(startIndex, startIndex + PAGE_SIZE);
 
   // Handle page change with scroll to grid
   const handlePageChange = (page) => {
@@ -142,12 +150,7 @@ function TopPage() {
         <h2 className="text-2xl font-extrabold m-0 text-brand-gradient">{LOCALIZATION.headings.searchSpaces}</h2>
       </div>
 
-      {/* Category Tags */}
-      <CategoryTags
-        tags={CategoryTags.defaultWorkspaceTags}
-        selectedTag={selectedCategory}
-        onSelect={setCategory}
-      />
+
 
       {/* Filter Panel (toggleable with animation) */}
       <AnimatePresence>
@@ -170,8 +173,8 @@ function TopPage() {
       </AnimatePresence>
 
       {/* Workspace Grid with staggered animation */}
-      {filteredWorkspaces.length === 0 ? (
-        <EmptyState message={LOCALIZATION.empty.noWorkspaces} />
+      {displayWorkspaces.length === 0 ? (
+        <EmptyState message={showFavoritesOnly ? 'お気に入りがまだありません' : LOCALIZATION.empty.noWorkspaces} />
       ) : (
         <>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-4 auto-rows-fr items-stretch" ref={gridRef}>
@@ -190,6 +193,8 @@ function TopPage() {
                     workspace={workspace}
                     onClick={handleCardClick}
                     featured={isFeatured}
+                    isFavorite={isFavorite(workspace.id)}
+                    onToggleFavorite={toggleFavorite}
                   />
                 </motion.div>
               );
@@ -206,14 +211,25 @@ function TopPage() {
         </>
       )}
 
-      {/* Floating Action Button */}
+      {/* Floating Action Button - Toggle Favorites Filter */}
       <motion.button
-        className="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-brand-gradient text-white border-none flex items-center justify-center text-2xl shadow-lg shadow-blue-500/40 cursor-pointer z-50 hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/50 transition-all md:bottom-6 md:right-6 md:w-12 md:h-12"
-        aria-label="ブックマーク"
+        className={`fixed bottom-8 right-8 w-14 h-14 rounded-full border-none flex items-center justify-center text-2xl shadow-lg cursor-pointer z-50 transition-all md:bottom-6 md:right-6 md:w-12 md:h-12 ${
+          showFavoritesOnly
+            ? 'bg-rose-500 text-white shadow-rose-500/40 hover:shadow-xl hover:shadow-rose-500/50'
+            : 'bg-brand-gradient text-white shadow-blue-500/40 hover:shadow-xl hover:shadow-cyan-500/50'
+        }`}
+        aria-label={showFavoritesOnly ? 'すべて表示' : `お気に入りのみ表示 (${favCount}件)`}
+        aria-pressed={showFavoritesOnly}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
+        onClick={() => setShowFavoritesOnly((v) => !v)}
       >
-        <Bookmark size={24} />
+        <Heart size={22} fill={showFavoritesOnly ? '#fff' : 'none'} />
+        {favCount > 0 && (
+          <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-rose-500 text-white text-[0.65rem] font-bold flex items-center justify-center shadow border border-white">
+            {favCount}
+          </span>
+        )}
       </motion.button>
     </div>
   );
