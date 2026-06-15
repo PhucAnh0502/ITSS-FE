@@ -12,19 +12,44 @@
       "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtz1B9goXlz9UjCfSiZkJTb2yTxz7gxJJ0P1ZEoD5LWYqQL1_t9mm7QjPjFLgO0NPzqhpswmXq1B-l_qLPb-FlCc4xh_KMoNrfE04t-9CfYF7SYr_1JueWIh5jq2bwGDPdWgwsqw=s1360-w1360-h1020-rw"
     ],
     "businessHours": {
-      "monday": { "open": "07:00", "close": "22:00" },
-      "tuesday": { "open": "07:00", "close": "22:00" },
-      "wednesday": { "open": "07:00", "close": "22:00" },
-      "thursday": { "open": "07:00", "close": "22:00" },
-      "friday": { "open": "07:00", "close": "23:00" },
-      "saturday": { "open": "08:00", "close": "23:00" },
-      "sunday": { "open": "08:00", "close": "21:00" }
+      "monday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
     },
     "availability": "available",
     "rating": 4.5,
     "reviewCount": 128,
     "description": "HUSTから徒歩5分、静かなカフェ。高速Wi-Fiとコンセント完備で、勉強に最適な環境です。",
-    "amenities": ["wifi", "power", "ac"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac"
+    ],
     "quietnessLevel": 4,
     "hasWifi": true,
     "hasPowerOutlets": true,
@@ -34,9 +59,15 @@
       "min": 35000,
       "max": 75000
     },
-    "featureTags": ["高速Wi-Fi", "静か", "個別電源", "エアコン", "HUST近い"]
+    "featureTags": [
+      "高速Wi-Fi",
+      "静か",
+      "個別電源",
+      "エアコン",
+      "HUST近い"
+    ]
   },
-    {
+  {
     "id": "hust-study-rooms-1",
     "name": "203 D35 - HUST自習室",
     "nameJa": "HUST棟内自習スペース",
@@ -49,24 +80,52 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoeWG7Yv8Y7OnbZZaNECgaY7_Iv_GFYgJqNw&s"
     ],
     "businessHours": {
-      "monday": { "open": "08:00", "close": "17:00" },
-      "tuesday": { "open": "08:00", "close": "17:00" },
-      "wednesday": { "open": "08:00", "close": "17:00" },
-      "thursday": { "open": "08:00", "close": "17:00" },
-      "friday": { "open": "08:00", "close": "17:00" }
+      "monday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "17:00"
+      }
     },
     "availability": "busy",
     "rating": 4.0,
     "reviewCount": 95,
     "description": "HUST各棟にある自習スペース。授業の合間に利用でき、エアコン完備で快適。",
-    "amenities": ["wifi", "power", "ac"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac"
+    ],
     "quietnessLevel": 4,
     "hasWifi": true,
     "hasPowerOutlets": true,
     "distanceFromHust": 0.5,
     "areaSize": 60,
-    "budgetRange": { "min": 0, "max": 0 },
-    "featureTags": ["無料", "キャンパス内", "エアコン", "静か", "授業間利用"]
+    "budgetRange": {
+      "min": 0,
+      "max": 0
+    },
+    "featureTags": [
+      "無料",
+      "キャンパス内",
+      "エアコン",
+      "静か",
+      "授業間利用"
+    ]
   },
   {
     "id": "coffee-house",
@@ -81,19 +140,44 @@
       "https://lofita.vn/wp-content/uploads/2026/01/cofehouse2.png"
     ],
     "businessHours": {
-      "monday": { "open": "07:00", "close": "22:00" },
-      "tuesday": { "open": "07:00", "close": "22:00" },
-      "wednesday": { "open": "07:00", "close": "22:00" },
-      "thursday": { "open": "07:00", "close": "22:00" },
-      "friday": { "open": "07:00", "close": "23:00" },
-      "saturday": { "open": "08:00", "close": "23:00" },
-      "sunday": { "open": "08:00", "close": "21:00" }
+      "monday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
     },
     "availability": "available",
     "rating": 4.5,
     "reviewCount": 128,
     "description": "HUSTから徒歩5分、静かなカフェ。高速Wi-Fiとコンセント完備で、勉強に最適な環境です。",
-    "amenities": ["wifi", "power", "ac"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac"
+    ],
     "quietnessLevel": 4,
     "hasWifi": true,
     "hasPowerOutlets": true,
@@ -103,7 +187,13 @@
       "min": 35000,
       "max": 75000
     },
-    "featureTags": ["高速Wi-Fi", "静か", "個別電源", "エアコン", "HUST近い"]
+    "featureTags": [
+      "高速Wi-Fi",
+      "静か",
+      "個別電源",
+      "エアコン",
+      "HUST近い"
+    ]
   },
   {
     "id": "hust-study-rooms-2",
@@ -113,31 +203,59 @@
     "categoryLabelJa": "自習室",
     "address": "約700m（徒歩約7分）",
     "photos": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoeWG7Yv8Y7OnbZZaNECgaY7_Iv_GFYgJqNw&s", 
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoeWG7Yv8Y7OnbZZaNECgaY7_Iv_GFYgJqNw&s",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH1rYeC7XwmS_DgKnSdRNLcIc7mBIDtcMrkQ&s",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpI_AU-QdrGfsY8P2Qeh6JxBVkM6YipB6Yfw&s"
     ],
     "businessHours": {
-      "monday": { "open": "08:00", "close": "17:00" },
-      "tuesday": { "open": "08:00", "close": "17:00" },
-      "wednesday": { "open": "08:00", "close": "17:00" },
-      "thursday": { "open": "08:00", "close": "17:00" },
-      "friday": { "open": "08:00", "close": "17:00" }
+      "monday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "17:00"
+      }
     },
     "availability": "available",
     "rating": 4.0,
     "reviewCount": 95,
     "description": "HUST各棟にある自習スペース。授業の合間に利用でき、エアコン完備で快適。",
-    "amenities": ["wifi", "power", "ac"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac"
+    ],
     "quietnessLevel": 4,
     "hasWifi": true,
     "hasPowerOutlets": true,
     "distanceFromHust": 0.7,
     "areaSize": 60,
-    "budgetRange": { "min": 0, "max": 0 },
-    "featureTags": ["無料", "キャンパス内", "エアコン", "静か", "授業間利用"]
+    "budgetRange": {
+      "min": 0,
+      "max": 0
+    },
+    "featureTags": [
+      "無料",
+      "キャンパス内",
+      "エアコン",
+      "静か",
+      "授業間利用"
+    ]
   },
-   {
+  {
     "id": "hust-study-rooms-3",
     "name": "503 D35 - HUST自習室",
     "nameJa": "HUST棟内自習スペース",
@@ -150,24 +268,52 @@
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoeWG7Yv8Y7OnbZZaNECgaY7_Iv_GFYgJqNw&s"
     ],
     "businessHours": {
-      "monday": { "open": "08:00", "close": "17:00" },
-      "tuesday": { "open": "08:00", "close": "17:00" },
-      "wednesday": { "open": "08:00", "close": "17:00" },
-      "thursday": { "open": "08:00", "close": "17:00" },
-      "friday": { "open": "08:00", "close": "17:00" }
+      "monday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "17:00"
+      }
     },
     "availability": "available",
     "rating": 4.0,
     "reviewCount": 95,
     "description": "HUST各棟にある自習スペース。授業の合間に利用でき、エアコン完備で快適。",
-    "amenities": ["wifi", "power", "ac"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac"
+    ],
     "quietnessLevel": 4,
     "hasWifi": true,
     "hasPowerOutlets": true,
     "distanceFromHust": 0.8,
     "areaSize": 60,
-    "budgetRange": { "min": 0, "max": 0 },
-    "featureTags": ["無料", "キャンパス内", "エアコン", "静か", "授業間利用"]
+    "budgetRange": {
+      "min": 0,
+      "max": 0
+    },
+    "featureTags": [
+      "無料",
+      "キャンパス内",
+      "エアコン",
+      "静か",
+      "授業間利用"
+    ]
   },
   {
     "id": "thu-vien",
@@ -182,19 +328,45 @@
       "https://library.hust.edu.vn/sites/default/files/29052013Picture1.png"
     ],
     "businessHours": {
-      "monday": { "open": "07:00", "close": "23:00" },
-      "tuesday": { "open": "07:00", "close": "23:00" },
-      "wednesday": { "open": "07:00", "close": "23:00" },
-      "thursday": { "open": "07:00", "close": "23:00" },
-      "friday": { "open": "07:00", "close": "24:00" },
-      "saturday": { "open": "08:00", "close": "24:00" },
-      "sunday": { "open": "08:00", "close": "22:00" }
+      "monday": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tuesday": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wednesday": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thursday": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "friday": {
+        "open": "07:00",
+        "close": "24:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "24:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "22:00"
+      }
     },
     "availability": "busy",
     "rating": 3.1,
     "reviewCount": 203,
     "description": "広々としたカフェで、グループワークに最適。大きなテーブルとホワイトボードを完備。",
-    "amenities": ["wifi", "power", "ac", "projector"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac",
+      "projector"
+    ],
     "quietnessLevel": 1,
     "hasWifi": true,
     "hasPowerOutlets": true,
@@ -204,7 +376,13 @@
       "min": 40000,
       "max": 85000
     },
-    "featureTags": ["チームワーク", "ホワイトボード", "プロジェクター", "深夜営業", "活気あり"]
+    "featureTags": [
+      "チームワーク",
+      "ホワイトボード",
+      "プロジェクター",
+      "深夜営業",
+      "活気あり"
+    ]
   },
   {
     "id": "thu-vien-1",
@@ -219,19 +397,44 @@
       "https://library.hust.edu.vn/sites/default/files/29052013Picture1.png"
     ],
     "businessHours": {
-      "monday": { "open": "06:30", "close": "21:00" },
-      "tuesday": { "open": "06:30", "close": "21:00" },
-      "wednesday": { "open": "06:30", "close": "21:00" },
-      "thursday": { "open": "06:30", "close": "21:00" },
-      "friday": { "open": "06:30", "close": "21:00" },
-      "saturday": { "open": "07:00", "close": "18:00" },
-      "sunday": { "open": "07:00", "close": "18:00" }
+      "monday": {
+        "open": "06:30",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "open": "06:30",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "06:30",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "06:30",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "06:30",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "07:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "open": "07:00",
+        "close": "18:00"
+      }
     },
     "availability": "busy",
     "rating": 4.7,
     "reviewCount": 312,
     "description": "学習専用の図書館で、完全に静かな環境。試験期間に最適です。",
-    "amenities": ["wifi", "power", "ac"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac"
+    ],
     "quietnessLevel": 5,
     "hasWifi": true,
     "hasPowerOutlets": true,
@@ -241,7 +444,13 @@
       "min": 0,
       "max": 20000
     },
-    "featureTags": ["完全静寂", "学習向き", "広々", "無料", "試験対策"]
+    "featureTags": [
+      "完全静寂",
+      "学習向き",
+      "広々",
+      "無料",
+      "試験対策"
+    ]
   },
   {
     "id": "bach-khoa-hub",
@@ -256,19 +465,46 @@
       "https://hust.edu.vn/uploads/sys/news/2023_11/20231103-cbo_3457.jpg"
     ],
     "businessHours": {
-      "monday": { "open": "08:00", "close": "21:00" },
-      "tuesday": { "open": "08:00", "close": "21:00" },
-      "wednesday": { "open": "08:00", "close": "21:00" },
-      "thursday": { "open": "08:00", "close": "21:00" },
-      "friday": { "open": "08:00", "close": "21:00" },
-      "saturday": { "open": "09:00", "close": "18:00" },
-      "sunday": { "open": "09:00", "close": "18:00" }
+      "monday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "saturday": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "sunday": {
+        "open": "09:00",
+        "close": "18:00"
+      }
     },
     "availability": "available",
     "rating": 4.4,
     "reviewCount": 145,
     "description": "スタートアップの雰囲気あふれるコワーキングスペース。会議室とイベントスペースを完備。",
-    "amenities": ["wifi", "power", "ac", "projector", "parking"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac",
+      "projector",
+      "parking"
+    ],
     "quietnessLevel": 2,
     "hasWifi": true,
     "hasPowerOutlets": true,
@@ -278,7 +514,13 @@
       "min": 50000,
       "max": 120000
     },
-    "featureTags": ["クリエイティブ", "会議室", "イベント", "駐車場", "スタートアップ"]
+    "featureTags": [
+      "クリエイティブ",
+      "会議室",
+      "イベント",
+      "駐車場",
+      "スタートアップ"
+    ]
   },
   {
     "id": "study-corner-hbt",
@@ -293,19 +535,44 @@
       "data:image/jpeg;base64,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"
     ],
     "businessHours": {
-      "monday": { "open": "06:00", "close": "23:00" },
-      "tuesday": { "open": "06:00", "close": "23:00" },
-      "wednesday": { "open": "06:00", "close": "23:00" },
-      "thursday": { "open": "06:00", "close": "23:00" },
-      "friday": { "open": "06:00", "close": "24:00" },
-      "saturday": { "open": "06:00", "close": "24:00" },
-      "sunday": { "open": "07:00", "close": "22:00" }
+      "monday": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "tuesday": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "wednesday": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "thursday": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "friday": {
+        "open": "06:00",
+        "close": "24:00"
+      },
+      "saturday": {
+        "open": "06:00",
+        "close": "24:00"
+      },
+      "sunday": {
+        "open": "07:00",
+        "close": "22:00"
+      }
     },
     "availability": "available",
     "rating": 4.0,
     "reviewCount": 78,
     "description": "個別ブース付きの自習室。一人で集中したい時に最適。時間制料金です。",
-    "amenities": ["wifi", "power", "ac"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac"
+    ],
     "quietnessLevel": 5,
     "hasWifi": true,
     "hasPowerOutlets": true,
@@ -315,7 +582,13 @@
       "min": 20000,
       "max": 45000
     },
-    "featureTags": ["個室", "集中", "時間制", "深夜営業", "個人向け"]
+    "featureTags": [
+      "個室",
+      "集中",
+      "時間制",
+      "深夜営業",
+      "個人向け"
+    ]
   },
   {
     "id": "dong-da-library",
@@ -330,19 +603,43 @@
       "https://lhdgroup.vn/uploads/du-an/lap-dat-cua-nhom-kenwin-quan-cafe-moc-tran-dai-nghia-3.jpg"
     ],
     "businessHours": {
-      "monday": { "open": "08:00", "close": "17:00" },
-      "tuesday": { "open": "08:00", "close": "17:00" },
-      "wednesday": { "open": "08:00", "close": "17:00" },
-      "thursday": { "open": "08:00", "close": "17:00" },
-      "friday": { "open": "08:00", "close": "17:00" },
-      "saturday": { "open": "08:00", "close": "12:00" },
-      "sunday": { "open": "closed", "close": "closed" }
+      "monday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "12:00"
+      },
+      "sunday": {
+        "open": "closed",
+        "close": "closed"
+      }
     },
     "availability": "closed",
     "rating": 3.8,
     "reviewCount": 45,
     "description": "静かな公共図書館。利用無料で、参考書も豊富に揃っています。",
-    "amenities": ["wifi", "ac"],
+    "amenities": [
+      "wifi",
+      "ac"
+    ],
     "quietnessLevel": 4,
     "hasWifi": true,
     "hasPowerOutlets": false,
@@ -352,7 +649,13 @@
       "min": 0,
       "max": 0
     },
-    "featureTags": ["無料", "参考書", "静か", "公共", "エアコン"]
+    "featureTags": [
+      "無料",
+      "参考書",
+      "静か",
+      "公共",
+      "エアコン"
+    ]
   },
   {
     "id": "cong-cafe-bach-khoa",
@@ -367,19 +670,44 @@
       "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=600&fit=crop"
     ],
     "businessHours": {
-      "monday": { "open": "07:00", "close": "23:30" },
-      "tuesday": { "open": "07:00", "close": "23:30" },
-      "wednesday": { "open": "07:00", "close": "23:30" },
-      "thursday": { "open": "07:00", "close": "23:30" },
-      "friday": { "open": "07:00", "close": "24:00" },
-      "saturday": { "open": "07:00", "close": "24:00" },
-      "sunday": { "open": "07:30", "close": "23:00" }
+      "monday": {
+        "open": "07:00",
+        "close": "23:30"
+      },
+      "tuesday": {
+        "open": "07:00",
+        "close": "23:30"
+      },
+      "wednesday": {
+        "open": "07:00",
+        "close": "23:30"
+      },
+      "thursday": {
+        "open": "07:00",
+        "close": "23:30"
+      },
+      "friday": {
+        "open": "07:00",
+        "close": "24:00"
+      },
+      "saturday": {
+        "open": "07:00",
+        "close": "24:00"
+      },
+      "sunday": {
+        "open": "07:30",
+        "close": "23:00"
+      }
     },
     "availability": "available",
     "rating": 4.3,
     "reviewCount": 198,
     "description": "戦時レトロスタイルのカフェ。ユニークな空間で、ベトナムコーヒーを楽しめます。",
-    "amenities": ["wifi", "ac", "parking"],
+    "amenities": [
+      "wifi",
+      "ac",
+      "parking"
+    ],
     "quietnessLevel": 2,
     "hasWifi": true,
     "hasPowerOutlets": false,
@@ -389,7 +717,13 @@
       "min": 29000,
       "max": 55000
     },
-    "featureTags": ["レトロ", "おしゃれ空間", "ベトナムコーヒー", "フォトスポット", "人気店"]
+    "featureTags": [
+      "レトロ",
+      "おしゃれ空間",
+      "ベトナムコーヒー",
+      "フォトスポット",
+      "人気店"
+    ]
   },
   {
     "id": "ta-quang-buu-library",
@@ -404,25 +738,2985 @@
       "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXFx8aGBgYGBkeHxoYHR0XGBgaHR0YHiggGBolIBseIjEhJSkrLi4uFyAzODMsNygtLisBCgoKDg0OGhAQGy0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAAIHAQj/xABGEAABAgMGAwUFBAgEBQUAAAABAhEAAyEEBRIxQVEiYXEGE4GRoTKxwdHwFCNCUgczYnKCktLhQ6Ky8RVEU3PCNGOzw+L/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMABAX/xAArEQACAgICAAUDAwUAAAAAAAAAAQIREiEDMQQTQVGBFCJhMnHhUpGxwdH/2gAMAwEAAhEDEQA/AKokHcxthO8RXZIM1GKXiSxbCplB+qiCeoMFrs81AdUpxvLr/lLK8njn0tHXRGlPOJ0dT5mB5U5KvZLkZjUeBqImBh0xQuWrr5mGVjWas5GHfIumvgHH8ULLJgrjLAB6DbP090HTTLQtknGMObMxKXo7N8iYZSFodWa0wxRbi2cVeTaIKTafpoophG1pnFdMvrnCa2Sc3KvBvlEip0arnPm5hXMwqnSE/nmeaflA5sif+pN/yH4Q5s65apmBSVJO5BI11Cqf2gpd1S3cLR5fMwjmvUFFbNmQc1zH/wC3JPwg+7rtSsOlQLHJUmS5yOYGR3guZY5KSypiA+XoKOfDx5wTIlIluUqz6/KJykq0FJi+7ZneJKjKRLyKcI0Ic1ZwRVPhEq5XNX8x+cFSwgPhpnorUk9MyfOPSkfm9TEmxheqRzV/MfnEapfXzMHLSN4hEtJOXpAswCqX18z8417rr5n5wwMhGw8ozuU7Dyg2AXiX9OfnEiUHb3wZ3IGgPl8YxMr9n/T84JiBElq/QiXu/pomTK/Z/wBPzjbuh+X0Hzg2Ah7uMwefJoy0T0IOFQqckpAKiN2Bduem8Ir2tc3HLlpwyFTFAJBwqWxpiU3CgUbV2oaQyVgbG1pWmW2NZBPsoFVKOwAGJR5CE1/TbQiUtaSJSUgEhRSZpSS2LAKJDtmXrpFpsdgRJdknEfaUolSy25JKiKmmkJ7Z2TkTbSZ86ZMKSC8sa0YJCgRgR4E57vDqgOwuw3DJQxLrmarXUnf2vZHIMIaoso3AgOfb0pzPmYilW1SjwIV1NB65+ELbCkNPsf7foPlAdssuAuC490HWCwTFniU3JPzPyiw2K5kD8AP71ffQeEFRZmyjx7Fqn9j1YjgmAJ0BBJHJ9Y8g0zWivTuyZ70GXNWBUkKy6UZh4QZMu5csVlFYFHSsO+WSvhFvt1l7uaUnUUgqy2ZEyTM/Mmr+D/D3RxKcmvyjsagt+jOMX7hWpa0JCVS0AGVaCyi6vblnhxMCxS71BDsWDXPSwVLKxulXGBuxYKYbuaaRY+3FkpiGlD8Ird22lSMMxCilSS4IzBz+MdnFNTgjl5YuMj2TeIOniKj1APpB1ntbKSUllAhqtr0PuhYZQ2ar0De6J5chhic0qzPUVHXpFKRPJjuZeq5gAWsqAyFB7o8TPEJ0oIOZiVjvGNY3E/nHpmwpBVvGYlbwGg2WO4e5+0Y55V3YlqGEZlWYqN/gICt1mmJShU1LY3MpakJJCDiwqYZ+8s8KhMVDKy3uozEKny+/CWASpRoU+wXBejBhlGszISlS0EKLlOagWOTPQ51HnGi5KlSilZDs4Jr0d9YiNoUCSAQAXbcJq3pHsyaQpSC5YkEsa1YmEdh0H2EkIAdPgG9A4ETlR5ef9oWpteEtWhP4flG9nvosSgpYuHZJcbgufMRNxdjJoMUpv9zGqZnMfzQvNteN02rmIWjWMQsfRjzvatTz/tAiLU+qfOJTaBunz/tAo1hcs9POJkphZ9tGQLnZJcuXZ9Eu2pEZgnzEq/wnVhQokpClMkklZFUDEHwjMEPDqILGFptiZZAU+IsyUglRdgMvZDlnNOcAXvaJgVKljGkzFMlMtOJRAIxYlsQlkklkhRpmM4ImizPgPEkLCmQSO8KS4cjiUDzr0IBEyrwmOcCSnE4L8NDmN25Q6SQGESkSZThISHqS7knJ1E1UeZgZV62VExMwlBmy3wHC5STQkav/AL5iIF2ZSvaV4JDepeFFgurESdg5gqLA2WGxWsTv1SSQ7OXAfxr6QxmXIspcnwHzP9oadjLhCZCVHXEf8xixLkBmMOoGs5wmxJSaJD7mp8zWDbHIcwTekhphEM7isn4jASCxtdN3AAEw/stjED2SVk0N0hhFKJtmgkJ2jyJYyNQllNv62hRSobQBZLyMuYpINFy6jmCa/wCYeUKZtpJEDTrTxIL6keYf/wARHjRi3dnsVFKgbtRxS1xSbuDpI2P17ot98TOAxV7oCMaknFk9G5bnmY7PD6i0cviNtHhETyQ4IgiZJRm6v5Qf/IRlnQhzxK0/CP6o6cjnoFlXTNUApKqEPqM+RAjQ2ScAeIONHSKMXLnXINq8XHsEj7TYzljROWk004Vh9zx57NAF9WH2wQyg3vb4xXQhWpRmBaAohlFsgds2I330h3Nu5QDlIH7pUzb1eF9plpQmQSP8QP0o/ujol6XKQlYTkAfdGaQE2c8xpFSk/u4i/wD8ZESpKHAcgu2ZIo5/IA1MwTAdrsjKVk7t74PtFkSMDJzWB4EKELSDbN0yHPtJan4kvXqQPWCZVml4mxBIf8SpfJ64949kWYJVgFScuhIS/rE9psgJwtTEw6Go98DFBtjG7rJZ1JCgQS5HtJJBSkbGkDXldgU6kpIJ0CQB5IpEF1XW9nKi9JqhSv4JTe8wXYbnckJgYI2TEc6xYXKuEbqSsctU1/3gSaiX+dJ/hX8Uw9vCyqlWhSS4eQ7gkfj3EUu9Zs5ExSROms3/AFF7PvA8tGyDjKSsEAPUBm3ygO1y0uMKcJYBTKUcRD1qeGmgpSJ+ya5sybhXMUoYSo41KIGEGtTTON50hOP9YnyX/TCvWg9mtktHdIKUoTiJJxkOQ6SkticJzJcB3LvQQuWglgSSOZMM5kgM+NPkv+mBCkU4h5H5CBkai6dh7pEwAZAJBPwhla7uKZmAamhht+jOxvK6gV5BI+Jh1bbMHFKiHUdGsQ2y6EplUzArCSwyMKVfVHEXe97PhlEkUKDyzpCKxyEFKiEqOQqoHnokbRm66Mtlv7OWf7iV+4DlvWCr1kgBxBdgRhlS07ISPICBr7U0tucUEvZRr1Q80c4eXbKYAQqmJeY8PrpQ6gIVDse2OUyYIjBGQ5IyMjUrEZAsxwdVgf8A5i0fzj+mB59mwH9dOV+8sHJ200iZFpceEQTJrkda9NY8+LdnoySohtJBFVKPUg/CFFiGC0J2IL1/ey5ZUhgrIbwtnFpiD+0x8SP7xaD2RmtDqfMEa2ZnJdgEknkBUnoz+URKl1FPGNkyAoKQX4kkU6f2itkhr2MvH7GibLVKW4HfLUkpUClRUlJAScQACa7M9AQ4t8doETVkpxB9x/eK32cs4+0JCnqCzO+JuEUOpblB1+WJMsjACHG5PvMUTsVo8vK3BcsJBLhQPoofGOhDtnLXLI7q0ElJDplvmN3jlRmBw21a6xaLJbVBAr+Ee6GYgAq1JVMUo0BLtrnyizWielUmXhlTUqC0ELUhkPiAHE/OKhMX951A9wMXCTO7yzIl7lA6cSS/vhLD6k93KHeYyibiDhKQjRTVVWjEevKD74tCSAsSZiQGLlIGXjyh7ZuzJUlCklSVkcYWCG5ZPEnaS6B92EjChRwEu9TqB0+EJmPWytXHZkTJfdd9gSqYohdaEBObjYdKwZYp5lOUSzMByIKQ7U1jftJYE2USxLKuPESFaKwhyGH0YRybeU2dCtWP+oxoytmcdEV/TyueuYUKQsyQ6SoKZIWgAhsneoioXzLdRKkqSWOYG27w1n23GqaSf8H/AOyXCS3zgX4np8GhxSxfo1lyHnLmqWCkJAKaEBQmEVFTiwmg/KXzga9JCBOVhLpcsWZw4aI+xknhnq0+6Dcx9ob0ia1qcty+UTcdvY16QFaSNIXKFfrnBFoLGuUCLnPASozZ3H9GyGlJH7HxEMlz5S5qUImy1KKmKUrSSKlwQC4aFHYqbgSgD8oELLkKTb5KgNFK6OD/AFNBlyYuK9xowyUn7Fw7XAdz4fKKhdsx0kbke4+sWLtzaGltFSuSe60DeYkU6j5w7EXR1cCEV/z3ITtDO22sITTMxRe1F8iRLM0pK+IJYEA8RbMwzYIo3FVRZLh9qOaWftpJfikzk/wpU38qvhF77H3zKnuZSiQGBdJDE9R7oRSTHlF0W6BrZPwjmYIKoS3hOxKYQ8nSJxVkK7UXjIiTLp7Xk3zj2IebD3K4s4lLtAbYOwHpHqFuDAEotiByCtYz7agUBxHZIf3UiLW9F70H9448YWXqag7GN5U9ZyS37x8ch1ga2IUzlT8gGEMtMV9FiYkhqklgN3yHWLddnZdLATAVTFUIBICXowKSCTzdvfFb7IqHeImKyQnFXLEwGtHqT4RdbuvVKD3hUjN3JAGhZyecQ8TySX2obiiqsnl/o7s6AF9y6k8QZa3BDEfi0hD2j7NInDgPdqD80nlU0Pi3KL8rtfZ8GLGh/wB9LP5xSLd2js+MvOQ3IvqNB4wi5MZLypN/uaMW081Rzi33UqTUnIs2EhjUamDbIsYBX8I12pEvbibZ5ixNkLCnACqKDkEAKY5OkgVH4d4r1nUXDLILHU5CtGMepFtpNnJJUTz1nET9Nl8IuPY095MlSysILggnIMXHqGiozu8wuZilAFqk7ganmI2+2rQkgLIDZAmorSkZxbQuSTO4W3tSJU4SCoEAgFTgDXP021gK/wC3Slz5SUTMDkE1cJ9llM9Dntl4nkttvBbgd8phRipXNtcmaBjesxPsTSMtSITBj2jqvby0qWtMoTELwYSS+b4gxbWj83EUadPUJIQouQNC/wCImE5vVRWeJRJKSG1YLpU5F3gQWxRxVUWBzYMHFda8uecNGNGfsEy5zGY//S8x3sj5wNOtPu//AFpA1oUtD4kkYpZAetMctT0Aq7eYgW12ouQyRzAL5ZVJEM0hS69kEnurQolkqKW5FIWr3LEDTpwKjyyiPstOJs09WLiK0hjhSAAk1egc/AQN3iQs4piBT9o/6UmEbSbGSs3tJfOFhIcQwmqSrKYjxKvczwuRLIWKpIcZEHUaCreECw0ds7OFu7HMQo7PWh7Ukt/hKPrLDf5vSDrkmuE4TpQ7GBrkuqdJnqMxAA7tgoKBCjiBprkNRE+RNyiykJJRkgrtta3QP3vgYr1xTvvpQoeMK8qt/lfxg3tsuksb4j5YfnCfs5+ul00UT5KHnlFrJHSLdbH8oov6QZ/3MoUrOHoiYfGrecWabMik9vZ3FZ0b41eWADn+I+sJN/ax4LYikZx0v9HIaStWqpqvJISB8Y5tZBX65R0/sOlrHKP5sSvNSiPRo5uLci/L+ktsy1lmip22+0rJCDiDs6a5M9RQQ7WqkILxuGyrJUqzyiou6ggAnm4r4xblhmquiMGou6M+38lDwjIVzOzlmJfAsdJ08DyC2EZHJ9E/6jo85exzGXY04yFOugIKj1Bg6WkAUAHSB5tJieaSPcfnEqTFpNsVI1QplKHQ+dPhEVsPCenurHq1cY5pI8iPnGk00I3jfkwRZEJXKTiSFNuNiW9I3lypYNEJ/lEDXUv7vx+RguVKKnOSRqcunM8hFyCCJ88IS6QHDaDcekK7Veq1OKdQG90TWu1S8KktMqDUgDLVmJIHWFaZKSf1gGpBDUfStd4MEjSbJTNJlLcnKmbULttEdjSCQ+JnYts2hbPxiafZUJSod5jNaDTmwfWF932sBJSdToCTUNRosydljnS7MoLwypxKWcqWXRwpKnBYKc4iBsRAN5SUBSgmWwYtrkdS9PMwnlXlMQqpJCvza6GD5k9cyhUGIOpJbLICnlBU0lRzy4ZvkzT+N/4ujVaVKAIQokjMGhUNaDLk9IitEpYqQ3jWjk6vDWwXNNUlsJFAUqwkb5b/AO28ET7kWlknvFKU+FLniZycmenuifmLqzpwfsJJk9aSoCimSx5cQIqNXB5YY8Fszd1PTPR3pSCZF0WigNlWDqcD9TXLwhVNAQ6VKwqFFAgUUKEVNC9IGd9DKLXZPaL1KlEFKVjIYgE5lJI4TQYhvp1hgpclclxJAmnN15MWokIJyzciEH2ZRGIM1WqNPSGKbXMRLTxBL5GlQKGv5gw84YXsPu+Qru1KQQ2LiyyA51zI0gKcCCTiB3JcNkG9mrv6QbKxiScBSysKgpaCMQGNJKSFezlVql9qgKCy+JSBvwlvUwGrAnRAma6+gPwrB13rAUVGoCSf7RFKsCUgTAoFJdJwk0IbMEQT3LJVh1GsK2loZJy2XnsX2gkMELJlkZLclBc0Cway2yBHD0zi7zrYQoBQZxTIgjQgihEfPsqcpCnBYj6ruIuPZrtcuWO6WAuW/wCqUWHMy1Zy1csjCWymKZce10rvMDaA+pHygHs3I+/fZHxSPjDmxXhImSzhxKliqj/iStxMRngH50vzaBezcxBtE7CoECgIyIxKY+gjKQlDlYiidtS9plp/LKfX8Slf0R0aZKjnfadD21YLBkIAG4Yq15qOW0Jyy+0pxr7hbJSwJ2D+Qjq3Z+TgsshOolJf+UPHM1yCUkDNVB40+MdbQhg2g+GUJ4f1ZTm9EZNNPr6/2gC0QZNgS0R0ECl312qTInLlEkFLb6pCtEneMijdqrQF2yef/cKf5eD4RkRfJK+iqijW2K9g7LHq4+MSY4Gt5+7PRx1BBEed8VeyGG5+A1he0NdM3tU3DhJ0PvB89IiWpSt0j1/t740nIAS+oILnPME9A20QWqeQoDQiCvwBhl1W2WjElTqL0TpmQXLudKBuoiS1Tis4itVCwSwCUpZ6AGmcV8LjZKorRMYTbSABo6dtdY8ss1BFamBJquFNTr8I3RaEbnw8fnFI7Jy0x3YbMlRquWmmZU1Opo8IblPEQfy+oIhhY7t71lFJKHSCX1UQhPqRD6w9mQF0SAG1L9aggxvQHqUaYDi5Yqcqxcuwd0m1T0ysB7pIxzFKJ9kfhDNVRYdHOkFz+y8pb4FBChyYeUXrstdwsknCkcSziXv+ynoB6qMQ8Ty4Q12W4YZSLDJulGWEQns9mlzbbOZAazoCApz7S+IsMqVG8MJ1592hcxThKElR6AEmK/2Mx/ZzNUTinzVTD54R4HCT4x5kU1CUvj+/8HZJ3NL5LB9gS/jHK/scxM6cVd2MU1ajwpBqpRzRxFn31jrVkDqDxy6xHvSFEjEXdzmSWNNN67x1eBv7vgj4t3RiLPJIIWkLJVic19S5bm8U+SrhEpRCCkAuE4sWIOaOOIOKvVuQi+KsDddgx1GUVO9bse1KRLlF8IOFID5JBLEtttHoJnGCSiuXLWv9YzEhIIwiuIk1ZNRX3a5cs02ibgCcNCSol2ZtkwVJeV3sibKI7xGFYxJcVooYCeIHIZVrEPZMGXbZiUpKhhmJKCl3T+HEFCn4SHaoA1MNd2BroNtVj7tJIWlTZgO42MB3faUhTK9k+n9of3hZ8C1EpQFD2igKwkHJVUsARtntA9jXKE9JSCkkgmq2fTQlmOoPhlCdjJ0DXrdAIxJoegr5GEAQQ4I6iOxXl2fPdCcAkJVmkKJOJ2ccAocyN660o18XNqKGJy0WjvaALrvZctSVBSgpPsrSeIfMRfLivuVMPGUSpqvxgNLmHdYHsK/aFNwM457KsxyyVqNxEqFYPiNolnTKYWjscm1KScKwys2Oo3SRRQ5iJ7Td8m0IwzEBW2hB5EVB6GKBcPaEpSJax3sr8pLKQd0K/AfQ0eLpYbSCnGhXeS9S3Gj99O37Qp7odSUiTi4gA7IzJc2WUL7ySFpKgqi0gEE1oFinI11i4qEQ2W0ggHMbiCjX66w0YqPQspN9g0wQJaGAcmgz6QetMJe1E7u7JaFbSlMeZBSPUwzYEcfkyRNBmK9palKPiomMguzyGSkbAe6PY4XN32diihHLkA1UcR55DoIyzL4E7s3lSJEKgFdrCSUjNz5ZxdXLRF0iW1TOEpzcQvmTMWFR1FB84nmTCeUaTEJHsrrTQ0zdm2+MWjGicpWC4DyjYJMbTpgAZ3OjP9ecQ96pjnltDUxbQfNkMkAsHNNTkQPU1EPbmRZSVmYhJBW6BgJ4SkUDBgHekQWK5VTZaprlS2dCUg+RLMl+sWCV2fSioC35AfHTyjLoD7NrMhJlT0y5dBMVgYEVZC0pYCmm0OpNmOiQNWTV/LP68SLtsQCVHAxUQSCA1EoQGqaMkEwfKkuaigOlB67/AA6wbNQNddlSpWJwQM/Zz0B3HyMOxUxAMgAG0AjeWC8eRz8uc/wd/FDGIh/SFbTLsglo9qcsIDbDiPV2CW/bh5YLMJMtEoP92kJ8gA/WK5bsU+8pctPsSQCqj1bvP6BFqMovA5dQjH5/4CG5SfwG2FWrZf3jjHZZ1d2vE5xj1IJdO/yEdimpwyln9hR/ymON9jUBBmCvCpJAQcndQrrSn8Jzjq8EqUvj/ZDxLto6HNusAheNKA7VThyrVT0dvUwjTdw+3LmBbhUnhZVAkGUliXNSXPhFx7orJxrGEvQkuXJoXpoY8XKTi4UpJS1WFBQkV0fdnY837bOc512lsWHjIHdJIdiSVVDhzqGMVy7r1R3o+0ISspGHvGdTpJD8w4ca1z0jqfa6y4kWdJIUlU9OMhz93xFebuGPoY5te13nBZpkwpCZirQUYQrhGLG6mS9cQAAxUAOsDuxrqie+LVLmyJtokuoScIIUhQAxLAAxYhWpLNpzEQIsk9FplyUd3jXKEx/vGAIUSKLqKdCIHTe4KMM5jo5BIUAWJZmZxWmYpDuw20LvBNonoGGXI7sBKgHKRhSanJjWtc9YeKpUJJ27G9t7Q3kmQZU1UkIAJA7n/wAsWY3GVDtC65b3MzFKngBX4VAMFO7CpJeh1ORh9e3aCyTZZl90pKmoQtKt2diXGbvWsVhdwzZ6eEyQQoFJC1DCWNXKA2n00K4trY8ZU9G15WNi4oRzgfEmbQsmYMjoqGiJMzDhm4StPtKSXB5v9fJfbLI1RmNRHLOFM6oytAoSUKrwqDUGun93h3dF7KlqCkqKFDan+45QolzQvgXRWh+vdEcwlJOJ8WYL0PziJQ6ldN7om5FMqadMpa+n5Dyy6Q9kWypSoFKx+E/DeOM2a8CkstxlntmD/eLddXagAJl2gGZL0U/GjodRqx8nMdEOX0ZCfF6xOhia8AX3diLRJXJWThWKsa5gj1EDSbUQkLSrvZRyWnNPJQ08fAmDJVpBDggj68jFiHRR5nY60AkJmS1DQqxAnqACPWMi894IyJeTEp5kj5z+2E6ehiAykmpCjv8ATxH3ytzE8maWNTkdYqqXQr2Ymyy5iWl4gt68VMOWW7vXlEMqyELIIYZOfJ/OI7JMZSBukjzKm9YbS5QAdWXPVsz0ENJ46FSy2BSrAV8SQcJyHofUQ4uu4lLIxIU3IHLct6bwx7HuqUcKXZZbRgeIdA757RaUy2GKaroAdmIoNaaZPzpmwYm3Z6wTJchCZiAkhIxVGeRfrB8+zknFjUANEsAdNAW0aBrNJTMVwlRA3yAq3MDRi7+cHzAsCmEA55lvc+2UKMRmckF3URzPxFTRvDxj2beCkpxiWtYJZkJdW4JBNBSp3bekcqQsFxhH1Tx67eUc4znJxy8Pu59epaC4qSoCdOwC19tESVNNkzEFnAVhBbdnyp6REn9JNn0Qs+KR8TFJ/SK32twSXlpObtVQYbBgD4neE027ylKVU01365RH6LjKfUzL5cHb2TLmz5sySeInDx+1iUSSXFGATRoeJ/StZmfuFMP2x/THLLtsuJySGGY1pX4wZeVkUZQAS3EGZqkuA2mZikvDQk7Yi5ZJUX68/wBJ6Vy5iE2VQxIUkErVQlJALCX8YrdwKIUtaEsFBBD0dgujA6b5VMD2MqXLSEy1kFNSDLAqP2lj60hp2QcSQCKiiqseEqByNQMoMeOME6FlNy7Ojz1KWBwJYgEKBq5DafLbx2lWYO7uzHQ1diAACxzDh8zyiOySVqSFJJJIoXLV+L6vGk9CUqaao42ctUVL0OlBydjGsIJ2ytAk2dMwlQCFBRZLhQqlIOTF1Audor9ks0u1JuqSsoUg9+iqQ4T3ZWh82UDLTUbcy9o7WSlrsFpS4LyVHUE4eLJqlwzUrHPrjvtEmXZMUgrVIVMUXXhCxNE0AOxZgt/DTOMnSNTYxvnsUmVaPvZU6bZsJOKUkKKVEoAonAcIFNXKvKspWFLmoS57tasLpKSZTnASn8JAzGlItl99ohaZWFEoyi44hMCizuRVDVDjKnpAvZ7s6j7xSCceaV5qSCkCpVnxpUc+VdXjLQJRaEctD7A7HI5vXIQ3uy0FBKS6XGxpsW1+UT3j2Rmy5Uyd3qsKJa1nClH4ElWSknNswWrSElxXdaZ0gThOKQ5ZLJAcAEEcJetNIe1QhcbPZSmij7aXPKqgG3BoXyOkR3pdK5bYhRSXSd6VHUaiKaZ1qCyJs+aCAAGLZUAokUpSCrTetpGFSp86YlH4VrUpI0fCS3yiXJTLcbaNbdZWMQptIIwL8D8RsYbd8majvE5ajY7QntkmOaUToTNJoCTxuU6EFn2zdjyjSRa1IGTpdjs9W6GhjVE+mBdQd4HnJI3w/WcBINlnue/plnV3klbJ/Ek5F6MofHzG9pPauyFOMLMia3FLwqUhX7pALdDTmMo5LMGJQTvn019IsNllYbNMmkVIJT0AZPnDqTiibSkdLl38kgEpNRoR4Z1jI5zYp9oRLSkLLAMMj6kPHkWOfZSgYIkmh6ZwHLB1yh7Z+z85aMYKcHdJWAHchRUnCKe0MJfpDUGxGpSXQUuwLV5EH4w4AM+YJY9l+JuWg5CNZvZibxhK0KCRNVQn/COBaaj2iSGh5YOzc1wkKQSVcWdFYRMY0/aA6w0kKpUGXNLTLnTkhQSlpagxAHs4SM6+zXrFnRKS3Ep3HXkGd3OnNzFYu+6VAjHMSn7oTS+SU4cTGhyFWg9FiUScM5HsY3OIgoLOocBNCGY18om02MmWOUoaFh8MtMvrKI5U1ZNEHPUBjoK6kDn6GEVq75CUK7xJKmIASp2L19lt+cH2ez2vEpJmocLwucicJXRk+zhrlrGUWbJDG1TlVScjUhz5B6M+xGcQrRLTxFRxczrXRn3pCq1TLRLYzFByVBtsJY5inyhNOvZ8lmmoHj4w6QGxT2vkd5PWr8qEJ6lRLdfaEQWyzDAoBLli2eYrvHltRNXiUCXUoLq2YYj3R7YrFbJuPCtLgJcEByCoIpTIEuR1huxAeVZUpYkO9QavybKGKJySqUgguFu5BDhKFnQs7t742PZ22oCvvkfdhWEMCVCWlCiUunZQz2MEWm47eCUKnozoAkDErAZlGTmwbqYNGsHulBCCCWwKKaDY00OhBiydmZLiYBljJFCPa4qPmA7eEK7vuy0SULXNWFYghZ/jBSAze0AiuzQ5kXYsP9+jhCVKYF0pUE4S+GoqMnzhJIKZbrDKWhKPvHJSwD6hswTlz55MGhljSoM7unhcB1aYhiArq4p6tWE2OahwLQGQBiYKpiyyQX8mrWB7NKmrIUmZ7UzASBkocX5WIbd8jCUxrHd/yRLlTppUwEpZKOiVBmdq9ciKRxr/AIkMISwBSGd89qaH3x0u/wCTOVZV/eMlUsqLEHgDFVAkVw1bXeAezV4rRZJKErGEJKmYFiolZ9VF+mUbH3GUikyL4ADU+vGOgfowt82atbSx3SRhx64nxpSxLuxNRoYnnWwqd1VI0AY+kVDspeFosoXLlyws4klaSUpIOBCgAVA1qaGh3gqJnI6Z21nhNgtXEQ8ldOZSUtRxV2hN2Csh/wCGyGSColZLpcsVzAk8xRPrFV7TdshOs06UVLlzVAAy1oAJGNIVUU9l4bdlrZPTZZKZbmWJSFLUQMPGpZwpccSwQX0AhsXRO1ZZLbZTMQQtCcjSgcNydmOTExz68LOUKUhWnqN/h1BEXqemfU96CyVktX9WWUBw5xW75uO0TF0mJJcitMJwpUUktq4A0d4XEfIqdntJkLcVQqhH16Q+MlKgFAhiHqR7oSKu5ZUUKWlLSu9U4PClgoggB8QByEG2bsotYxCeAnBjBqxR+YcD0yY1hZRKQmRWywjRvAiFqgU0OUMrX2dXLSlRnE4gCAAci7F8IGmTvyj1XZSfjKO8w/ed2CQSCcJmOG/DhGfMRPAfNC6XYnUCDVRwgddekWa+UBEpKE5OlI6Ah/QQps13TZK0KWTTGACKhSVYC/vDaRtb50xZSxcJU5fCBs/QOSYWnmr9A9xdIZoNBGQALaRQlXgkn1AjIvTIdFVsaAxKnJBZtzXM6D16Zw4sfaOagS0pQlQlqUTo4IWAmlGBWSGhBZiSCAcz74c2S61ECgA5nPyhnpi3o2sN8TJCUoYKKpxWp8ziAdHRRDmHt02+elKyUB1rTNNTwkKcgeifKPLuuxCQCQSoFwoB8IpkNM884diWpgniYKBBLuc6l6gPRqGA5mUQZClrWtRkVUFBVVDgUlKQnoAM899olDpJ+7CfujKAfJJL6lyXep3jS8LwwHBKIxs6ifZlpYOSwqdhu1MnVXbeoVPRLc92RhcmpOYUeZVpoC2ggJtqzUkOZs9ZCQtPClGEJxKZwCy2B9oPEy7xmfdnA/dg6niOEIc6uEt08YJVZQkKmKWQkZkDQMWJegGeY8Y5rb7aqZMUtyATwh8kj2R4D4xkxqLledqUtCApIeWMLnE5dmJAzLAdYBTZAoey75P4b5f3iqqnE5knqYwB8xBsWi0WqzKDABt8h1Zz7ucSXTaVyJpVhdwRhYlsmoK0oa84rtmAh/dk1mjWHEaKts1KpSlIcoThDggKphL6kkEeQiCZb55MolFZaioZ8TkE4tmTvpDGTOSpXGRRLMWrrU6Di1FN6tAt6SyJEwnC7BIKXL1DklzvsGPIxsgYgv2+ZOSHlhSMSlgOqoOMDIvhTiJA8+Zk20TShbSSCsJSopJJOEJYM5wA4A+b0gW5kgSkAliASzO4xkDPPTJ8xFiuvCxNCBvvn9bECA5M2KAZV6TVFY7tSVLCQ6VYWwsfAEDyg6RPmJC8MoMoDInhLEPUllFz1xcoKlTE5JDE5qAAyPq/1mYaSCkcWZbPM6M5pv1FYVyColOvm2zvs81OCirP3eR1dKVDVzjAZvxQTI7OrUgYQTQCnLTUxYLymIUMLOrEH4QdKhjyL7cMQWKzzHCgqgLs+m37NX1hstGor82758k1TwgO9aDUmhauoyYwHZLCvvLUpSeF0qJct+rS5xDoauI6BNmYhVNRlkxfoS7n10heLIhySln9pmGJqJcVBYO5jJmo5xa7jtVrSlSkqRLLGWhTFZcHCTsDtr4Q7uSzW6zolokSxMElSnRNcPixUxA0YqJGUXOXZfawoZgWSEpwuAABUFxQUAAzNIUdhL+TaCCQEd6VMMwFOeHo2mv8NHzYMAS6r4W3dTJK0TEKClImAAnEKgEHjQc3AibvZrL4ASuYFk1oQQrrVh5CLT2h7PJmy+EJROBCpa2A40ggBRFe7IdJBxNiB0iuWG1Yk1BSoEpUk5pWkspJ5giNZlErdrsE8zVzBZ0q7wLSrjIdCglIArRgnrWG91yp4QUmSB933aUpqEopqS5LvmavDcNDCyAQktjpUIptjnKCQqU6UowhJJYEUC2FMUR2/vh3ajKH3YI6kpwOebAeUXEIDVgC1gRNw9iifuc/vCZMWlAUhsAZ98qnmwgSyWKaoHuxiLOACK9KsRD6+LGSpCUUClgE/lenlWKnZbetK3HCQchpyDbZRPj43O8jp81cEVOHbv4QN38+rhYIJBBABBBZmakexbpXaMEDEhKi1TSvmkx7FsJLqhfqOJ7knf7lBsNkCJ8sFLBY1oHHM9RFlwV4QVdH8a5ZxCu7e8XKUDhCCVEq/LsPEAdIazLOxFDUOHzbc6wzdnCkaB0pyOJiCAC9SC4o2QHkY1tM9SSkpIxLZKOEBhnxABjvrrU0g6ySWVVgzHoS7P5O3KFPa63d0uWU4S4WCRmCcLE0oSHHKsBbdDelim87Szy0lw7qUc1q1JO2fmTrHnZuzldoQW4UHGo7Nka0zb12hcouwSHKiAkDUlgB4mHVhQqx2lEuaoYJqASaYXOIO9RwqyVoFOwh30IlbHHa+8sEkShRUz2gH9gAE9QXAHJ4pBgu9bX3kwqo2SWDcIyPU5l94BhCh6TEqREQiaWoQLMTSYb2EwplKEMbNN6+RhkYfyZJwYi3EaBgTmzsQ2HhVQkAM/SS8rQn7OsEEMgGpBNCMIJGQdhWrvSENkvaYGbCwydCaOXzZ/WI7/tqp6Uy0S0pJU5wlTHL86ixoGAbpG9QD66e7XLxhTJQpizFiABkPZNWdiWPN4bWHCmhJdxs+FiAWAAD9KtXSK72LkTEWdRYpKpqyTnhIATXaqSKb572ywpUCUglmBASRriJU49ommrurOkBmCrNZgQVO7MwTmX28OW+TQwlEKSFVAKiK56mhGWX07wuCyC4URRyQz4XSMTFdVlqoI6Q2kT8QcniAGJiSxfiFH23hWEhVYnUCCQRq5Ls+mQqArxiSzycISEoKgoVIUf4gxHCoE6nxiG+bPMUn7vFnxAYg4oQzVoRoIXWO0zApIw0BB9khxTNmALbjXWCloA7norgDZgAseRId2dtDno7FvEFJYqokk4XoCxyB19Mtc4Okz0nIinPIfQ+tVN52cFTolklxuMwyqHMUfqX3gozGKbMhiDwg6lqV0OQy+tOL3RPVKSrC4CZqgA9WBo2ygRTpzIjqV02RRBbhTo5DZh2GYNRyjlirQl7VJbj+0zFBQ2VwEdXQCPHeGMjsnYvtELZKGIjGBX9oBgVgZ0JYjQqGYIdb21uzuVfbJYZJZNoSBkMkTuENT2VfssaYS/FbkvCbKUhaFrSrExKVEHioaisXC9J08BKlzlLC01ck5gHCXzoYNALXZ1Q5sUc97OX0EFMiaTUtKVoR+UnQjIPm4i+WGZ5/XWBQydjnCCIU28QwFop7J8xC23TaZep+Uaglfty4pV/S/vFTU/iLrbfU+OvOLfeKortsTygLTM9qhGi0UjyJ1XcknMjkI9h8kTwZbLuSHTT2kF+bKAD7sKRvaEhOLCGaWo0pxYjWmvOMjIkMD3EXxPXLP8AfVCrt9+r6KS3KszLaMjIZfqA+hR2IrbEPVkLI5HCa9Yf/pJH/pj/ANz3SoyMjT/UjQ6KUI1CRtGRkFmNkiJpecZGQoUEI0guSY9jIJgyxjLoPdEd5likih5R7GRvUHoXi6kAWeYoAAiYWLVFJpodK1h5ZqJpsD44kxkZEx2DXyoiWkgs6q8/ZFd8/WNLQfuJa/xmYAVas0vXOMjIZCsskv2vH+mF95+0j61MZGQEEgkpBUAQ4rTxMDTA01QGWI0/ijIyHFZYbKK/xH/UkRwD/mp3/cX/AK1RkZGXTGXYFI9pP74i93yPuJY5D5RkZFZdiR6Ygtv6iYdQkkciKgjmDWOlXUolCa6D3CMjID6DEcINBAlt1jIyFHKzeEJ58ZGQsjIVqjIyMgGP/9k="
     ],
     "businessHours": {
-      "monday": { "open": "07:00", "close": "21:30" },
-      "tuesday": { "open": "07:00", "close": "21:30" },
-      "wednesday": { "open": "07:00", "close": "21:30" },
-      "thursday": { "open": "07:00", "close": "21:30" },
-      "friday": { "open": "07:00", "close": "21:30" },
-      "saturday": { "open": "07:30", "close": "17:00" },
-      "sunday": { "open": "closed", "close": "closed" }
+      "monday": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "tuesday": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "wednesday": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "thursday": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "friday": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "saturday": {
+        "open": "07:30",
+        "close": "17:00"
+      },
+      "sunday": {
+        "open": "closed",
+        "close": "closed"
+      }
     },
     "availability": "available",
     "rating": 4.8,
     "reviewCount": 420,
     "description": "HUSTの中央図書館。6階建てで、静かな自習スペース、グループ学習室、電子リソースを完備。",
-    "amenities": ["wifi", "power", "ac"],
+    "amenities": [
+      "wifi",
+      "power",
+      "ac"
+    ],
     "quietnessLevel": 5,
     "hasWifi": true,
     "hasPowerOutlets": true,
     "distanceFromHust": 0.7,
     "areaSize": 500,
-    "budgetRange": { "min": 0, "max": 0 },
-    "featureTags": ["完全無料", "静寂", "6階建て", "電子資料", "キャンパス内"]
+    "budgetRange": {
+      "min": 0,
+      "max": 0
+    },
+    "featureTags": [
+      "完全無料",
+      "静寂",
+      "6階建て",
+      "電子資料",
+      "キャンパス内"
+    ]
+  },
+  {
+    "id": "scraped_e09b047c",
+    "name": "Book In Bar- Cafe học bài và làm việc tại Hà Nội",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.2km（徒歩約15分）",
+    "location": {
+      "lat": 21.0088839,
+      "lng": 105.8364891
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0YeY0I7RlHd0rHN_6Ajuyx1JH2RKL9JL29YnZ6_Ph6NceEhX8KunldrhOTZuWqdcBVKTNUrfwAYJ3tDqfBaueD_lG2hG0lE1z2Uk6sRYW2B0PKX0n5SNt8_0v0_veI5PdDT-h-vw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0BkHBcmizsQ2REsn2UOxHxEZSY2SnaWfwBJ8mWImbLJS53bF3vFSZ0DL0foiz3RKL0EJKUeIR98FhgEGafBZPuYmCPz5yusPmBK2WKLdBBuWA9KedUmQpYVeMseUaVnZDtH3c=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOZbxg79HbDeGEfJqistKCFuYj-lmSwQ8ko4K2CW6oesqUeeVjQX3hYTA9LOwN04EN3IWmKNNl-L4Bv0egzQYNdhwpg4uwZlh1U2kj5JiiJ-QTPANdlxCx83hETJdXTk-nDtnIu1N8qh1q=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3-RGpcedbKn4TBt-dEybMVxeixqPvK8PZ2PPTg973mlCG1BN1IOkBkeSyArbBe-uycyN94mAdOEPb7sYbcDF432t5oK69RC-7sNq9CoAcAkshsb2RN5HIIZCYbQuHLGTSwtw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2PdOz5UA-h8oKSO6v53VZIX7K8zj3F_TZOd1nW9xDd_z8ED6WYAmrlYKD-vPLrpfM-9wVM6jmzATo7GhoRB8vLXF2umI57uQSNaIqeKsuejxTD870mUPXi5UqoS24tASsP6mAXa9fxw8Yi=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1Q0-m15isp2YdjBJHQ3NaY_dyMcc8oiPxAiKSKs9-sIgvUid0FnWu5zycIlidNiXjrqag-MBzYJxnbm2E8dKd_E5kPu_9D8jMMFOBomf_IsYxl2-Obt5jIWdU8mnU_fsDvWW0Q=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3m1kMEFohGnyG_zDNhdbbjdkW22JwB7jrxTl4307Lw6g9ZvVgpXMujN71l_4ofX_r4gvHiifah2rJ7m_hMhZFkl9H9LBaHrhcj9Zy5-TBVKnBZohZteqBed7yxIYvRq2eMnAy-b0w0N9q7=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1KnyfONqCsvH3E3MS55G4hpR0m0eGZ9Hv5diJjraly9ASfaq3pZB2HAUpaHJyT01j2yrN5CF9-MeGwylOhFSTGXf8k7c5B-af4SemH2gjbyvrAvbxFbSxVTD0tPJ09dhWuxClK=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.6,
+    "reviewCount": 147,
+    "description": "自動収集されたデータ。所在地： B5 P. Hoàng Tích Trí, Khu tập thể Kim Liên, Kim Liên, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "B5 P. Hoàng Tích Trí, Khu tập thể Kim Liên, Kim Liên, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備"
+    ]
+  },
+  {
+    "id": "scraped_0661237b",
+    "name": "CHÒN CAFÉ",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Cửa hàng cà phê",
+    "address": "約440m（徒歩約6分）",
+    "location": {
+      "lat": 21.0075128,
+      "lng": 105.8492673
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn21g9oRtPrsVdPjJhtVd56z_2QgvAqsdAmjxw_DkwXfNlELV6xG_EKbnmkPjiW2aYUNJ0XgrFbMjocJuj51xcS57WWlKAin7WcXph8Y09ksSr7M3IyRfIU5uSMpTsBQubNVVpohWWdn_MBv=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0TDcDqh1-0tZEQTL2GoDhl7ljQZdo2aErtJvI3f7_LJz9dlwiqg3MGZ8fBVgcrDAI4-NmJ4DH-5BUpwKN1w000mKGfwKUM6IH7o2jzS_rzvoANQkk6Fhi_lis_fKC0jdW7WJMujokOAAW1=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0aBYBQavAds3sR43e6VGOLZZKsksRr70zDowu_EqUV6DMVhTm5ruqeo6_9DqD0P4qzY89KyHaRZ1wDs3D748g9tvMRjIVRMOxW1TO2e-_YqDhE3goWWisVrdOTOlcXTx4rHtlZqX4inAoP=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0E5-RtRrcZcspl1j8dQDO6RNaqY3RNcPoqyBQ4RRIluOQRQa6YKE7FdNB3gnDOKuiQemqZ4NxOpws2SYGQdrG9j1VIqyrKkR9gfp35m-psHp9YhSte0QpcPKWbp6vKD0EzDSHmb2b0CLpq=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2auyk6zVXfegmJXSWOsJFkyorBTGx183jSWM_28mRCnaEtd0Vq7JAAcNpZyDJN64Zed9xCCO8lvCq2f25sRxOpKoEAC20XSFMotHiVDunPyM7hG1EyH6Hp8z46PKecU1WWzTpT_IrZl1Mv=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2cT_zsAkFwCwJFndZsq8IGHs_5LxZ-elQa88HZXeDPhNn6B3LXSs7SaDY3Yrxt_RQLVZ6hwSNgonMtjrB2kYkd6W8L5zMy-Gp9e97Lnkev1rltyXEm-8YXJSGrx_vWyLoI2bdNI5nSIF0=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3pyNZnCFzUn0q6hXJu6IDyZ6u14OaQBQhCXAUTbesmcaOwrqBZm3We1c5izbmOqtOfz4IhYKWeLFP4vQkQYdBE1GrzEvCpW46ptkNSuUM5_RpzgxAvkhHDhUjrBPPxPYjhIuHH1dmCsCbo=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3HYzvk3juvBXWQlRIi3j3je2zAm2tlOxWIczi2983vDPy56V2OOmY0ofBZyLR20qtBcnV8yBUzufx1vowdu-hLxpxg02m-WbwSb9kJYi6O3u6420YYzr3JVQ_T7340kzjgqBEQnwsAEyJ6=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.7,
+    "reviewCount": 35,
+    "description": "自動収集されたデータ。所在地： 77 Ng. 27 Đ. Đại Cồ Việt, Bạch Mai, Hà Nội 000084, Việt Nam.",
+    "amenities": [
+      "wifi",
+      "power",
+      "ac"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": true,
+    "hasPowerOutlets": true,
+    "distanceFromHust": "77 Ng. 27 Đ. Đại Cồ Việt, Bạch Mai, Hà Nội 000084, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "新着データ"
+    ]
+  },
+  {
+    "id": "scraped_3256ae81",
+    "name": "Kàffe Cay Xang",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約420m（徒歩約6分）",
+    "location": {
+      "lat": 21.0020066,
+      "lng": 105.84974
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0MNN7vihL3o_eX61NEqVbWj2kaxzP7-7sr5qu7lBvBQGcl1PzG2DNvOU4Pd7T8O6nwN-3hUu5MEufS9XwnUQTEOlmLzI5Dyj6QjLZ3q7ZeSfoj3pLlioGv1kyXnuUMCLSW2BQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0dcjXwbQjcNz-6WVvL9GfcPLi0FoiA5gPg-W1hGCEMU6H9rRgbmfmZk4A8LVS4d9aXdThMqoqnPaWeGnsa0by9ekEJV8YR40s9ZwbWHoS9ssmobOg1KvUqXyg0KtfS942ZSD8DoLHudag=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3erjm-YSMlnxTqGfVyxGR_gp-dRZw4CqGp09eGHYzY2qULbDbL7umi2ss1s1IDFbfBo4uypBWE3ri8WwSC32O17AgiHQBb7OZL8oIvXizdDS88bbLF1TsPpWeygMPvMxQ92nDD=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn20xw4X131BbuYLMqvgEOGaLqvfccUBgARJRCu9q3PnM426TFsaaDoEmmd7Zbl6T7hQWRf04c3l6CDZh6Fqo5mkVWKDyMkxyVqmHAJeUvKAfqsgXd0Yz2OB_nUQPeUfVGWN5HN8=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1Ld6Vr6mrSY-E3deFMRvkrlRI_i56tM4iFrTSCWL6eE1u1FAXqkcyB2YKK0-CRf75VljoBxFm_ybddEGm8-WQ4CqVsvbj-jqbp475toyVsQUqn87vsY7ZRZLW5QTp80Jp8t1ejtQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1xzh8QOdMjBnbMjUlpAIx1DdkfI0vQJTLUxJJiSq-47uHvhD-20YjRRBWX0wjBIqjn43utlyjNuRSZ0DRmMbTITYFfv4lYVsIWNcGPR62xsdfvJnvUQWHdw4PnLNzyJMrucl8=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn15hh5cIpzTCb6j2Iibq0jEdlcuYs4WlYMzIkfIgueKkKSJf1P4iLi2AzT9fOOm39PB-0khr4kFB6nWv02QZvDmemKmU06Jbrf_9QGq70SdXuD43ungUp0ufvPQtY6YtJ4A1j0=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3FewJBR-4CubdGfWx3GhsIxu0cy3nyOlYSz3gXXWBcAKWpSE-0VtqVGxLkF2LuISf2O2F_rHkrbUj5EhsaLJjr2W52AIFO85jD2UJcCHj0LI3b0GRHZyCVFi_P2C4egJNJUBrs=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.3,
+    "reviewCount": 897,
+    "description": "自動収集されたデータ。所在地： 101 E5 Ngõ, 29 P. Tạ Quang Bửu, Bạch Mai, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway",
+      "wifi"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": true,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "101 E5 Ngõ, 29 P. Tạ Quang Bửu, Bạch Mai, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "Wi-Fi完備",
+      "無料Wi-Fi",
+      "無料駐車場"
+    ]
+  },
+  {
+    "id": "scraped_3f1e4540",
+    "name": "Tiệm Nhà Xoài Coffee",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約340m（徒歩約5分）",
+    "location": {
+      "lat": 21.0024145,
+      "lng": 105.8490939
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn03oxaBHBxKGCIp3cMW_JGyyZsDlesG07amBtyi41oLntLuomQ-etX1DGn2sLwQD89CcPGefF53Bl5EGeWbRXevloUDz7jXS_gdFCTB166JtSSPtqMI-R9KRyi6FsMJpsZrQp8jboXleOTk=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFOZrHsjAlSTjOOqSEjgudjeIw5AqIlO3BbyZGgPF8S0JE96SYiJqD2zpiOpFiE2Yfzia2ZynCNjSdbCNqwGeHvu0uDlihdnZ6Twzv0YO3KGL3AhDydw7nUMSBSL-YYZoNsFxowzcpeykyg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn14_UCPVwo1xej7sqwv8ROvHWvaCvUZ8bCgFaC8LBfGNs_QGN6lDINtZCZX0oX4Z7wkmVP-ddY09KVsQkMOsIOU2FfOkQZhmrDTQVMOKlAjCGg2tCfVghzRiAo-qtwmolBuD_En0Dc8mKve=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn10xn7aJ3tjob64v56-9dPw7tEXLN43T0MTh1nCTUwmL-BQxY75cFGLYkk9DceTMzPri7qiNTyk2aI97GvbGMa9qxgyHan0YR4B_EHjoqhsWec3_MZU8yVXxfxVuBKseD5InCalwNjuby4=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn17AktgBeTiPLyYV2LiXLY0P_Yrml4yqA7v1YH_-APhWYOfoYpIrGCrk9iU9rRYw6S3I57IYPYlUfCFkkNyULD6WhR8FvzSe5aRrwVlPO0OavBvK5X2BXYcda9ZCEEQt9kcP8Y3xd52s2wH=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3TN1DXH2zcsu8Crp75xvfBIzgwsWjLkMjWlGqCybGHxczF9W9eI9H6l17LunHfcQaLgvKVwnP1nM8rcbPSK-odWFsPWTUGnbyLS9OPX5SlU7PitYpAy12HZdDo_mMoP6g-cBYGtA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0XAjOXCJgA-4ApRA9_V3yg2ZWvLzF3Um2DYMqBYpV7aAq8ybNFgV89ELn5i0_ylaUjnMCGS0_2P6lD_TblErZDsKicJkKccxJYl9YnsNJzF7IHhOPRwgr-AKbH1k0xVWgAeBp5-sk3wc-Q=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2N_PADbKUPCbngBdjybdA7wvPAbdqt8YWGcdaaWGbIWslf3roPlpomt2PCRSm0MIYURMg1XqDdJ9rLG15csdnip-FTEcYNN9vouEMal6Ip2-_qDR5DEBVh-XhMKwtNxzk5N1Ie5-3ylSEh=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 5.0,
+    "reviewCount": 96,
+    "description": "自動収集されたデータ。所在地： 9 Ng. 27 P.Tạ Quang Bửu, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "9 Ng. 27 P.Tạ Quang Bửu, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "デリバリーあり"
+    ]
+  },
+  {
+    "id": "scraped_0277ce5b",
+    "name": "coffee later?",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約430m（徒歩約6分）",
+    "location": {
+      "lat": 21.0005764,
+      "lng": 105.8465365
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3kI4HDsooWC1gceTdbK83XKPKYWiaNHZGYRUlstadXZ5U6cXiXqE24Yf-MNRcy97MgZDAim9g8KSaRvlvC8zKl5pqKChaHemxcBbhzU-oHm_KhjSWRoyj0VwzZcIsc8jDTaDwt=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3IzhUVLeJxqZGUoSHRKLZucuX7jUdVF0JgXiOMQ1N1xyCTGfmhVSq9JYc_nb2wInYEyoQB4uICOzuXU6nZArfpleytl_RDmgtcZJv2vZUxGTSHmtQZZc8DJNA85TTzSH2nNA8P=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn12lovsedYV_CykkqyCOkRxQQiWjgoCEAPzd8ude9FfawZ5gPQ5Bi8_d1N3Ol8WPseRfc4eCPKMbszheGpZ6_h_TM6cRMaIDLHE4VjooXh_2TYHhd8T3iRVbmVBBGUyFyKgXCY=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3y07Or7uMxYNkG4SXOMQ_XjTAl_0yh1mCLSQQkCDZoG01nG6Htlsl-RO6_5iKHgZux3VzUZ_iJHVBTq8FbFFEr98G8Rf8hDMJxGijCkfJ6lTwmAnxEUG16RDcmuJAn6LmT0BGXZQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3rD-wJnuH6HQLXI4uClL249H7cuS6_VbwYQ0rSzeVuWpV0uk47V8D7WkOyvXNUU4SCmuOC6calcMZa_1pDI8kfWTcYUPmvMLE-XcqYpYZ3E47LrVWw1ByXaj1vUkHvTgJRYLc3iQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1awytx3hYz1pe2dKd-iP4IvGPevGJplD0J7a6v2cMlv69pZoffPmUGd78OLQ5zrAbXCQRbDhiRbi4IdqxXcT7YB17mhqzmXu5QBsC0mBNaxiyCRgSc7w1zu99PqVx2xcbx22Z8=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn34B2Yv0zqzNzkMxSw2KEjs1duzw6Cr5xkyInjen3VEzBTtsN4rm_eWRn0sDrTWcAlCqQcpKJPhCntOpExvePPkZSC6jWCLs1GP2x5ukVRfK4bgPU-molD8kuJYX84GTxyZii44AQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn04nTybge9vixp26fpnN71yavh2-8c7e13Cb4D_DDC7fce4j4oZ5JLVF9-_LL91wrRN_cD9ITDGDY6QoaOFuuHO4x-52VMPdop_yvn2eXgRrC16QdNRiaO1KJ49T-hyweI2H01xog=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.5,
+    "reviewCount": 54,
+    "description": "自動収集されたデータ。所在地： 103 K11A P. Nguyễn Hiền, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "103 K11A P. Nguyễn Hiền, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テラス席あり",
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "路上駐車無料"
+    ]
+  },
+  {
+    "id": "scraped_88237e68",
+    "name": "Maison de Éte",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.6km（徒歩約21分）",
+    "location": {
+      "lat": 21.0101299,
+      "lng": 105.8320565
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3Is3IftpvNqeycKjItlBvLmIc-ks_-RTac-D7W8ZLIGN4OhRKzIWaB-U8N5-bpdjkjA8V7WCozUppohAeWJ2NaxZ3EoOfRVlEOHBxDFO31g9bgbLvqR21yJbN7umihV7wyFGG1bA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2tiMc14O_DOtULdf143vtgYz1E0joS9DrpexIPWOtF1UeMU-j0zCETBI06iVEZDnR554dzo1IFF03vyjj21e-hq47dxGN77VSwAYHDCksp8HAxPFapNt3tvGkF27NI5iN6QHHL=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2QgZ6Hdr5VD8ihjWF5grelPEqVkx0Tn-TPB0O2nwukSsc27vRBq0V-c_i_oYWegcsXZ_FfFVWGeYV4Mv5r4OMT7Jub4IUPa9dpJrPzvTaJXsrbm-dIrDYjt7J2SJvjK9WqAa3uSnYb4ee7=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2YzYTg7koE2OmYUaPpd4VUvbq1efWYg50_SDFRwj1c_iGj5593B0Qa6xZ2awufIgVcutdT10h-hcV7DNGjqjhk0TBT2zSq1sEeJR-iPNQtQ0FWb5GFN0erZzpQc3aR92trg5k=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn19cypTzLGe6kjlclPkLN9VMPqZMRndkRRApA6lwbOcotzPLVtmyPObqpc9C9CC0UizsWOcIWCd8hpsqwHxfWtoEk0e6RbpETitkvJeOIzcZgZE1nuUra6dVddNOmCDbzvyHi6ZJg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn01dOKS_kiAf9phgaLwaLDFdCysRla6sZLYT_ZjEUAJZYmUV4149o17VDoa9hYSDreJ54Vo2eEh-521NFZNd45Jh7Kkf1SIQhWLOp4j3e2j_gK0uHu8jTGIDgUne-hifzYYQCWNcQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2f9HtNjpa8R7R0WSRAbnGkm5yLGumuO6qZ9pkaSouJ7z83xHoZDhjGrXO0g3TyJ_cOq2JwzYNvSXD9TqTmRsGSQXiIXlnr2qfKuthOYMlNblIr3a7xEowb08iOuuA0grtv1Nrf=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3dpubchzoIOVOLJeKf3R8PJDNfaK8dbWkKw8ePz8AdkhFGyJ0eYek6EulcQVsY7wm5CwB4Is8TtRB5p_op7qis9V8iwzJlOL3MQHQVMJwIb4es5z-hd-2FXPw8QRs9vFhWJWE=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.6,
+    "reviewCount": 202,
+    "description": "自動収集されたデータ。所在地： 17 Ng. 4C P. Đặng Văn Ngữ, D3 tập thể, Kim Liên, Hà Nội, Việt Nam.",
+    "amenities": [
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "17 Ng. 4C P. Đặng Văn Ngữ, D3 tập thể, Kim Liên, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "テイクアウト可",
+      "トイレ完備",
+      "駐車場は有料でご利用いただけます",
+      "無料駐車場",
+      "屋外席あり"
+    ]
+  },
+  {
+    "id": "scraped_d15b0572",
+    "name": "The Coffee House",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約170m（徒歩約3分）",
+    "location": {
+      "lat": 21.0035084,
+      "lng": 105.8479068
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0GXIUvUkyT2OvQ4_g71xofZy92Q4v6AG1UjWXtzEnDqHycZipz3tuF5HBvhfNhlHMoG75WvFDRSmz4Ps2XKOGoQRjAk9GVjPIBhlWAPqObvF_nESYURKG8QNvWmFnl9tO1MYoTvNkeXFoa=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3z0sK6Lu9rK_z5xqYlvNPL94jSV3qI-e3PL903f7IlACUZA_NY8e4CsT6fSgMSnwKJ3IhvgA2PtPcbqmaOfvoG0cVn92SB-MBzampv6YChXOxSceLGmZyMwBG5ImW7bd-PB_W0=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0keRXHGD7wJDFCeh_i80fK02GCUraWbPy2Uof7Md2TRQR-U9bME5zqRwZogiqlPtGDnINp4MGE0dLkMt0Zn_tx6y0RUIWwTkXQrj2OWxMM9oFK_RlwQHqst_5ElS9L0OX35ZwxfnLqo82f=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0ZUFuKllZLZro1Y9kNreIsuN4-bnAm3iUP7Rw4y1cjd40JCcYkz8GcOsc8yfDLNfvVbHtGYlxZwgQcIat11Q0Ju4WKeQoBxco-TbuPAfwq1kKmyqggBWqA9UOZsO983MeV9giasw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3r4TW5i2rp__n2de6tTLJw8vy5s7QXi6lxks_TgE_7Ncw4wgYs_lvxuAudxLy6Zry2xea1Q2SVS-uAl2xIb4f5IB86njN_jW9fwrOLpoth01oM-sLoHDGkI16Cva7xrulvg3kzBlVTgKGf=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2HlEszvJfNoGQ4tBt-hbyjUP8ogKXMSW5ptv_AunJv9qRI-BDB2uiR3TP3w7ZoTqQmorpjALtJB_s6agKKELAwT2gT8uvfzMo0b7Km5-3wtBbL_GRQcEqyUotEEvLs8PY0zC1QQDwNINI_=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0kAgRa7xCAoEJkkYKR72pP8DJc84Gvnu1baKjxGqbCtS7rjxqzoo_r1RtxshITBtWWXvZnswf-uJ5k_EPUghgCILaAVPS6qIUiOxf_ZrBNRiJcqN_IFpK1oltDlQtzbcx3GfTogA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0N9Z8FQrDR7-nn9RsbacXXAM3zRpmQ6aGaBkJHYQMBsDtsMzTf1s_5HvK0TMgdWu3EGpF_qDq98ztXBxSus_rtscEC-bAYG1xzueIHJiB8DHnCQiEc7ov0OF5mznnfBvhtzsgprbwmLvB5=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 3.4,
+    "reviewCount": 285,
+    "description": "自動収集されたデータ。所在地： 92 P. Lê Thanh Nghị, Bạch Mai, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "92 P. Lê Thanh Nghị, Bạch Mai, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "駐車場は有料でご利用いただけます"
+    ]
+  },
+  {
+    "id": "scraped_4ca91f1e",
+    "name": "AN café – Thống Nhất",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約600m（徒歩約8分）",
+    "location": {
+      "lat": 21.0098203,
+      "lng": 105.8457378
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0LWdFPWQpx8L0MedDvdYMMlW-1dyDqMOvOcHZkaYlIQBrkvuxV14Pnyzek2C63coxrYM0spGG5U0qX2aVC7fr3SDGddS2u2U_an5F6v0RAyq9O2NmZVYuWXkvTM_CnVXrhSG9r=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2fkNYQp-8O7Ne-l81h3lE6pvVGnEQyGMPPAFrRBig_cNwbauMURLoVnxLnG9hOCUXVlRQjmP4CRxoYrMphBOOcqsMp1mEBSCKdD5rL5_YpiambOvXCobmb0CUOcacdlOfbWhlb=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2M3_-ATFvMRuTdla1x57l13C6j_sjkZE3-rSYCZ4WS995QLY-c-q_LNqfMdh0ZMZjy3eEHbqXxePWlndqMA0jbCSmPJ55HL15hzdA-N3CIIW02gcOv6tkG7gtxwjtbEHKOFIQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn19CPOHhQwBX2AM0sNmPwMk6xKtvZe77h5t3sAldyFaB3boftJ3idAoefcIZOrYY-joxrY_rM2GdmTx0gkMMlMSTlUVZYJF2qlS3kz4rsGnGV3zWnPGkPydgr91bjqnMvkA1WXPMA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3Rhcb_YD3MEL0YY8-nCXoO5G9e5DgvmNGAc7TbaS1cw_EXwj0Jr4iD7JYpqUXQjutw1RRpQNxudi_J5FcE7j-VWAU_hWvNZyrAzLAmVK9dFDx6rK6KtUklflmI2f15Ek-h3iiZ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn177fR4QfdzBrB_NPREe_6RNXdpm1ptvihfGR7W1pliogmJYBU9b-oeCRmcdG-g6VhCTHjILPfGGmfmT0Un2zKd2MX1ml7lVGrWddhawSvbXb0bt9Gkj54NQL8bFE61BuyZQ7I=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0tjJKqe9YAag6oESM6FWEUBmSqpzvaWenul1LuTMDAFNMyKhytCI5vi1FT2tafA2iG8dWtdw3jH1ep_VJg7joHACeYBpIA1Y9vhEjfW25xYgCOYnFvq0yYaZEiLVyMB8NqTNSuUA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1SUagM5_BLVQBBHAHrhaMcuGhz-b7XCOLJAiD9YdKciW_v0Mn5XpXDp66tDOPzMrHCe8SE5uTn7POtyLvV8lDb9qXhgzGMi3-gclcDq_83GyqNmDAp0imTXy-kJ0ceHPmxakRR=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.4,
+    "reviewCount": 330,
+    "description": "自動収集されたデータ。所在地： 133 P. Nguyễn Đình Chiểu, Hai Bà Trưng, Hà Nội, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "133 P. Nguyễn Đình Chiểu, Hai Bà Trưng, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テラス席あり",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備",
+      "路上駐車無料",
+      "屋外席あり"
+    ]
+  },
+  {
+    "id": "scraped_1f8b5eea",
+    "name": "The Sipping Bar - Waterfront",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約480m（徒歩約7分）",
+    "location": {
+      "lat": 21.0084548,
+      "lng": 105.8448591
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2l6Y1NwzioRyxVTUpcrbOWj9X5TStHW-8Cloux7LogQer_P0wPoI6FewO-jv2uDmI_Y2bqTbFEjqg-xj6rBlLhQKn0bIlINLmFmToFDhM026Ja6nQpt3uaCKJy0V6nLS76sxnwXFLzF0aB=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3y9p98_mX-p1jCS5dnCUu2Y6x2O13X8v56hmZ0ITN40pTWmTfcz0g5f1MCJckeaer3tunIwPKfusOSA_nXhNbO2v3vd48PMQli0kxciVRdbKA3jqjPD9tQ3rI23NRYmRDpTD4dXQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2XslHtpbkSX6IDeSC7LfYK3fueS_Mr1GNscMa_hDaLxJPEiRqEL4StfYWGjshAtdKzLTQai8Sf7kdU7dPtao4OVe0XHeAKC4IGn2sSI-5WN0dFt45nmvyDSnHyY5Tj532PKpyjsQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn01yV2NyJEiPr8Jz9u-CEXVqSKiIM14LyXVYBS7eAcR0S1tDXlBix7flwi0lh1QbkPG1R9_maQ3mfmESGTACgMNp4B69QhxR2ugTI2JCbNnf5KhEM_RuDwWAH5a4sEGJTGj4VQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0MYYqCdqz1A6TMjfC5mnD8gVOO6pa3gAZq_Dx-VMgBj7mT4_mgFeiC1_pFCK8YspN3F6elr4a1HXiJx59vWQg14NKtmRGP6OVuHqFpA3o3Vgkit6VDZVf7I-a6r7GcV87EIG8VTwdzr1MP=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0jA2X50dAT7GJS8EK_6joNMYLbX4IguqOBBSoTOinXKmrCJouiuwQ-ETfAfLlP-kLXod6nhnflkht4Dl8WaCRCTO9ZteR_-aFDYsdi7W1NT5nYWrYStXDmzvP5d9xXbt-_VYhH=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3sE0gkbBknN7wrW_mfr16nNCgApmBLrPMTpqaCE4-wH_ePMiDxNYRIeOYxRL1_c6KPGm72P0HTbgsAFiIYOa3vQIe1Ma1qi-cWIxDov8kfm6FnOPYqLeeIZO0A660ZlMKaKgnOEQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3CpRnfhGvW32uv6u6D5swLA0nuHCFoFNu2V8Z6dgSBBYH2u8FFyhlYVYLX6-2sWiKqQigJTz1APCxAvOqqvXzsOVmDS8w79tW84K-Bf1aZhBimaGrRsU_dBJFcJXamY2B_shM=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.4,
+    "reviewCount": 773,
+    "description": "自動収集されたデータ。所在地： Công Viên Thống Nhất, Đ. Đại Cồ Việt, Hai Bà Trưng, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "Công Viên Thống Nhất, Đ. Đại Cồ Việt, Hai Bà Trưng, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テラス席あり",
+      "屋上席",
+      "PC作業に最適",
+      "トイレ完備",
+      "駐車場は有料でご利用いただけます",
+      "無料駐車場",
+      "駐車場完備",
+      "路上駐車無料"
+    ]
+  },
+  {
+    "id": "scraped_9100af1d",
+    "name": "Ba Cậu Coffee",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約730m（徒歩約10分）",
+    "location": {
+      "lat": 21.0104254,
+      "lng": 105.849614
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2K7zsVUlztjMy6cUDayalpSEgs1kAQ-KrD1RpNKiWa30SDiBL3gA6p_xG-_xWawqPMUMHwOkJRfP4m1PZVhzm28TcoZdUxrzst90cC7y0E5pGGzl_pNqXjrOkhoOS9SlNqsNzyhqiDOT8H=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0VsOnxIIqE3zOrnua4WHElN_dQwuR1QngwkOhmBa-U6HrJnnwGnzMFlBZYznL39DSQHATooWc8D3f0V78BsAcaI6u8nnhdX-DXRamQZR4mGYU4L0vepk_EOczXNxQ8SdSCXwhHaHTvLAQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1R3SdXnwy6D0Pvucy12Q_F8BK0cKC9Xmc1HsWz8ErPyxqgrdqG2x0BrBFx-PsmzzTzJrrZw1uDP2-yzgMWWkZit84iZyRTwc8yVSeAcJCbuqxO8ucqqgoH2HB_S8enzdq2kPoEcNToJh_T=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3gJyKAaPlZbonxSQdvEcJTo0sIn-uOwomiTaI7zcpjR7z6lGUaPfPfxXmRrLpB3rMOIQHCWe3qt-gn-XSGtzKUDV4D0709QzMM9g0yK34loXK4wgvQcoLWlOpoLP50HGSkapG_pCQFQxY=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1qx9oHLW_mkw5gsuxyhcnisrPId6FpEGVJ_MfShQVeqP7nvi8ZJIXT5eLZLCy4d4Fo3QAAffF62D4vgVd8Ge5XQFdVrjUQ9X3PpBFA2zPByZtH3xTeGpy9_dGt2kNcDAGxPeIgwWI0LR_H=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn136QBHShW3mNLu8cG_uMmA81wtoFP8f7n_bNXz6XvPcnhkwQvlHLX-gS5KY2jmy5B5scOH71-hR8KxRK_H_l5w0MyDqIydfYSPFZAPuIQ-pj6T7Df_lHrjEMXKih9p7orEIwV88_bTN28=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3MbCLwWELDu71AGHwVCCTyPb1QgujJwMpOeLol3KKP7FL0rkdKchL43vhVU0j16xTm53MsttzTAodzVyWQDCOJCRR90VWW4q8KLGqfvOcjJqKbu8He5N54hbt8YbYgjVrMMbZooUvlLzU=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKol2k-B3R36XT3_x5Z4jF2op6uXsRbbNAxxSl-DDJycC763xlndp9yqT7_fMrKgVyCahtAA2UsxrMjIs1o0PViRUNZBlUqoiVK_w-JSYi08_CaQV7lMfNIm_kkSMb5pE9zePzWqNWP0g=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.8,
+    "reviewCount": 66,
+    "description": "自動収集されたデータ。所在地： 34 P. Lê Đại Hành, Hai Bà Trưng, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "34 P. Lê Đại Hành, Hai Bà Trưng, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備",
+      "路上駐車無料",
+      "デリバリーあり"
+    ]
+  },
+  {
+    "id": "scraped_566fb920",
+    "name": "Cafe Say - 101 K10A Nguyễn Hiền, Bách Khoa",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約450m（徒歩約6分）",
+    "location": {
+      "lat": 21.0004446,
+      "lng": 105.8468352
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0JKmPijXMdcCMJWaSyavUNG2-6KilGugNLvG52dRTjHy3TlR94bY4lOesbNUMBZTVLY3IbmP2u5NObywZbv92RgveywgM1bYKn5xJEsSnkLcrPgnGgw_jl-4OAoowJUR0W4I0=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1ebXY2amLLR4_VT47mFOARSxj8OuOpGFBf2uw9tHOW03SE9HsbksMLfaSlScXPOk0tASZMX5WV-QBVcJFxKjoaotq2gewBCAJ_zL8AZVZS1zOjafDCUOT9MjKMkk0OyLjwPw3ycdwmen5o=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3ja7emqiiH7MjcBnIHxjX56m0HT279bIHOtwPBYeV6uK5bvGHfzN6nUJ6EGs0_Y7xbOVZtTEPAa3A89xx5Y1K_6c1P2XfXEIWkY8CilGOpml2pBBOUG-SyVXIQdypRZtbfdMlI9Q=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3eWrN3idWY-QtZO7FF2MdRhnhDccujsjNlHnEdNhHBX_148K4uPMFv_fCSJ4oz286Xvxg2z2h7LdfCSPZpOP1x84Ti5GyevjsN26smx6N1ZQHr2TbRzFAunMMI827cpfD061AY=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn17PzMSYg_tqG5IzsG0GtGcEmpS0_Su7EMyFV_hN8eM4SVKpZ7wURbMlTADwswLiedHGPLiJHk9Ujg79REkjltcKpcPy9HfMu3b151pJ_4OQ8l-6JrjdRQw-G7FeClZ0CkKt5M=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2YyOArvu2nc7VdVs_HsdayTTOHt6H3I7whG6ZAdy1TDIDJY27STtGQIb6PLxs8VzhKluzgz_dsS2_ciwKQrg30kH7-Eu0wH8f4c-uq6BisDgr50hKSBu-hp40CVlqTLx3PXTKEfg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3t0-Yb5JAPfGvqt87O7-iUCbzbOZ3RMM4d-S01sb2yAO2LTp-xbbmhs5JLeTj9CagyvQbmGyYn5tTnCFm7bLAu5XuVNpXvKJmB79HQKy-uBkpiyu7cz4Afp7eWYEoyxSRxcWxY=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3AAJvMdfXClwkPTBuLXImm44x1JUO4541yVhjCDWBw7TRCOReqnFnaxUnco3fI9pXthJ9oplM78B9leFw_ssyMFXuqde8ay5ndMIQAbLpu8ZrZsmKBYbmFgLgX0Ym07uIyO0Nbdw=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 5.0,
+    "reviewCount": 22,
+    "description": "自動収集されたデータ。所在地： 101 k11a, P. Nguyễn Hiền, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "101 k11a, P. Nguyễn Hiền, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "屋上席",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場"
+    ]
+  },
+  {
+    "id": "scraped_0c568f03",
+    "name": "Anh Hai Sài Gòn Cà Phê",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約380m（徒歩約5分）",
+    "location": {
+      "lat": 21.0011788,
+      "lng": 105.8475057
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFaQKQ-hj2Zrmm_vOf6NMnxt9Wtz30OB82q6CY1sKt3XCLBroYZ7h73nw6l5bQIsBstga6y-mV0qRFFGpcf0E03Rr3NHajhA7a8S3p7Lpzt3gr_YFgbYBCtIsBpaosGr4WlSbU=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn08aeM6JkzHyOOsZ1cFt2gRpRnM4GCRr9z-vmucqE_CEdFe2KBnwElXTLDqxmgK8-gTEF67iT35T22_WVRbKZel41qGc_TMG1IjLqxU1zoykVEqlzRxA9E01syNLPlIiOHc8gZR4PIrk_I=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1gTvWGgnpedDZUq3llRvFEV6R24_fuxSfcDZICiweglUw7UPn66d8qd-3-4nPb7n0vf3KwCc8dah_pE7GVj1AN8iANgD5ar9LgYoJx5f-KRWlytklO60NE_ZHeCUcsHKMvXLr0XQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3XhLfKUVRItGu5s6TaTypWS1ZnqUPJ1YtYYFGIOtySNwEk8wKIFj1JZgycOcE_vENHhgW2-uSWjf5IH1rU_OHWUaGcpuB_n_0kBlIBSPDodFNPW96CaG5QSj6SL5xA4LNgfBacPA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn28rpv5iFud9ggk6XNBxLqg6wVQF35KQ43xyrvDgEbmZyvj6swfqY97J4HKTKo1Y8C9t5tbYw-Q3VxsFIelkH8FAobPZsKMK_fQGl6XH5A3-ln1vuBaZ3mhz1L7Fzy9IPL87sA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3Fl3eUDRQyIHmfYG9iuPaMCnDVl7XnRs7mC4qe1IWnTbAg_ekezCi9Fu0ufwJUe1YZ5_WRwgAVEFjMHyciSHmt8ipSC3kZhvmRj9OhnNFe_J_04-5kS729UrFHjWREzfsBdIBVvw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3aVuDZURwJVeC5aL7aWpIqA29bmH37sOGUuqRCJS7B7SNMAXkXRWpfMwxJ27ycBUI5K13IJ7CVLu2zkXWv8CFeuzU8_23KFMCaF9rD4R2OdXEnxoeG3hQaOE7KqgZVa_cqkl6quFloVHlE=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMyEBfS6m4_tzTMjU1mGs5ee-p61wsUUzEhRLEveq8OGsWMi2l6KyQgW-hxXgCLOW5O5YWGikGKUFQEv6ACz57jZHtRxYnnu8BEesrRNNBZjbKZAG36pHt5nilciXO-65mQxA=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.5,
+    "reviewCount": 77,
+    "description": "自動収集されたデータ。所在地： P107 K10B, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "parking",
+      "restroom",
+      "wifi"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": true,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "P107 K10B, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "トイレ完備",
+      "Wi-Fi完備",
+      "無料Wi-Fi",
+      "デリバリーあり"
+    ]
+  },
+  {
+    "id": "scraped_5245c150",
+    "name": "Đông Tây Cafe Sách Tạ Quang Bửu",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約460m（徒歩約6分）",
+    "location": {
+      "lat": 21.0008669,
+      "lng": 105.8487706
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0fK7Xaj3hCPa8zeHHd9A6-ecNtPwUZGTQ8AOstQRWcXF-1MHSOSH7NkSyYoywWHg0j5NTbZzAGEjeEb-oIt7FQxc6IBpJAuO7eKThIvU7iDOvZr5vBKFWXV6p44cxnXmzBAdY=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzr81H9TRdRKlNSgakb0LkOvZkMib3G9xC-JBlaUmnlAvwQ9xD2FKPyaIPy4O7OEnROhIujmN0wz8vYOWU1XC1pfQyiZzaUkVLZW3GY4fV4cztMtVoDYnO1IkN9s6oCsqCfNIv=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFD8LdZan8SfkS883Qwl5eXOTqdLYuQJ2YkJY72US4kKQpC2qqcwUmiSUhKjCw9FBAIqWgh0oPX5bHf0N6f0m-kBbJSXkOZ47RNCPEGn_wOkW-3GSRJfqftfiC5rx4fxRZOGi-f=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1AqG6oyIqCj6mZ7L3U9gEzOAVmNqQsIMSd4Dj5dxdpRjqauwblHSQA_dGEm4UwimyZUDJV7JxNGaS7SM4G_TCYqTzqDJZmooq4V54O1oK7Dqc0B4wnZyqwJ6sxitK2SX0pkMBTkQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHH-GOWmNPOLKYo5XlRdcLzrJJYZ2dh8qZrKqQfmUIAL-61Is_kCRLTiAB-MpOcGudaiTSyjdtEmhmLrpC51y-AmZfTH4PLQAUzoeH7rdcgZfPYOtwAXpDl_2wKGeo0c0ImnbMOCw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0wIcuQALocb-Vujh0mlyYVNxqZLD3BsyrtDQg75GTCpsnAhnhOBQqIteKF8sEBLzydNsl7yBB9k15PK6SS8w9q8KWwEIbev4oBCL37l3mm0ghpSAJEbWsn1Df_dwMGThZYCA8=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2ld-4rp7yOweUV3keqTT7lYdohroSfMPnmurf-2b8dHaOiS0kI6QQEg2stfMMXx9mN1c66J4mf4BFvodY567XOmUoViQZi989mUD4Y-_wYjaO--CZpAHkDf3PozxmDkViD3Zjs=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0w5bGgWZGVRAp_TGTiiEtTBvOZvWYKlVXldiwXEOcSCyY1W284no3HWmOVlnMZw2JaibcECCBW2DxLhTSnY1gzsB7QisjyXG1zbuEI3QeeQW6JCL9rIjC_7B7IoD6c0JC0SgY=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.3,
+    "reviewCount": 87,
+    "description": "自動収集されたデータ。所在地： 103 K2 Ng. 48 P. Tạ Quang Bửu, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội 10000, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "parking",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "103 K2 Ng. 48 P. Tạ Quang Bửu, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội 10000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応トイレ",
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "路上駐車無料",
+      "車椅子対応トイレあり"
+    ]
+  },
+  {
+    "id": "scraped_ce24c9e5",
+    "name": "ikigai coffee",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.1km（徒歩約14分）",
+    "location": {
+      "lat": 21.0060708,
+      "lng": 105.8364473
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn14JfKEjx4HPd65AVeCDPJULZPYee5FJpkRXHyf-ovNtW2ni-blRHweJgkMv2g_VenfEpO9iW3ucMwhDomGHpt3bal9TG_1hgt6UXCSdEzwg2jNcHOYjletMBhZPvGNey2m8cIH=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3tvaRT-gUb4gffdrAUy_4Nv2SltS5v5VJ4KvnJluqHUYwoEIMIQrrEWFruq625Jx7VEN_XZXerdNev82T_R-yioL7HcogiB1ZiQ4cHQIWJRag5hPq5DqCIT3fyhDIDh3TKWSx6N9q5W_C7=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0KpMfOJdYTjaPBHHyJnor_NccoeKuk6mlxK9CAfqtGOiqAI64XcFcQv_4mug0K5ymDzh-zrWol0u4YUvwqgEnjAgYka6fc56ah023w3Vz2RBt6N63UiLs4diILz6D7LMgX7uwZ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0a3K5vZoMCNPI9BBfsXs78hhUN-Dv114UdqFl4VnqNYKlM7s8g0MDAMMETqx7ilnVrq4YNRg8nQI7ls_vTsEKB4X1HvXm2ToOdqmtFS6k1YegwsO7jpB4BMOhu_p5WifYQTJA2HFlgM08=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1UR8gPHy_89-lNFSL4ZTcO-d19v-3HaZjrNLyYbT38jUrYtlUG67dlouKe4-k1UduC7Qx6lUw25NMIOvz7hQH0fzDOYfCQV36NqRePZu8aDmx51pFLd2ZujtJOmQsqBvXw3KO2Yg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0SC7Qyp-2MI0amSi4uBKwSdKYSDJyzMA1Hp_rC7mxjFkPms2c9o5uZK5sPRT_LjpuDs0mopRR8Pikob0UqPYMFgewSEBiXf0SE24skAmoKDDhsGapnEw9Ftg6m1Aji1mg6tI_a=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn30V6URMSUZOGQYVATn5sAEwhGoiH5PhBVJl3VxgxZPDZhd_Zr4dx5PLhwhEr8xf0CHxPUIFO0c4g0nYapFJn1KAIKjTa5yJfC8YabHrAugFUAA1lQ2h-W49Wa3DaHzdSvQ7LO5=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2nzAokf20WhrKl1uf9nly4yJ6yWbW8heN0Kg5gt_NvM6tAN6V4vQRgPl1M_z46VJ1kYDUbw-hYUz6TP0lQq7VuFcE9AKYGnFl4B4-XW9IzIEdxX7Yo_BbGbhUNEzqSpR7g4yap9g=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.6,
+    "reviewCount": 365,
+    "description": "自動収集されたデータ。所在地： 43 Ng. 38 P. Phương Mai, Kim Liên, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "43 Ng. 38 P. Phương Mai, Kim Liên, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備",
+      "路上駐車無料"
+    ]
+  },
+  {
+    "id": "scraped_56ffdb94",
+    "name": "Cư Xá",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.6km（徒歩約21分）",
+    "location": {
+      "lat": 21.0051663,
+      "lng": 105.8308154
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0T02mN2GGzkxRaiyoJtxJOzQAq8I4lXPZfl_EpR2oSAPpJ1SwgH3cKJxMJPqNgzv7sHAxwirqA3augOWrze6NlImLYg0j7x_yMX8KqaY2GNHpXvuBcaPB9McaRIYo5G8BX2xAp=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0BwolN7lX_6qyJ7PJ4Hv6EaZB82I0RpYRuq-TIBfK_9BME8u2VLIiioE3FZjdJ3WPFS3k-WAmKamfFFOnltT7W3KALrc9RobHGe5Qhcsat3_eoluYu6W-eFQS2_o5um42xf6Bd=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0hTcCfFRZjbOlTHsBbBvOhYvbP5JolYh9KeM9sEtgHlVaOkfKQgKYxAl9GML_DFqNtNl1KUYksydgJwW6qYJYGHYknMJgWSC8IAAOjnangXscp8SXxC74kBPmyExoY9WK8pFkSajjYH9e1=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0_UeU9D7z6bQ_79druUsb2lV5dKFVEq9-1c-mpyE61Pouew5GDUOJjH0oZCbzOPFBkjhBzs2iAjaLqvseHcCBvVrN2j32IqxOAe-_DsW0LLKF58xk2swP6Fa2d81M-OEhVsqjxwA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1dQbo_hHt9mhUtSXsKJK5MIoZOrihGaeISzZb8EtLiJRT32A6Ab_b-Tl_X7_zYsvBbUZgXB7KgcEDsHX9zzlY3H8IkdpMm1zpG46atv6OW0gDKNr4sqIWVvqTPI89PJZwQihVV=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0Qk4pP3wAmgXFeXcFJ5fu8iBhgaF009dLywneCwFDOBNJUGu2I09CpsT7QEuP7cA9B-tzEEY_KOrnGBOfiqSINV9ZRZt5XqyK-dgZm1C4wLbeSLLJQyoOkQHsZyihdVygUtxqz9A=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1c06igmWDLzsHnt8qSWLJAdD7t6m5LPtPemNGcV_U6oCZhJ5kYNV9zP8McYX0q2F5ojDKeRhZUlQCtXVLzJgB6Y0cOP2L0JzS5KxkoYkdeH5zP9dus16qxGxADq9Z2azOdrj-4=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2sl99_HTlNdD4gGL1saF7u8zH2FNTWzh1GH7CEXMaEzB88cGHc2I4tIqt70GwXtY2i2VUX4-DXbp5H_KukD8Y--dl0u8vyZVnLrqOtPRVygDs2Hc1_3ekAwT0YsLtAa5WIHlkW=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.6,
+    "reviewCount": 324,
+    "description": "自動収集されたデータ。所在地： A11 Tôn Thất Tùng, Kim Liên, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "A11 Tôn Thất Tùng, Kim Liên, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テラス席あり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場を見つけるのが少し難しい",
+      "敷地内駐車場あり"
+    ]
+  },
+  {
+    "id": "scraped_49f309e9",
+    "name": "Canopy StudySpace",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約480m（徒歩約6分）",
+    "location": {
+      "lat": 21.0002129,
+      "lng": 105.8474122
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3FJ73Bs3VGiMHeDiJVy_HwDrw5DLId5vBhsAq3yZIbwSIMLRfUbtQ4w7zPHSLv_Qw6quw6p6H9lOD1nM-c_DiwCvW1BXSy7Bt2ISqBmf3Rxip545f_gUbh_5ovzmmTnIR-Hg2GakQoq0WW=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2aLFzARTDwgkAg2XTzOYSbq_L_t0vzJkibc6UjLg8AkyAK7VHUnAsckCk7uhXTHpjZKMFcUxQftU305tunOA0qVnr-VFd1Nt24rvlZWiybAocGmhfVnstI8j9b0hqtuKiL4ISRZ5y5Eguc=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3bJ1NWHLiVN0QwEF5jcsS_seM4pD9d_RufwlnUMPS8XtcDGMOkbmkt94U9EVdZMZIjW8gYjm7cM5Y-jbfJmkZWtlPlIdnRU1x1YZL30w43KAuZSlg6Acmg_nrTNyFAQkoVW-_TNN-Way0f=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn374AJefhX07xgrZMYt078zffTNgttarjIPR-bwt9RVs98t9gCu1r7PB52WNxcu1bGKWXJT-QRZu8MmC4gCecGJ0Wza1ys9HutENvT1v_QQpzZalFjgRY4N2y3aAtlcKZ1JL2LDemoq7XI=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3XOSIHGeYPYeUPU1qu_xLq-ICiAPVPslBr9LOugGzg7x2Y_GBKQrctm5FBaWEs_hEN5lg6s_e05PnqWjuier12t1g3iOQERYAi-XgOIV-A4zTAJNHlrF4m1aYhO0MqUYEj9OVUNsH6Li0=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0gpUoS7hbgGsxvpMK6yHNarcdaie7Nsjgp8OwcMAxSyjoXjXWweCWC7-tSSjygTuuguCz8tAxgGy6g5jDhGDREqNJjbPotFQiQXNBIkW1pKWyAxTCjV8knCFlLyV04AFvqfXK41wAjx-I=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2W3YgNwHzqvWnMb39OTjumvzVn8Aka4m8W8isX-5eEnDCLhO4AplSyGUaV6WEuVhzG69MGDFANrk9Fq7vKgvH6J3NMPcm9W9kycnMuwO4k8XJn7Chfs5LWAgIFBLmDa29bNxIHE3tLb4Q=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3DDMC6CaNLcz3kacCb6ItGzEgT-uS5sMUEFKqP-sdsr-MpXj20xNaa62BlNDz9bkVVzGvywp5jhZ1IpVpQPKUuNdTrTJ6n2trjwVKvfMmgL0GziCkv-Sasdah1NPIp0SDczllyLMhX3BW4=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.9,
+    "reviewCount": 458,
+    "description": "自動収集されたデータ。所在地： 89 ngõ 183 Trần Đại Nghĩa, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "outdoor",
+      "parking"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "89 ngõ 183 Trần Đại Nghĩa, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テラス席あり",
+      "無料駐車場",
+      "敷地内駐車場あり",
+      "屋外席あり"
+    ]
+  },
+  {
+    "id": "scraped_81964d9a",
+    "name": "Kebin cafe",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約260m（徒歩約4分）",
+    "location": {
+      "lat": 21.0022741,
+      "lng": 105.8456702
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1VSz25reJF0Il2SKJLpbtjQ28p_iaLIUdCBAxf-eqKoX0S-ElMJA9ohiRKI7A8CDHgQgiWBuLTJkGnAzz_HoqHJTeXsUrU04IIPYW-ok3fL3DtAwnBMp-q5z0QZQxjN5jMp8kGnUEmUEoB=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3Tk6WRrDUg2fi7Xyj0dHhGwOZVY0497LzoJrjF3aLPkxTkj3lcdJNG-qN-14oGxjngOtrUjDkd1ChsRded2S6Whs5xvMynMwBE6jPku1mcCvO7UvUl4LVg2PlT65r3Co_oPvHBbWm0leE=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2qvXRWcpOjR0fpJ74I3EFdNSwFQZR2omRudPeP0fQ8jMJmsfj7wFETqHtpRjV7V5l0tNVMyAUSwGjUzIbq08gzlEjXIv0NH_HI7bJ_uh4KlCFNp0Q7B_t8g0czXk2HlyC2raHA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0RyOEgz7eE8pEO2PoPkpF-AEdl5lW2aOrnwhHbKsN_N6ZZVTQ1wNFOOesUJp_-SwDi2GK13QDk2oBP5UF5fiivoG9ioQ4Vpz5oTPPW9QM5RL8F-QKLjts4VC2RnuUo5gTEP2NeEhyUh4Zi=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2x_oWgFHf6n7AXBgj5y03cmzuY_werB_5yB5wDqP_rtQpGC687eP-47RNFg3nvpqViOQ2zwN-YYzFO3h4eskSrwVnBrmMaUmmo8L_Saoe3fPoZrfRChKPru6JDWpvCITbG9m3X=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn30JxXcyCNWFFmuc6YUk55jSU6Hl---JoKXerKDWD0IDJvLJgIBh46n8hfa8cSXwKRR36NZUtpAlNIge2DCIjIwF-bA1F1aHJQtx9ON_nqi8S-FOvGCx1cxjmLC7Jx_fmsjXsE2gd8ZcK_B=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0voVsp9_RLAOWmiNGKY3BsnWiGyflC-AQT34Hdv_-ZkH7O6rgBPnPRDGTkx8N-zHoTen7fWjPN61Gu33r_UadshUATM438SCmrdzt8ciB65wGidEWGVfKtW1ba5g8iMIsYkzxYgFUEOT_A=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn33jdHI8wLTt3IZbLOxCQ_8GyqGelYdWkMEtI9JGrzeA6pc5KGSVQdG-e4x2D8yiC0lcdkKt3coJeGU0rYUv8ttasgliJ_iyoW7gwEQZQ-CecQPD1eTcytrOK4Cgg38pTcJzVJq=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.7,
+    "reviewCount": 77,
+    "description": "自動収集されたデータ。所在地： 6 Ng. 106 P. Lê Thanh Nghị, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "6 Ng. 106 P. Lê Thanh Nghị, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "PC作業に最適",
+      "トイレ完備",
+      "トイレあります"
+    ]
+  },
+  {
+    "id": "scraped_9ddd1dab",
+    "name": "Noice Coffee",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約380m（徒歩約5分）",
+    "location": {
+      "lat": 21.0010847,
+      "lng": 105.8473907
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1mGUofuHe1C5Ceaas7GQyFC1QcOyUKWfOsb-qpz5wLTBNhptEoZaHfMrjJZL12ZXtmWPPsWU5sorgzffX0zhYspoAlUWZfjQg226-6yUK_QomY7heDOECtk9udrdNhwr1xB5k=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrJTkH-_kPy43_VzAMWGww6tyj9AeSTRUE9O3tuq4Da83cRB8Xsc9Q0j1solJRNMfQg-OCVqe5-nW4wdcIsLgLNM4LLijKJYfEYnrYOhTdiEAhPWUro1sOUF7rdFCZf4XJr7SQ7Q=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXeWgHqtJJ9wxLVQwBRt3ex_IK8gcDb_axR0nOklCT3KV2TZdQYpH_XeTSQVRb_MvDoxPPxWWYb9loDK25mV3-2jrDZaQ093BqmcJcU_MmLUEfOiMqDYCwCFrkUrphlVCR2BE=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn26DkwrWKpdX5Z22Jl7V1JUXQP5JD03Okk4pQ5aAb9840JF1UYSuac9EoOI-emeRpRs7mCLElPp3G3JRzy-k4pkuOJIwiwHUyjlirxdL_g3a1eaDc7RHBXpeyUHsEx1sqIGQ5Fayg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFnelHgZDgWMU5DUse8Oq8ITGCpdVY_aw_QCuoVrw-_l2wX9hkvQLn4aCLskqZ6oaY_DXViTnLwhgy4IZT7LI3pN0dk3-H5KAiP1GtugxWyk8O7mDTIWf559HY6IiT05Qw_ep5c=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3vX1jfyaMUKS6m0pawEExk8yXIPMPIpFTL3RytvbQwhfjej_T4ITGGC2djosNSwmQ-8gkt6rMBCbVER2aXDQ-opTDYqIim3fSvk2FuCtzF1p1zwjY8bI-SKx04m98ZPg2sZHtlug=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3SuRTolscspJLVNOiOvDFMOHpgNZQ6AfNMnFodTqlgeErtYU0kQYDN9flPqiWmz3Tws-7rvuoHyRH9SaT42gca-nY-YG-SUVfmmICR9hLvb20C0I9lfBNaardSFludF_ke01LbVA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2HRZ9x1iMofUy1HaEPmGxCjLTkfFK63RxvGcZK_QiirojHWFJkh7GZwPenX3vOf9lYDg_GYDBX68ii-kRqEx1bIEltFC-dOrOkhe1YZ6_EDF24sudg4Xnd-nvNt-JGijzU4UY=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.9,
+    "reviewCount": 21,
+    "description": "自動収集されたデータ。所在地： 104K10B Nguyễn Hiền, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "104K10B Nguyễn Hiền, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "トイレあります"
+    ]
+  },
+  {
+    "id": "scraped_cba1d991",
+    "name": "1000M Tea&Coffee",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約230m（徒歩約3分）",
+    "location": {
+      "lat": 21.0062834,
+      "lng": 105.8456508
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7QEdA4ntY7OwjYQjuNOiIf04t7gHhwsGOrvgfILWsFPQRqEfK16D0THE_0-4lOA3tMAkDu28RtnaWxvlmtlUkdWIhJKwBPumebGFtODPHPTVey8tKge7_4XxaooHe5nQkcEmW6g5FweXC=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1vXtG2VU7zqrcAJvj0jX4uBuFI7DsgOSCw8WqqbsM7W6Q9LmmCBzI8nMOzHXX91_nYO7BCI3pRlQlRy0w5AyFoDFqhteYlpPBiuW3lCkiPDN6sdOykkLmDWh4dsnS7qkYzi3hTf3PeCihF=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2u_pNyE4pxo6PfzYjXIsOFPIWAKg6v6b8ii4Xt2M5YZSD-OcdG0RMK0OT82JLIB9_fEjSzxCrh38cNCjn0XDw3fYgHhS2NNeTZXSLaVOX2yKSWpnITmSoFVDXAyZqcOFrIIbDp_OG1vWzY=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNF-IAIExNzGRswExg669AaKEyriEeWj6O7ol6TjQXUvecFWeR2rNaIPEm_ca8EtEeWAdUEwgxP4_VYRO3n5POlzYeE36C3wHEcwOVEgsGgxggSDfKFDqzkhud5wv2yiFcXf8sKw6JWTlZ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2XV2U_mjWe0bbEx-zvZC4xQb1kv8-L8hyM8-qEc9kv8j2zuVhVNmQrCVZQDi4jS0ptXlRXTT3R6VvEHDsE-kNvS8vZXOACA0BF2uozRqnPmYdhOFto6KISuQB4STTnsXJDOzWCjVy6uZyr=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn36MVczk4-3o9V3pEUXfvc_fZsy2PVaUkzTL6vM5-OV2akqIGKFFQvzTK55drqTX7SblnhR6aU9rfXPjqzPFB6PCAgfWcmyJnk8yGrjmY57Zl0EzarWPImDTkahsAlv77HhP16qiaUFaZ46=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn262aw_Aq8hLOQhJhPbf7m3hGxm_GPt8YUb8KyN2iHFdGEuPP7nylig6QPsean-AaUvTZW3HQ5m28nfr_gl3a8rsD6IKm1a8SU9nwNnbbGLlOqBxZ8SkGrn9iHKJZ0Ce2-cAyNhpIDh4Cwr=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwkMLh4QPMcStOCevj-Gsz8Td-_A1Xf1LLEg0HayQ7p3-Z26x0m3W2kGfVKdOdP-_8QR09IRfrnM-kz0d63Gz5YIJKUuAhfSCm6wYgIoYzMfthC3gueLHrmXL6Cf5DptV0qUe_lMZ0pxPi=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.6,
+    "reviewCount": 152,
+    "description": "自動収集されたデータ。所在地： 71B Trần Đại Nghĩa Hà Nội, Bạch Mai, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "outdoor"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "71B Trần Đại Nghĩa Hà Nội, Bạch Mai, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テラス席あり",
+      "屋外席あり"
+    ]
+  },
+  {
+    "id": "scraped_df8bca4e",
+    "name": "Cafe Hầm Trú Ẩn",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約430m（徒歩約6分）",
+    "location": {
+      "lat": 21.0006566,
+      "lng": 105.8458656
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1S5LkPwDPc40304GYW7DktofoQb5a6yHyjfDqJzPG6cSoLWVPf_fhx_Fj-pV6wsHcq5yfPN9-92Z58TQFqWpI5DuQbZL8SzmqgdrmhmZm_uhTj1rpWS0-Yl4yaG3YCXtlWeNI=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3Hd4lmRTd1U2_5_BCWT8TML6qmQVX3TkC0tnI1cWebM7onP_SIEJ0ErJXqKGDAXkHrWbhXcTh2HTi92qSLbyT-T_W4GJG9f2iTMSC51K-FG2CLDfTLf3fC-2_oBE-hWZp9W-Hqjw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1hJuzJ-gsVjx97wqBTjZ-qdQmYDRrWN-bu8mKEnelEZKL5n0dgZml9XD5a32EcKYzrbwB5xI4_Ft2XV71EZzNGFGhS20agm3AJg5juWc05H6fyR2P6FvNGEME3tHyPZjkDbcly=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0AY5e64wOjqvufjORTPdIO7UfGQiae7KvSv2VODKu5KCuLEhDviUWoScz_NumKhRZoJkDhYYryYfpyl7vTJQNsgCt26Aj7X2tYenr-PP1Mq2Bi4ANN5v1ltQg0jaJ4dvAqrZuM=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2JY-Ta2TiSpFu6l6mkpmKDHjg22s1Iirf-L_drqwynC8ziSNUuGYj1T8X3Ftvzgia3gFFt_Mp4CTyf1pReCLQsPvZUmtnjjHUi-KKp4U83T6A38IXH8R85sXmVnLwx2Ema7DWz=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3wIIKme9jsH_AfQZUGx_ZRj92kRN4bsGkbV75tcPbNa0qEobiTExnecMiOf73p3iZC8s8yUEJqQDQwJGrY1296gK9l_89l-a05mboCWh5IHnA4c5SzLRYePfNxnhey4mWYEdpm=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2LUQLduBJiqmn36qBr9n8x89mvXuE1f2UbUGFpHnaPotS22U254e7nL_nxqlF1sUz54eOybTRoMrKBqT5_JebtLnWtb7zDLaq2urAwtDqLRNb7UIJc4MT_lE99ore-HuRWSYLtJA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhnWBXz4_uLEFFywzxyMn8hXACzqfu5_Y73Sxk_1N7hAtW-Y5oI826fTYyk6uOhyxxvjc94R6i8M4W-0gPHEhNeG5oECOhCTiPwWVM7kNiMflEqx5EAxO_NeKRA0CtWjFrTi56=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.4,
+    "reviewCount": 154,
+    "description": "自動収集されたデータ。所在地： K17, 101, 101 P. Nguyễn Hiền, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "K17, 101, 101 P. Nguyễn Hiền, Khu tập thể Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "PC作業に最適",
+      "トイレ完備",
+      "屋外席あり",
+      "トイレあります"
+    ]
+  },
+  {
+    "id": "scraped_eb2be5f8",
+    "name": "Common Coffee",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.6km（徒歩約21分）",
+    "location": {
+      "lat": 21.0124181,
+      "lng": 105.8332663
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1UbthVWwZcn8_-Zsw2V8vsnTHLzKcwsjc-kOQpgSN9nvKBq9m0nEkxkYUeEqJhhsFAJVgz7Sl_mRVdiXKhRgIHZrkCPMJlhBZ7g2yNyhaVaVxduCzEuYXvJVarrd_TpXd91HA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2G6GTGIbsYHKS2_d8VGj3sy4SFq3NrF85isHbmFaP15sf27JfUn_F3ssX-e8hfY2TsOLt7r2JH-_ASa9f2-kMO_W3CDXXP5BBQSe7Z28skesKo-iiJSsKJ4-NymoVroUUYmgMHkVbbqhA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2-8jI7HL_ItJVSzKyuEpWe3isPDJJC957b8-kvA7XFCdqvfmOrHlwov_e6GIsQqbhajx3584eU2OpG-dccbQVv3KL3jdCWsKJf9Bw0J1nykwj0oPhEibApfm8rZK_RhtUcjEQngkoIIq9A=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0dOCSY3Sm6ECfhsrIea4ElJyuVf8pgAHa4iaUzaCWXOXCfkXTyFoYJgvjAVW30N0O1U0Oxo5F4mEb1z5rQzHGbi6MFDjIa3GmQNAJA0SniCUtUpH4qUE6VS8FJ_Tq6ZaBuXBlfot3Bzo82=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2zLXoXF1Ovhc-A9KNtYpgtMtsf_X7_mmNvB5nVsCGej-RMK_efRncWxfJxfPWOVZj5Ove6TYTuo04abPFulF5OItfmiEACBVe4uyXXPxLGPxe4cVOMY5a0Wai89tek9N23KHO8cESgYUry=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3d7kZOvxdm8gCfFlaqekLzNp35nOn811CNn698s6m11nmvIWb_3HX2zw_1S2wNwaYXPkXR2aECwFKXLezuMxeXbkYYJQS-mx6Odm3tFHjNYnCEcOtVMPdeBvGXaHsrI_O5yXbrkDhnOEM=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3Rpele170G6QiLeS4jmNrwYcw-ufPFEpNavnnDoQgn8nSQgKFQjUY9pTo9rzubPhPk76KNBs-URqSD6hHHT6D6xtp0ynF6eCITo1zCH37vh69-kZGlBfa_es9IhSQD5rtsct8MYaZNYzUC=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1wg0ErViiJpZ_JQjpWfYF-bowAJx23argENWutbX6-pZrPyxtjza68IFDn2vgypEUokbg0ucTbPCuQZWQnjXx2RJeAcYmvG0tnaWWIQyXU9qDd1uqTUFhQyptpF083pWuG3zwFNw=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 5.0,
+    "reviewCount": 437,
+    "description": "自動収集されたデータ。所在地： 15 Ng. 6 P. Đặng Văn Ngữ, Kim Liên, Hà Nội 10000, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "15 Ng. 6 P. Đặng Văn Ngữ, Kim Liên, Hà Nội 10000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備",
+      "駐車サービス"
+    ]
+  },
+  {
+    "id": "scraped_9746eea6",
+    "name": "The Shelter Cafe",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約2.2km（徒歩約28分）",
+    "location": {
+      "lat": 21.0091481,
+      "lng": 105.8258058
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn20UsbOeAsrJrS38VGcxgjJCSsCzmsTC11HqHdUaxcRFACKbE5EYxYbD90Su4fCXMKNjh8nV4IfLvQzQLlOcK9Z0RjNfhm40OF6cSnGei0EtYz6i7zl0C0ygYvDKTk1770yeWKF=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3BTh1arnn6wOoJJhuVfBQzVJW9IeBvVqk7mZgUgOBDptnKKKrZ2pIQEM3lGHad6H9U53FWCRri6mRAax9FPEy_p2LMXWfSwL_cH8KCHFk_YIvY1fge3lJwBVVhIZuiwvDQjpvw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3YklzpnFdHUWMLpMMR5dm64roYVCtfc5tO9G-Blk4-xBxRfRc7P1QcGAREYIiHjWC731K4p5Bsfs26_29uLku3Kn-ZZUmxa5qUEAE4_R5Zip7wQX-RBq3ww_yD0tlVH4h6kPt5Zw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1d1y6YNP3NUs3Qd5SxbtngECg1W73o4YJpPWj7NjBnOWqLfOz6ckxHuOfjZvpBtP9mgtypf6mVWz5KkPg2Q8F45oZ8D2eucGSW2aKeOwIyCtHN_WhJaCeoBQikXnMLRa0Fr6OHL_30cX20=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2vxbOlICCBB6aLKxPpsqqGIiN2LSvtpMaqFd2fHA67WwXPbIhsmugdGZ8I0f0kIALdqtID6pe1LNQe3ZnNlH0FsbVqegVRsKQt0GmQRdN9eBzmNw36iiXLWFWs_M7jtwTfUQLf35YwH6l3=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2vnTVa2kbl7xxVdPlLvIaZ3iJCo3_7Qmnvc8AIvrrgTphRi0CmKD2eHlr5yVgvBMPVdkdFWwqBeF_SshqXg6RkGq6m7Ap2_DwbVjLFOagrVVrTmuj9GmAnAzuT0oNXqAshAnTK7A=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3_OiZzbG3dTI6uozo6uxaca7kU_6H3aLkBvibuUYwYqkgm75tdgPDlITuZHIGqYhEF79JQOFWpR1ngInPQ-LJ30zhbjHFq3o8HoDrJi70E7LYmBDoqCpMv1lJy3dCr8c5gjjhCQ5iSntM=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn33cO3SIQm5Y2--WTOoV00RN3t5GBTyppn_aaOnlT1uCj52s9y9s8aB-Z8jA3uO8yBFxIo0traBt30uXZfjFIgC0OKDvZzF2KDZpGEYlsBICE0fiKfKDRTwDlWUN_iM00RGyZSY=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.4,
+    "reviewCount": 103,
+    "description": "自動収集されたデータ。所在地： 56 Ng. 169 P. Tây Sơn, Kim Liên, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway",
+      "wifi"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": true,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "56 Ng. 169 P. Tây Sơn, Kim Liên, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "男女共用トイレ",
+      "Wi-Fi完備"
+    ]
+  },
+  {
+    "id": "scraped_1f7eed99",
+    "name": "NẮNG cafe' (Trung Tự)",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.5km（徒歩約19分）",
+    "location": {
+      "lat": 21.009502,
+      "lng": 105.833287
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0QFkaUufKznKCvIVTSg4M3zKE1YoEICELqhj_mWmB1RhXlV-X6G4dc8d6gXk4HhtPpEZif0FFeOTVW8nVTzq5BoPVFJNyFnj-uho-eVLjAQMhiWa757UuHqLLoLY9Z69nmE3qN=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2SVXCaLpwkWS8rE2jdM10WQodUBxFSjLDroOVk3wtkz3DpBd1aA9MifHxpxvmMLYBSVuCauZwED0B2jlPr6xMlvs_pD_3EOvkQVruVPy_QgqqhzO2h8_Yzh8kPiMAArERgTEn_-Q=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIXGtIeZHretO-S25xgy74O1olZ5nLMlfP8WnAmp86yt7enrvyQPQBwOqTA0HZhjmggTLfHBKZ1qX0kJzRlLTbZ7lJNhghJs9rA590efQdjkOGX6BRVDsvwUY1g_CGu2Lzf7lT=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9TaDvqEzBW-KKEcjNR4yWfZr90PBHcsGJpxinIMfI602LMikoWZ_SLoRI6hlnHibgEP0z3ZJ34YiBcZf9Qrl9NcyZsMhUUGWWszKlillL5OqipUobOrzIDy8RU9k_Pe-ravlyww=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvOyfGtI6gewrfHLbo-CiaxHpGhnWrDzCnn_2uNIq2U_jOy8VmlkNU4GLUjCP6fFncErjFkOwF0QA1GNcSYOn_FLfMyPgfti9q2pT-OdoifBKOiGGZuGLWe5-THeabIGQcTzAN=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGV81iingg7tQxiqhTjLIpcJsMCexBtKTLZxvZDYPIhOoOE4DtnIOOe4qNAHPWJ5N21Xdjbt0rPtcA1ZslvP7eDBip7mVdBnfAPAMx_x5Rm8UuLRx660gwfCoUk_xPxfS6WDf-K=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1SlP1BqX2P5PSS8BgHFKmXqK39vQnBvF9oEUnmq7XqYYgPGwHdMlOR4BxAksmeeaYFAb7yqd3HgBOMZTGNVpMofzMDe7vbCdjKBmALtPt6r5MW7rG2LSurX3ptr21OGX4YL2A=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1OkkHExrxznq9dHGevgZE2S3EhHyvjjHA6v_YiEqeswMuf8sKibfkeuTRga-teweijdt0y5w_Jy69sIqxvfX2jqII0WLMXXQZI_C45mOp-fPnOUnoqYnqmMDiDAhxJm8ERPk3lIA=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.9,
+    "reviewCount": 20,
+    "description": "自動収集されたデータ。所在地： Trường Tiểu Học, 119C5 Ng. 4A P. Đặng Văn Ngữ, Đối diện, Kim Liên, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "Trường Tiểu Học, 119C5 Ng. 4A P. Đặng Văn Ngữ, Đối diện, Kim Liên, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応トイレ",
+      "デリバリー対応",
+      "PC作業に最適",
+      "トイレ完備",
+      "車椅子対応トイレあり",
+      "デリバリーあり",
+      "トイレあります"
+    ]
+  },
+  {
+    "id": "scraped_52c7ce55",
+    "name": "Tiny Post Cafe",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約2.0km（徒歩約26分）",
+    "location": {
+      "lat": 21.0001559,
+      "lng": 105.8273919
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2cyg5sZT1Lej4bdsDvLTHCBoTYu8R6vgMOYeq4Nvkt5lyiPmFP755yanQQnHiVBbAf6RGjvGy_Zk0SyNePzzH8x5R4-uF4ijPHSydUjlRJX0i0KFT3WFLyjf6HWouG-y3q2m3vFaU2M3g=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0ND_it3ZmfGGMgHrczYE0czXbUECymwVvNx_nNqIgT0Fb2ah2Y6f7ZhQrQVjqcl4L4EaiTPtvJrFErtjeaAXmF7vqjyX2GtSIirkyPUfuJ0cUgNHX9_l7_M87gzda-41CLHpwU=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0LZMC1d_a-DmhYOKY1de-t0W9WIMYsRaDuv8Wdvy-QY62XmojrHHyn_0dRwRdH66nNn9WLBpCBnxxDTGG5lWwLktLxXaQtvx_zYgLdCz5fRzBA8Haw8ulChaZOEu8wrQfVIfdzYiqn9Srt=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn35Q6V6gWHXSMDDSn-PrVvWcWndRdMjly9Jqd1UB0viLfWgYOA1BQNKMatT15VhonPYXAlrmvdPxjD9sTwNgOPIiHky8esmowD_WObMpn7-hSZKCoGqehKirHF5sSrmihRH3tpD=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1n6DUIBW0I-6GlvOWzRpL4n4KFAj3yp63SP6YVKGRpbWsynttM_F_NdxEI4zNpwtxyT-ZSzocQrcpLN5lqsEzIswcwpZ-4Qr-D08yXR-VwgnRbwdsIhjkEwrjZ4cdbuF5LIuiV=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1K9dhQIH2qxr4Vr3QxOuCbKdS1n4dd_jxexsWQk1G8iyenHZ7xOubw6Gb_UybQOIpsNHIVY1_0X5DY68oJ5ZX9Ehias6FpWlqDcnU5QTlioyky9EAnH-SidAwPq3gMNo-MibpgIQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3v42LpibIbqi0YHejZNU95otLdfCl_GEOGPGgFlHbNFQ0a_iFHQTRdSNxA5fz7lUD_3NVKwTQLmjLxiVmhIbiFh8RcTq2BIDJqBgdCqlzDAE_Id3f9ajwR_phL-MnRLB7XCN8TvEd8aRA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2_3bjTBwPJlGB-hszXExYVDMM9OxKgW05MPCzb7bq4mw1Kuw7ev_ALEHdkqKMO9POhbH2oERBe9rAr-X-vCh5qa_bjNqGwN_mBBqLImr0Mw0EeI0iZG9B_joKodrheybhroRHD=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.2,
+    "reviewCount": 342,
+    "description": "自動収集されたデータ。所在地： 30 Ng. 181 Đ. Trường Chinh, Phương Liệt, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "30 Ng. 181 Đ. Trường Chinh, Phương Liệt, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "デリバリー対応",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備",
+      "路上駐車無料"
+    ]
+  },
+  {
+    "id": "scraped_8fc1c9da",
+    "name": "Gác Miên",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.6km（徒歩約21分）",
+    "location": {
+      "lat": 21.0043844,
+      "lng": 105.8308999
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2mKaTLy4MjQpIsbhgxOYdgHQz-OK9uKNMcaOYjWAbiLAWHMfEguh86eM3_H-pCCmv9okMH8kO_hY93hjCbA3hKF6u2zKmGtFdGiXdAJSE90OPJnOywBPEQgYjabSofQ5tb_D0i_zM2j0PE=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1Qpx-s8MBCqmepSzC-tT2hVsJUzjh6RKxrsDl627Fs5VO5ceJ8rnPJx8evjSD9lVFait47C17VmPQmHnctT4pwXzsYYwT70VQ17OcHjWDU3HP8O9xmoAccsh2eBpIw4LiMxqwPtw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2wUp9xNVXFt2Zli6WmXpYfhOUzp8IIu1o8VWEjLzIdp7EbrfuNMfGfZ_G7ToapfYscR9iyzYMDdFhVzq8DJNKfGgmOYHNYSOChUQllNQLWSFJAW77PCKrpcQsGI8RQRt_HtI8U=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0xyNUgwSikKBSYPUiOCAfybZH5JFhsUUwRqgxV6w0MafKDq3iTkI0Fv1vIqZEpl4WvPsaZjf2lsfNFQ9ixQYy4nAx2uHXtGC-apcJJEzL88oiO_ZER53jH-o1UXlmw8nS1oz_osmIUuNlt=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3_ljGTle0Dm_-qWLLvQU71IDauSuEz4QHVF1xo8nk1Ba6Bt7GVoU_BV1Nam2fSbHueiu6yMoNczeM9brVoN7XgENp2_yGWLpmJXJ_mryJ-PaU4mowDy5oMoRcTjAf9P1HmR9L1G9YFp9VQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEASC1lSV5LMqcPfyEYXMDXUCXS-YBqWBIZIgu5i848JosWCgN_t78uGlTpWsDnZht1lUFrGJ0yo1CSjng7P7lGGiGpt8zO2E6-mFvpE842oDI6dSCqFYslZQb8UiEPopV1rsd3fIcFHu5y=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1pI2nUppqeAKo55i3ji8f6dBPCVgEDq0icHMuvCJSgLVOlws3bEBb_Axgcd9MnSo5HqsplCqT0Ml1mNtSU1NF74gggQQQ7u3hhrhQzC5M9Q8WE_PYJeyq-xSNcBTlPOJE3Lfo=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2UWOZjIbCjcU-x5r6fc2xVKSdbjXf1kWm_HHAoI8-9A6r0x-YXRLIrmWzYuQG10tig9oj_YYpb-CWdn6c6Ly0KEFmIXfjJeN5oIMlxoxrY9wzEdbu8JmJhF22HEV8x0Palvlh9=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.8,
+    "reviewCount": 245,
+    "description": "自動収集されたデータ。所在地： TT Khương Thượng/A8 Ng. 1A P. Tôn Thất Tùng, Kim Liên, Hà Nội, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "TT Khương Thượng/A8 Ng. 1A P. Tôn Thất Tùng, Kim Liên, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "PC作業に最適",
+      "トイレ完備",
+      "駐車場は有料でご利用いただけます",
+      "駐車場を見つけるのが少し難しい",
+      "屋外席あり"
+    ]
+  },
+  {
+    "id": "scraped_d4c5836d",
+    "name": "dense.coffee",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約630m（徒歩約8分）",
+    "location": {
+      "lat": 21.0088957,
+      "lng": 105.8503701
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2i8JKL9HcTNWS1o_0XLxN5Pie5QjqcwRz1gr9e5H9R2YZG_9q0ziq-GvK-bglLD7Zk-Ys1GkhBaztp4HE5-FaxQ5q0ajuNRKMqew3Q1iy_OZ8rSCUozWkFK4m46L-XQG5uR3p5cA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGrPZp9OKl77hDUKtG4VPB52PBYHX4iwy8aSoXUMc6DEIB0dFT4Je9b_4sirQIQ_Ip1hv73-Vef3GWnblGYBij2nH7koLX07XzkCC38HtccP1A8tMu1CKDq0_H9VVv4fQTqLdS2=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3TPEztLzR7SQI-rhqjEJOjuEcb8p7Izw_io9a9ajf8HzvsojydhBksvSAeEzWGMqDyzmIkUjA7KRwxHCQI4WIV92R_bWDB-XfFl59-V27zwZ8HZLKw7omG_KGU5K9R34P_7xIQnw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1Yay2nuky7b-tJaagsfuLntfWSYK2IacqQ_kwCWMxjIBngdz0mYSkcJRFMXBzwVNYfAV54XXx9Tmz3_kok279Jrt4uUs6RKcHvrZKvEVhS68RE0ZKLkl5W7I7qfP4PJpw9xg3M4g=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn03hKeTcViL3auclPI-YBHzVMeCNL2UGzIVyfFid198sqFZgCo8F4KVoko9svNqVei-LimI6HKjIx8RAGpCJEvpN6AHs3TA4zZvLvUX4smYmJNIN73YYxkx2EUchMUG9nMpDhAb=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2rVXl0iQI4zqhR2pWMoU78aYih3Q5OUBM96QK1g3F0_l1q7Hywas4p0WCDlLpMZwCO3xO8JYRRFpMl6uKwF0QgKsaIM-QNbaHdGJwjFZTh6G3ahNGy652nOICI5Y2hRJaZh5wN=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1Ew7xpORFbbl3VPP9bpKwQt4LZ07HE0jmJ2qZ6V51QJmZRMDYL4aysUT2hiFVQqZEomTrrB-EQqrinMz-1azw1iRnTxqepsDpH5vFlm36jXWpKaMkJQuF0FnI70b5Xj5UdhOoLMw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3G89G6e5XjLW3gbi1ej1paXOLr4X0ZNWl5_ZyXtYE71AeK9LctHE1laV02T0-hvXEMUilEFK0Q2g3tD_run7uS499Xi_5TwX_99Her6d-_l5MyonlYanOffF6382lO0ZQ7bj8yLA=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.7,
+    "reviewCount": 69,
+    "description": "自動収集されたデータ。所在地： 8 Đ. Đại Cồ Việt, Hai Bà Trưng, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "parking",
+      "restroom",
+      "takeaway",
+      "wifi"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": true,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "8 Đ. Đại Cồ Việt, Hai Bà Trưng, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "Wi-Fi完備",
+      "無料Wi-Fi",
+      "無料駐車場"
+    ]
+  },
+  {
+    "id": "scraped_174c0016",
+    "name": "Cafe Mộc",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約170m（徒歩約3分）",
+    "location": {
+      "lat": 21.0057775,
+      "lng": 105.8458241
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFVYlu-1BRHS8REK2wqJZ3gg_4O14WthP4JduUrVEyZ91ViD-qfzY6lAhE-d3_fvna8GeXSH2ZdBbOqCClfuSxFBeqL8DdI3GLaLHVMDXKDiZrjs3TXkqcbIKAP6sfQRDwctn4xinolQpV=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3o5WYewec_O6YPL2SqyDb6_ur4lGvsVtySrdH2U31UgarfgnvxlR3OnGq7B4jDUJHFrhSKw21YW6eODnHcAZHwj19YrIJSt6gRJi7OUO18ysm7AlaE-kxj2P6Ut3fWjQ8CrdKC=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2Yz5J0cCP2kXDesEZXWyXTBDVE1StFwqTvIDVHcJH_m5v0XslZn_-Qh1ZgF1TREjRoGoqnYbF5wValPT61QNSIPm4YqXZYwcXrKSRx7QW60rJpaZvZSAJYAD7pZHZsiZXn3_93LKXLHO1-=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3XGLxvihq3nEwQKiZJHoUheKU4oiuwBQIM4GDjS5QWsyCpM36RW8k5nmLJUfCDcfyZSDQFQJeEHgCoOptBboQD1GzKCl8RJCvpoE5Ynqlt0orxPfRXvuVZ5GHz9QQ4IAtoB_aImFJBO8Ld=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2a1Sp8aNf3S6ianaXJyyGuKsFggkKF2QJZJ9CO5pfnN4m6JcYGqIpnSjVPU98Jg38syX_9gkmyxWisOftSzN-L2WKFtlH5DrjHhLvq6loUVXo_Qkt7Q3crO8TZaN50DkCMTT_4=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2i4mc9VCiXsrn8z82y9uk4CRya8YP0uZ84ommyfTKCSNgx2R4nPBvNCHpeRZyha9z9eOV8417ib0w1JYz-dfjPHjwqETJI6nq5rcjWG-ppuM6vWaXPlgpsAMBEglvXcU3bNvrFiw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9mxCiMurlYjPHvubcwa1iZFpBo1YdCYX0c4Pq9ddYxA6_BJA1fzfK3M196NQ1moBcLSKYbbKAJDKAiz28w8ewgiCElFHFEpSz9wE-3HuvtTfe7P56XtjKeYlqqAfkaCLqgzg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjum4EMFaXjtJilwAfqdYnfElZPvtgEbj2E2hTDN1_Kau4LheOXbh26IuSKEkd_-eegLtDOwqcH7dGx7QE9Zx2Y8rTM8UUrVJwFnGfXVJiRQvWcSlBNWvN_MhulpBPjNbPq21U6g=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 3.5,
+    "reviewCount": 108,
+    "description": "自動収集されたデータ。所在地： B7, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "B7, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "PC作業に最適",
+      "トイレ完備",
+      "路上駐車無料",
+      "屋外席あり",
+      "トイレあります"
+    ]
+  },
+  {
+    "id": "scraped_768ee3c8",
+    "name": "Mộc An Coffee & Tea",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約400m（徒歩約5分）",
+    "location": {
+      "lat": 21.00304,
+      "lng": 105.850129
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0VLggS14ovVr8P6Amcp901JfnPsPzHT5Hc7R618mJKlXK65inEoOaGGVBenEU1iOa7Mjx_4wUofxB1zs2A63jb9I6O4mnZt8-uMJsqp754XEQHxppSXRmUWoPXyy2KpwiIzSkY=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn10ZbakTOZpn8crAbxst2N3n6VvtUJXE9GpGjRjMdsKLyWTsW-uOFB4gLuukQez_T8P1Ttadxwfwcfx6rYDuTGaVJch-1no79eOGWh_vwZoGnMiKFS1upSKhbnvSr_htCMuuAA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3hCiBvJIK1nn4FjhHbdOm4pZm2L4UskG3eF0XEpmWrDar-exmp6f2vFfJk0EzvOG6ZZoqK_9NGDVUVncZX5-rblPjxlMMHBP4hc9G565WQtEmcJqPhHewqjOL8Ljn0aRw44Vzg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3nBb3PjVaGi_mF5Fn-HPeiG-ZWLfeYtVG67MjIVed3Qdl10QYk0EOfSuy8lXrT42wVC49qnAxCCYRxpgChGxhyXI5K2MjQPd9OYhztsnYbtA4752pIYxicOGlDjnUSdseEiduj=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0vlexaAVWaqBFEECAHpSMc3x4OHDNue-gAaWDgMYTdTZp2C-3o9OBnrnlRZR2wOhc-stnH0WoA_8dsfqaN6sS3XQuKvH-kO_JSpEELQNsisIyEKVVc7ilgQmarTSr8VL6C3tNN=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1UVEoc8RAk75s8G6gyFTEXo5QFPhNIQX-xAekHF7I5PNolG5SG_0hxwyC8gXuOeoSPOXGXRhmgsUhJxJ0QgGVHSxNzmUrZg_MGhOHdHURAGehGU-zDgHa5bO5R75ek_mKTC7ZfC8Gd-Mw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3xyDwlmaiObaG5BSpDZsMVPN8Ft377pB-fl9aQOz-_CxzF26AnisrwpNXCnqLVg5Mt_5coFiObSjDkeRWA74quxsYD0B3qte6sNFwgc75tNpCisAufhOjwlRfiojrT5xK59hI=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0TlZVxNRW5cRXQtCrIWGzWd_gfQRG4-n6pN3IlXJurQm3GibgXzF7P62flU1PI8j6RRs1cc0Zn_UICnGCWU6uOTiUNTnYAOMk40ocCg2pFemYgkhcXtndmAGUO4WyzJKQAGGJ3=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.5,
+    "reviewCount": 190,
+    "description": "自動収集されたデータ。所在地： 19 P. Lê Thanh Nghị, Bạch Mai, Hà Nội 11618, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "19 P. Lê Thanh Nghị, Bạch Mai, Hà Nội 11618, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テラス席あり",
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備"
+    ]
+  },
+  {
+    "id": "scraped_64c8ba45",
+    "name": "MONO Coffee Lab - Vân Hồ",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約670m（徒歩約9分）",
+    "location": {
+      "lat": 21.010443,
+      "lng": 105.8466142
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3VmzdMURe0mC7Kh8FpNIWp2ecq3a8Jx_cfSlN9v5llxz27K4GkY75waeRPe_qSGfeu9dv-B2aqFjbCzgYjao9dGol8wuU00KOnjd6n-UvzU-PhlSo8LZMxK6g5npr1QYxOCws=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2VaLaGtLWrQO4D1dzSfARvQYX0cBgZKrHyLuRMv5e_qkUUe7_59JxslMTbe6tSPmJRcueus4hdnZSCg6zS1Y80WFnm8ME6ISgHs3at2Sq6BxACJVA3gy_KREDvRIxoXCepyh3z=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2HfFy7RLTZhdz_6hdxiTHvG3CsDGpBLG2gw_CwRUsi_1wndMk-Wuj6zO1bciADdXeKFIPcc9VPR0KEqI5AiKSTPb7TX5cONLvM5scaev4y6Ardr82oXsQAmmzuzME_7XlV4DTyQybCdfM=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2vZCQlE-I47dUesETNRlctgl6y9QFESrc0UEK3MbKPrmaRjDaZXVdMNcoU2mBa5Cih9DzWevnWMMZHoQiF3T8BzeaRbgyJFvZW9h3WaVuiQYkip2hHgl0VNcXPKcLuedObiIk=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1vMLfCm3C9QYaSY56QLtGkXf7FWlFytkpS2LO_z32U9Kjg7YDPwAxYlfGx62D0Q4ryGPPv3jmwulmQSgfTmtWuQL1bRCpSqcMEp171w6fuWXq-tHEKbfgvVoyJgOBOBkNz8YqO=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1KEF9bF3I9JpcTP8ZCoXmPlyXast5uN0zD81WqJeiLXOe6eGCErB_GZW5bQzqxGHGcWCnIsbLs2Cd3wLmE1TNtkXKQal15u2hHzsoLPbYf0gahAGfaScl4s6j2rftAhduA__06hA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn35_qgxLykVbR9AEn8TZ69tPk5XoYaId_3FBuRYCIv4NuXjySPttr7qY0BERPU1929kI0QVaaafHo-aV9dDBEBoWGPYzJ4gM5L5_BmfXLzsYRtzIuVsoFohImoqy7OmLs37JhkAYw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn08dmtnTAfiVy6_7hwhAxTQtSM0irLYZhRHSObQ8kLHxcyYKWZUneMe3JGTEy_fDzEFb-qgBsMWuizKJbppEOs1gezCGvQ6pREmGbb6CqxPMPTmX7QijdZIQ058rAGI2KndVUWawIJqAxLy=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.7,
+    "reviewCount": 805,
+    "description": "自動収集されたデータ。所在地： 19 Ng. 55 Vân Hồ 2, Hai Bà Trưng, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway",
+      "wifi"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": true,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "19 Ng. 55 Vân Hồ 2, Hai Bà Trưng, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "Wi-Fi完備"
+    ]
+  },
+  {
+    "id": "scraped_22e46a7f",
+    "name": "Tiny Cafe",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.3km（徒歩約17分）",
+    "location": {
+      "lat": 20.9966451,
+      "lng": 105.8369676
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0jHDwyxkzAfoJru6NPVbNjXmgI9BfIzI3E91iXnxWL0xkzvqGfKDP1cCbdiXJDQB73jtpRB6CZVDCdL97l_JDqhMH7Lf1FKxsAOeaIQkv5uyxdRBnPX1AcYir98otXdyRDmPugLw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3NNYpK1EFA-ZkuelzfZqlXhvsUACt-RDhELb5kd8kiAnFxbeBDK2jvm914-pE9fY3Q8Q5WkcAeAD8Kz6NXvwr7X0ayGYvKGJ6oR2tC-Dg_PttwfhqJAAI7BaN0sq__aEhzcn1GApO0jQPL=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2WGqeVPDx13NDgtFWtYFeNKno5j0M8Esw1oAPKR5rX1ZPK1iVQ16GpPDKYs_qlyrfgLqb4xJ79Weff-s5mkfuWs_JknaZBh7NEQe2EwZHiTS6Nf6mTmpPEIUnxflnWoweoCEnhXNox_Iat=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2LwP2CgJHyeOQkj1Azh23aRF6BXyoK7yFeCoQEDsTpruHNel3aMQTs37NYAEdFWn5NTairUyRWiaDHXfrDA1dDGm6xKRwCSyz7nziK20ODWlsfQu1sRxGehCq0wGq9jsbDtZqpHA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3iB7iaUJr0q4jre6xrh-5TUe54NIr6pBsxD6_GCA3eRV9Rk5BNTLGyjr-56JrW4sM_mKrN7RY3ujIwhZahAThwFoCt2rKkVoRWNKqFULFCpEIPjewQ9XV6NqIDwNJM7iFgXHUBkqNcx1Y=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0rzJUKkNxESUCyXtzg1zgZYFmUebh1wuG4yKYbOIpa8nBUIeQUoXvioIB4EoFe42UQZa6Gk8Oca_e5bCNlCLFBacGsXpveV9By8M7n1Xja49N7ffO1Z_0T_db9cVd_YMIHW7dJ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2fH8m7NMxIFj3zqWie6x4V8ID3VioM_kTV6wWGizOkBWeWnyce7Zs1JyF91T4Rf1wiwuFrHW6kDtzQLopwAcxYQwm5M3W5yons3n6ufd4dZ7oGG3_TsqmkcqAWaQyJT98tXWKB=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0SbEOtU9DrNb3tn-uPRYNLjqzFtxyi8Ds93kMlstKnSLQR9nZQVSAtoUAFZNJrKJNy0P7oc6ZOpY7FMM6iutIpMYwWyKROXaDXLkT1jqoXr984onmoHZA5HDLAsRteZkCN3TdfHA=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 3.7,
+    "reviewCount": 329,
+    "description": "自動収集されたデータ。所在地： 109 Đ. Trường Chinh, Phương Liệt, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "109 Đ. Trường Chinh, Phương Liệt, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備",
+      "屋外席あり"
+    ]
+  },
+  {
+    "id": "scraped_36f85bee",
+    "name": "Lofi Cà Phê - Ô long lâu phai Đà Lạt - 108 Lê Thanh Nghị",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約290m（徒歩約4分）",
+    "location": {
+      "lat": 21.0018482,
+      "lng": 105.8460382
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1P71YT7Mr6dnBrdujy4HXsPhYBUHvFxsg3bdaKMx9c-6BSvzaaFuG9pPGc7ZLvwzr0Lge__tATz7_9z6bRdCjJGlW_NX1tJrsTC7Px1OwHojgQJLOYoglEfR082Tyrjn7aVrCd-A=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2KdAF941zFAfHWq4Evd2aRG5Fq5y4FJICvx6pWEBWGdj1N5C-MyEuyC1jjpYK2A-1GvlgGRAEJVWDsl4DlxjJUItdhvSue3sGCCzo55DjIwqTqkn2lCbMt4WIiJCXplFMvNICIaQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1wSi1m_jtMGzI075X5jRU6PpYul1AFOM_Ca5b7udqQlWPveuZAC1CWg1MoU3Iiai41Q2GY7SoEiDedXsSjnrA4UzFs306BHmIHCpDoTifanzGd22h040EKrH0gzWL4XnfQpbk1=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1cWeMbM2_P75W_lY8WP5YLr4ObmzD0EQGatU3HDcaJcykS3_5mJLYesBoepdTLWtaoB52QcxXIF7prZpfxj5yqnBczSJl7QmwR8HO3YhpT2pSZQsgFQfKeB7qMhSdL2v0O6z3n=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3hSkjvTHDd2Lj9UOPppphijLFBidl8fEA193SsHB_EmXGZpn6jiYrkzgsQ_zqo3S2XocyzDpBBOI_F8_zLSm10Tqf4ehphNflMX88UJJRuJQndJIezfB-GO00WTq-LoNQ2Nrc-4g=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn29l-dnsMg9R57P5dGa9-ICnvkRYmnqNhimwsp7dKn7v_H2nfDThVnxn8t-ABley6Ac1Yh-ziH0ylS3OWzW4VeIU1K77mUgi5b2U0qTpNoE3CFM_k1ky0NWcnbgVr0_XKTY7Jse=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2uvjbdx6idwPtDq0ikgBmeCgkX465KiR28b3LP4JvnF6lxI4KfA37OT5VnEO3UPtbKLcUITSiFbruOhqfh4MsDRVduCgEBra3d9icU5v-ziP_ysFuC5M8UrsC-fzxp6NZFq9LB=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3flH3aXqbyAcbEIzX-vVztCXOYWk6qtJPIfvWCC-g5lYnQKGbjD6BQ98W087VzQzRH68Ft_LRq47zNVnPD1cGPstTc3omgD9FK5c7CqCqir8Os8Yw7BPYp7CGSxcKK6g0xR2aVeg=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 3.6,
+    "reviewCount": 142,
+    "description": "自動収集されたデータ。所在地： 108 P. Lê Thanh Nghị, Bạch Mai, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "108 P. Lê Thanh Nghị, Bạch Mai, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テラス席あり",
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備"
+    ]
+  },
+  {
+    "id": "scraped_c301a077",
+    "name": "Vela's Coffee",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.9km（徒歩約24分）",
+    "location": {
+      "lat": 21.0044669,
+      "lng": 105.8285529
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3B7rociZa3e7feSx_0Mo7VbCma_AiJf3n1AGCuAH6gMc9UADLaP9dwQyyBf6psp182snbWGWDfl3DptMaAynEpvnMGigOlKhkvQcQcqYh45sha7cG9_PPuQNRwQXWgxclvO3AR6qJc8swo=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3Mrkrn8rmuGKGKTHm5NqEdPewmgdt0trDIA5GMDKEsf6_YR4vEFSNA_xHn9bEILg0PKlgqHKV9O0OAt9dhKtm9MEAyOkbdF8VCfPMR55wmA9U8I-IxQNTEhgw0rsJavM6QgVfxJDOUJ8kF=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1J5VHrEVLoFSfMXTEBE3nHnsJMlze-kPG7PEM-LuzzLGZQeZV0lnU0ZdPRBGoTIheoY4R1GkoRUPtxtYC_xEol6ugjpBNyKKXATne-BVMJvhzwoQTdcS1r3H_2fJyY7MiGDoJMgV39xlU1=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0P0szRumDQQDZibinal6dVKou5YRbC00_x45yyzjHNvDSmE3zaM4YUZ9nyRwknu7ZMuLDGxgidnBKMeUWJxN1yFnrmMWFOg0vJ6eaVAS0GbVW4eSSIBKAAiJHR89M0GOPC-Exbyhg-wfE=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1_O3mzHhyd8nVuTSqNmm2H5TYh7XrWFzxftuxExxSCWIRAGpZsvcKxRZgTippMoV-E7GfOb6meno830bIGpdq9Rt5EPrGpeYkcmTR2WvtzyyhfAVVKPeSnw1YwAd41vF0KsWAprE7u7V5-=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1Ns-TuBi7jtQXh8VK5c3UaABowLD5vsIXAouKuQURhjwLcJmorl6nkleb4GPqsf83wvNdiHEIKYL3JP6m-RyCog6aETaEx9sFHRXHZc1UZ_oxa67mG2ZQ3hIJ44kxGHAgXBLp6IgX1xbw=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFGVHKkpBeBzFvyQ-L9PUumVAB9GbaV5zA4-puqOWadRLzhKQxSpSqWr3OWH1k_4R0_3dOWdTfJoTooMkkTEBcY2ebGIWPJEs8KEL8zGcudaFl9TG_9IPiBKHT7ewe442FmQg_dH0Te0ngD=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3RAUGwAt-NClGC7vBXPU_3Dn8s6T4BDfr855xh0rZ-Iw-JVftumVaH-w6rRhuiGe_Kre0dLF_cZrrZbxESOKds2ONQlIc5lIT0ykDl0t3IGFc1twmZr_t4Ui8M3iRfQwAqpqTArMOoQHQu=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 5.0,
+    "reviewCount": 25,
+    "description": "自動収集されたデータ。所在地： 47 P. Tam Khương, Kim Liên, Hà Nội 100000, Việt Nam.",
+    "amenities": [
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "47 P. Tam Khương, Kim Liên, Hà Nội 100000, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テイクアウト可"
+    ]
+  },
+  {
+    "id": "scraped_32f5c224",
+    "name": "Maxx Cafe",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約290m（徒歩約4分）",
+    "location": {
+      "lat": 21.0023875,
+      "lng": 105.8448872
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2Jnr57STASk6VQKr908RVgqNeXPLJi7aVO99ee9vAj9ebRfYYLU_ke_09ALod6WC6U5EdipPhSEjJ_zI-fWVzYSYmg0Og0thgsu0U5XYeR4BUVPQZDcP6U6wCO2Rh_Q6fVkAk=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3hH-XDmMII4K9zNE2UKAND-mbCdwjNVCmWrSh5VHI7lCnt4o8PoXncU2KfKY1_rLNEzas7ME2s1-dwvKdxT9WoT2kV5G_C_Jbk-gI2kUuVk8V-3Qqa8bLE6ERvevOkeyxqgbzVDg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFdJm21QA6BffBjWD5T6DhktGCT4IyR5yDsBZuKBJrbBtvpeB8-iE7AUvHBe7UGLVkZezgphR0gPbecSAV3D5HUp92wg-3K9YwBU4qyoC-3lvv1es1GFbwiYQztqzHsASbCOkkM=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0mqqETVbQC7qIuUGfu91bq7d3IYrithVJsv04V3lx6oOMnX-z1lYDELbdpOCHS0wOKX-tKC61aLDgQesx7DhWm9qZ9e0cJ38wuV7Hk7sQ9oLAr401aEkiNrm_C4IvOTGZAErAKrA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0Lqy2qh6gLkicobWwprfXQGAUdRA9V5MtREHIeeGM21TQwmrEbjL-DrsqqZEprDK_OJQf7sekjVWZHDNubQ38NQF3lkiqqfaKbKaLRaV53YbtzeetDgx_JNoERgQk0FB2YZhXh=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0MqU1DTEpxH3PzBof-VXjctCaX4uUi1pZ1HxPLkJhx7GSczMoDoQgO6yBcVyofjbG9ZbcGYO6I_RpmUPH2s6mVZi6wKoo0bxhvhv1fjBzZwB62QV9eon8dr7ap5vwTndn67JKb=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn15Y60I8XEaYD_9ny3eSZaS6FnXcYscEu7S0_BKVaxcGji-J3HXqeiLjaujrqxWSgPdgCNUPW4A86w5bsekcFgNzrUcROPZw0ZJj8oiOMehr_PeFZjGg4a1PAMc9az13n-vcaK0b0GY_ahq=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0wbB3KCwh0Wb-DsHdIV7dJykYZg8XRUBcq8OH71dH5ND6ppDPAXCVxE55ddvCWmkjPVB6hzWB-Pf2wxsdoJn784CWm60dUNiiR_-VU-8mf1eyZ6vUulwj9mp2aJbfmm9e2x-YD=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 3.9,
+    "reviewCount": 557,
+    "description": "自動収集されたデータ。所在地： 119 Trần Đại Nghĩa, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "parking",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "119 Trần Đại Nghĩa, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備",
+      "路上駐車無料",
+      "トイレあります"
+    ]
+  },
+  {
+    "id": "scraped_ba22ca77",
+    "name": "Cà phê Gác",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約1.1km（徒歩約15分）",
+    "location": {
+      "lat": 21.0014955,
+      "lng": 105.836115
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1VrfUY19XNqDzuI2R0t_dgR8pby43DcV1U6CIotYNg0ZTB1qf4M7uhHOxRHL3GrDPy1-4aUkyftVStbJ9Bze0iY-ZXvJMTyGQ_lJEsLuTYGUDmAyXj93W-fQ7vtY00IL7ddBSewnZ-g84I=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0-WWFP_cJV_JiGdexwj01Y4Uj5WoJ9SnFajXbspvusxFCnqIsf5mY0Y550a9eLp4BOysoeucj9ta57RyK1be7olNR3YHXWU2aM9LVflYhJbH9_J7hyAgvkDE65dL0zF1iT5gv8xEfF3Js=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3TY6sqbdCDfEi6-5RSr96OX1ouNc8zzpcPRAm64-8q1XDg7hrDjE6na0-y-3aipnEmHbaP9THtzDuMSBXQzcSo6Use-yN-_bz2StK8MkN9CtCZ-DDYlosyceu0dDgFmW-jj4vFUA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2Q4St5xFKAMsWjULLKVeGliXJyzFmLwif2qq97Hz0cWpVUjjhs2ZlvQESYGkjL-RzSI7M60-WP1loFW_b1IBJdlDJMxtGrpsKbiBqVVVbbQU9egOPuVPsmErqtI1CmffLFI8pD=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXGgEblX_QgSb-raMFKu-jVeH4RajGzPOh-cctwn9U81Sj8E9yEgGU5Gb_Wy-AqKvwTPcv35LaqczLGw-PC6rVTcQDJ1X_xE3omHF9bvi1L2FQjc8aZ7nZ7twQUhVHcGU0NLjH=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0KhyuZRMPe7HEOsEI8OaCok8_JRZjkUiBUeo7tC_biL3wFCORSCQtV9ZhfXbKNyNApkw6sHH_u1syTHCygOTHzRpdprXuBwDv7E7Ibnzu28ns2UOQjbS5loljfdI-k0GOXc5Zc6WWkQS54=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0C4kmWbZx3tImpS7B-DqsnQ6ZvKdljlsQSj6Od0uyI4Q5JX8I2XOYei_X65tNXHUWxMO7QrTN0v0WhYxJ3SC-q9jP9lWl-RuVJWEPy5RC3IQMmyO6VrOa-8_L9n2UpTSDAcI4f29bnVhn8=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0w6m61vdWLP_gXMk4d76EJy1GbDcEsl3x6Njq-JbNy7j0UEFG6oyMFlj0wn25Pw-tK4R_AHsaYcxmkClVT1YiPzM6Hj75Fz-jskGnvNFCvqxiPjVqNGsNvIqkh1Yk_llfMiNE=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.7,
+    "reviewCount": 112,
+    "description": "自動収集されたデータ。所在地： tập thể D7, Ngõ 91 Phố Lương Định Của, Kim Liên, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "tập thể D7, Ngõ 91 Phố Lương Định Của, Kim Liên, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "テラス席あり",
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "駐車場は有料でご利用いただけます",
+      "無料駐車場"
+    ]
+  },
+  {
+    "id": "scraped_8821ff37",
+    "name": "Phê La - Đại La",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約770m（徒歩約10分）",
+    "location": {
+      "lat": 20.9978548,
+      "lng": 105.84427
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2SvmSHoWABw7DiB8rFwpadIwXWrfs0cmt0t4K9aq1sroMhxmMmnij03bZ9RwXnYVRbUyqDzfehfBwTJWA-2-yWEsCf8hI2oA0BFu7CbTnUuhcXWrcQYsPSw9cXf5nM58VDrOII=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0H5v0ODyPAgxv-9J_SW_T8BBJccC5Ud6Eceh-HmTPi7J4U6S2VEY3O7fn6drgBRGmETMIGNIZigVHJcvr1Yactg36vDanzAUZ2ev2t5_nAqyJ93O3G3KUcd5bqgentohpcf1WCSA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn28hPimE7kJ1BbVh2sGU5zqRxn2EFdmpG9vqJIfjntbsYyTO6jCu6ifK-6qzuOO1Jqe-RMUKTIBK7N8PiGaHBPG4I6Nq-ksvM59eFdL3MdYXtisO41ObqBUMj_WgmIElVX44RMdeKZa3Xai=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1rHY5OgeO0bEJpqbmPzHeAa3aAi9HHcxb3o5z61wrRg8gmdI3ZeOUjQDtawmRQ6XLJJe-cL9zMPd1w9dVKMMxCEEoyDGxmOXK3fxzo3yduOrgPxsyzrXOxP48_R8XNAZn6HnstIQ=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1dy0LPp6n05aBpgsl5dsAoYUSTCGc2JQH9tSOYJUl0T1EJzsaXl2wcy5IPPKSzrZzLuYABdVzitDOYO4KSxw1Cee2VS1glSvV1T3Wg9sxnRK7njqLoSMes8O3fMRIPFh3pMWGTTg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2yRaGK4pUqknw8I_9Bel8u19H4cqwW4-lnx2yO0BDo6NHibTyWOzMM6hojph12WtWhWXncc1vIVVeos16vsaDhUrevCiBg02SZPE5FEYeej_qLYJQQoo_G7uJE_ZT1KUEIckBdhA=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0EBa_-HQ4WycI5d__NWfuAGeeU8NFQSzt6J9__6ilsVVc2BMyNl2zI6h3LUnQdllITuuVC9nCk8c2iRv9856evJdv1f49Zdxql0MEBjD8ztCaMgQsSMbizAQImJX_iTh5ldFp7=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn3sxcQRZKsj1TMAd4kFnbL1MPQRx9kTBYqzK0l0wlWnwMl-iUkjOUdGIQXxJVJHNRDrKmHMTQCdzrf48njD6GPWcCJKhrv7aNPcAGHoKEb74ZhQ-lBV9Oo68NMXsbL9SVMa0SYqrA=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 3.8,
+    "reviewCount": 660,
+    "description": "自動収集されたデータ。所在地： 24 Ng. 128C P. Đại La, Bạch Mai, Hà Nội, Việt Nam.",
+    "amenities": [
+      "delivery",
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "24 Ng. 128C P. Đại La, Bạch Mai, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応駐車場",
+      "テラス席あり",
+      "提携デリバリーあり",
+      "デリバリー対応",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備"
+    ]
+  },
+  {
+    "id": "scraped_559dfdf8",
+    "name": "Cafe Joah",
+    "nameJa": "人気のカフェ",
+    "category": "cafe",
+    "categoryLabelJa": "カフェ",
+    "categoryLabel": "Quán cà phê",
+    "address": "約950m（徒歩約12分）",
+    "location": {
+      "lat": 21.01302,
+      "lng": 105.8465437
+    },
+    "photos": [
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn1iK8A16jyFldrDjju-rn1J5HA2jmBrBhXZCoyLp2DWKtu3ERHdrEB1jWLXWHQyqWlB_2vgv8i_FfAx9U0PzSyNn-ZXYKtrXptaib5jl1m2hKNriSHI3njuvoZ0JyQeTSqaCT0g=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0UgL86VjIfHnCyaPPSb2kFmyhuCz4x3y24FxUxFtif2XF8gRZIzmAxMqky4d90FyXEF7cUDnKEeaV2514kZbDpxj9rB-HavWXT_90O6LdunzzIFaAkBOiqSUkqABKfIqGpPwSQQg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0NTo0mWpkH0sGtY0EIFDXylamgYl9FTqE48Fgmo3l6loryd-EMD2PulXwFnAMJlSXrjagD7y8TSfFJsuZhePrIayhlITHW4xFEX44IkT2ttpOjSBM9aX200rlDI0s7eHfaIR5OwTzakOUa=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn2Xr9p-E5ACJEbGBGYoOVa9tsF-V09cgOuuqX8HoRB9O9UosNIfcFdhsNtSoJy4zVIbnxq7J3gryCsPnW4vtJfkve1Gl2n8afKfx0rDKpqJRuEKD0FJ0fX4u2fq_gw6r563aqk=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn0g3N4E61wwaV_th_a1mvDQNCMJ5vR4dq-YSqiBqZnivogSPIzDswjvb3q5WE-Gs6-4lJ3ru1mucMPxnYI-PwPUZO1D3g-Du4bVcqmQqn42kGmoeSb1NdS_QDRQe3FsljaYrzg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn34ehlkHQmbmpKvh4FC1T9RDDv4YaFfauuTxO8AEm9EkNRDwEC1Evor7-FCcDEYuapU9igI7sYq1JOnx3E0AIaVIt1dxNyihP8HU7JeWOIUyEQlgjm88bCICL3Y_ITl8XXcU0NZhg=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn25FESgFDGQhtgK-rWtAvPwne47TSUX_vsQU51T_fBSsBp1U_X6P71eDxjp4EMdWMXJPOZxoWMU2xsr-jRSBg_A2aZ6b9Mz9I8M4t461jJMejEih-ENtN4vw7_JTMZWw03Y-C_-=w800-h600-k-no",
+      "https://lh3.googleusercontent.com/grass-cs/ANxoTn23EhkpIT5g4jyhKVq6KpNf_I1Lx4vG6MWF7hizKWsn8P2HRyvP4ioc9hDceS77ceegjWDwfdyGfI2Syyoalg2IxbcBAmQqBG1_f-CGs--8Ldra0PdRQYeC6SVKpMjlBJI4fm40=w800-h600-k-no"
+    ],
+    "businessHours": {
+      "monday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tuesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wednesday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thursday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "friday": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sunday": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "availability": "available",
+    "rating": 4.2,
+    "reviewCount": 115,
+    "description": "自動収集されたデータ。所在地： 47 P. Nguyễn Đình Chiểu, Hai Bà Trưng, Hà Nội, Việt Nam.",
+    "amenities": [
+      "laptop_friendly",
+      "outdoor",
+      "parking",
+      "restroom",
+      "takeaway"
+    ],
+    "quietnessLevel": 3,
+    "hasWifi": false,
+    "hasPowerOutlets": false,
+    "distanceFromHust": "47 P. Nguyễn Đình Chiểu, Hai Bà Trưng, Hà Nội, Việt Nam",
+    "areaSize": 50,
+    "budgetRange": {
+      "min": 35000,
+      "max": 75000
+    },
+    "featureTags": [
+      "車椅子対応トイレ",
+      "テラス席あり",
+      "テイクアウト可",
+      "PC作業に最適",
+      "トイレ完備",
+      "無料駐車場",
+      "駐車場完備",
+      "路上駐車無料"
+    ]
   }
 ]
