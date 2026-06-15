@@ -48,7 +48,7 @@ function MainLayout() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen min-h-dvh bg-slate-50">
+    <div className="flex flex-col min-h-screen min-h-dvh app-gradient-bg">
       <NavigationBar activeTab={activeTab} onTabChange={handleTabChange} />
       <main className="flex-1 w-full overflow-x-hidden">
         <TransitionWrapper direction={direction} locationKey={location.key}>

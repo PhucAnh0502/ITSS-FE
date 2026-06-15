@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { SlidersHorizontal, Bookmark } from 'lucide-react';
+import { Bookmark } from 'lucide-react';
 import { useWorkspaces } from '../hooks/useWorkspaces';
 import { useSearch } from '../hooks/useSearch';
 import { useCategoryFilter } from '../hooks/useCategoryFilter';
@@ -104,19 +104,42 @@ function TopPage() {
 
   return (
     <div className="p-6 max-w-6xl mx-auto md:p-4">
-      {/* Search */}
-      <SearchBar value={query} onChange={setQuery} />
+      {/* Hero */}
+      <section className="relative overflow-hidden rounded-3xl bg-white ring-1 ring-blue-100 shadow-sm mb-6 px-6 py-10 md:px-10 md:py-14">
+        <div className="absolute inset-0 hero-mesh" aria-hidden="true" />
+        <div className="absolute inset-0 bg-grid-faint opacity-70" aria-hidden="true" />
+        <div className="relative">
+          <motion.h1
+            className="text-[2.5rem] md:text-6xl font-extrabold tracking-tight text-gray-900 leading-[1.05] m-0"
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
+          >
+            {LOCALIZATION.hero.title}
+            <br />
+            <span className="text-brand-gradient">{LOCALIZATION.hero.titleAccent}</span>
+          </motion.h1>
+          <motion.p
+            className="mt-4 mb-7 max-w-xl text-gray-600 text-sm md:text-base leading-relaxed"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.2, duration: 0.6 }}
+          >
+            {LOCALIZATION.hero.subtitle}
+          </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.5 }}
+          >
+            <SearchBar value={query} onChange={setQuery} />
+          </motion.div>
+        </div>
+      </section>
 
       {/* Section Header */}
       <div className="flex items-center justify-between mb-4 mt-2">
-        <h2 className="text-2xl font-bold m-0 text-gray-900">{LOCALIZATION.headings.searchSpaces}</h2>
-        <button
-          className="flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white border border-gray-200 text-gray-500 text-sm font-medium cursor-pointer transition-all hover:border-green-500 hover:text-green-500"
-          onClick={() => setShowFilters(!showFilters)}
-        >
-          <SlidersHorizontal size={16} />
-          {LOCALIZATION.buttons.filter}
-        </button>
+        <h2 className="text-2xl font-extrabold m-0 text-brand-gradient">{LOCALIZATION.headings.searchSpaces}</h2>
       </div>
 
       {/* Category Tags */}
@@ -152,20 +175,25 @@ function TopPage() {
       ) : (
         <>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-4 auto-rows-fr items-stretch" ref={gridRef}>
-            {paginatedWorkspaces.map((workspace, index) => (
-              <motion.div
-                key={workspace.id}
-                custom={index}
-                variants={cardVariants}
-                initial="hidden"
-                animate="visible"
-              >
-                <WorkspaceCard
-                  workspace={workspace}
-                  onClick={handleCardClick}
-                />
-              </motion.div>
-            ))}
+            {paginatedWorkspaces.map((workspace, index) => {
+              const isFeatured = index === 0;
+              return (
+                <motion.div
+                  key={workspace.id}
+                  custom={index}
+                  variants={cardVariants}
+                  initial="hidden"
+                  animate="visible"
+                  className={`h-full ${isFeatured ? 'md:col-span-2 lg:row-span-2' : ''}`}
+                >
+                  <WorkspaceCard
+                    workspace={workspace}
+                    onClick={handleCardClick}
+                    featured={isFeatured}
+                  />
+                </motion.div>
+              );
+            })}
           </div>
 
           {totalPages > 1 && (
@@ -180,7 +208,7 @@ function TopPage() {
 
       {/* Floating Action Button */}
       <motion.button
-        className="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-green-500 text-white border-none flex items-center justify-center text-2xl shadow-lg shadow-green-500/30 cursor-pointer z-50 hover:scale-105 hover:shadow-xl hover:shadow-green-500/40 transition-all md:bottom-6 md:right-6 md:w-12 md:h-12"
+        className="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-brand-gradient text-white border-none flex items-center justify-center text-2xl shadow-lg shadow-blue-500/40 cursor-pointer z-50 hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/50 transition-all md:bottom-6 md:right-6 md:w-12 md:h-12"
         aria-label="ブックマーク"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

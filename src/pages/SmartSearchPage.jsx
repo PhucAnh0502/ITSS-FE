@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { User, Users, BookOpen, UsersRound, Lightbulb, Volume2, MapPin, Star } from 'lucide-react';
@@ -8,16 +8,16 @@ import { LOCALIZATION } from '../utils/localization';
 import LoadingIndicator from '../components/LoadingIndicator';
 
 const PEOPLE_OPTIONS = [
-  { value: '1', label: '1人', icon: <User size={20} /> },
-  { value: '2', label: '2人', icon: <Users size={20} /> },
-  { value: '3-4', label: '3〜4人', icon: <UsersRound size={20} /> },
-  { value: '5+', label: '5人以上', icon: <UsersRound size={20} /> },
+  { value: '1', label: '1人', icon: <User size={30} /> },
+  { value: '2', label: '2人', icon: <Users size={30} /> },
+  { value: '3-4', label: '3〜4人', icon: <UsersRound size={30} /> },
+  { value: '5+', label: '5人以上', icon: <UsersRound size={30} /> },
 ];
 
 const PURPOSE_OPTIONS = [
-  { value: 'study-alone', label: LOCALIZATION.smartSearch.studyAlone, icon: <BookOpen size={20} /> },
-  { value: 'group-work', label: LOCALIZATION.smartSearch.groupWork, icon: <UsersRound size={20} /> },
-  { value: 'meeting', label: LOCALIZATION.smartSearch.meeting, icon: <Lightbulb size={20} /> },
+  { value: 'study-alone', label: LOCALIZATION.smartSearch.studyAlone, icon: <BookOpen size={30} /> },
+  { value: 'group-work', label: LOCALIZATION.smartSearch.groupWork, icon: <UsersRound size={30} /> },
+  { value: 'meeting', label: LOCALIZATION.smartSearch.meeting, icon: <Lightbulb size={30} /> },
 ];
 
 const AMENITY_OPTIONS = [
@@ -57,12 +57,24 @@ function SmartSearchPage() {
   const [hasSearched, setHasSearched] = useState(false);
   const [quietnessValue, setQuietnessValue] = useState(3);
 
+  // Section refs for the step-by-step auto-scroll ("wizard" feel)
+  const purposeRef = useRef(null);
+  const quietnessRef = useRef(null);
+
+  const scrollToSection = (ref) => {
+    requestAnimationFrame(() => {
+      ref.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  };
+
   const handlePeopleSelect = (value) => {
     setConditions('peopleCount', value);
+    scrollToSection(purposeRef);
   };
 
   const handlePurposeSelect = (value) => {
     setConditions('purpose', value);
+    scrollToSection(quietnessRef);
   };
 
   const handleQuietnessChange = (e) => {
@@ -92,7 +104,7 @@ function SmartSearchPage() {
   return (
     <div className="p-6 max-w-3xl mx-auto md:p-4">
       <motion.h1
-        className="text-[1.75rem] font-bold mb-2 text-gray-900 text-center"
+        className="text-[1.75rem] font-extrabold mb-2 text-brand-gradient text-center"
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -117,17 +129,17 @@ function SmartSearchPage() {
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-blue-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.people}
         </h2>
         <div className="flex gap-3 flex-wrap">
           {PEOPLE_OPTIONS.map((option) => (
             <motion.button
               key={option.value}
-              className={`flex flex-col items-center justify-center gap-1 py-3.5 px-5 border-2 rounded-xl cursor-pointer transition-all min-w-[80px] ${
+              className={`flex flex-col items-center justify-center gap-2.5 py-5 px-6 border-2 rounded-2xl cursor-pointer transition-all min-w-26 ${
                 conditions.peopleCount === option.value
-                  ? 'border-green-500 bg-green-500 text-white hover:bg-green-600'
-                  : 'border-gray-200 bg-white text-inherit hover:border-green-500 hover:bg-green-500/5'
+                  ? 'border-blue-500 bg-blue-50 text-blue-700 ring-2 ring-blue-400/60 shadow-lg shadow-blue-500/25'
+                  : 'border-gray-200 bg-white text-gray-600 hover:border-blue-300 hover:bg-blue-50/60 hover:shadow-md'
               }`}
               onClick={() => handlePeopleSelect(option.value)}
               type="button"
@@ -135,8 +147,8 @@ function SmartSearchPage() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <span className="text-xl">{option.icon}</span>
-              <span className="text-xs font-medium">{option.label}</span>
+              <span className="text-2xl">{option.icon}</span>
+              <span className="text-sm font-semibold">{option.label}</span>
             </motion.button>
           ))}
         </div>
@@ -144,24 +156,25 @@ function SmartSearchPage() {
 
       {/* Purpose Section */}
       <motion.section
-        className="mb-7"
+        ref={purposeRef}
+        className="mb-7 scroll-mt-24"
         custom={1}
         variants={sectionVariants}
         initial="hidden"
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-cyan-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.purpose}
         </h2>
         <div className="flex gap-3 flex-wrap">
           {PURPOSE_OPTIONS.map((option) => (
             <motion.button
               key={option.value}
-              className={`flex flex-col items-center justify-center gap-1 py-3.5 px-5 border-2 rounded-xl cursor-pointer transition-all min-w-[80px] ${
+              className={`flex flex-col items-center justify-center gap-2.5 py-5 px-6 border-2 rounded-2xl cursor-pointer transition-all min-w-26 ${
                 conditions.purpose === option.value
-                  ? 'border-green-500 bg-green-500 text-white hover:bg-green-600'
-                  : 'border-gray-200 bg-white text-inherit hover:border-green-500 hover:bg-green-500/5'
+                  ? 'border-blue-500 bg-blue-50 text-blue-700 ring-2 ring-blue-400/60 shadow-lg shadow-blue-500/25'
+                  : 'border-gray-200 bg-white text-gray-600 hover:border-blue-300 hover:bg-blue-50/60 hover:shadow-md'
               }`}
               onClick={() => handlePurposeSelect(option.value)}
               type="button"
@@ -169,8 +182,8 @@ function SmartSearchPage() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <span className="text-xl">{option.icon}</span>
-              <span className="text-xs font-medium">{option.label}</span>
+              <span className="text-2xl">{option.icon}</span>
+              <span className="text-sm font-semibold">{option.label}</span>
             </motion.button>
           ))}
         </div>
@@ -178,29 +191,40 @@ function SmartSearchPage() {
 
       {/* Quietness Section - Slider */}
       <motion.section
-        className="mb-7"
+        ref={quietnessRef}
+        className="mb-7 scroll-mt-24"
         custom={2}
         variants={sectionVariants}
         initial="hidden"
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-amber-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.quietness}
         </h2>
-        <div className="flex flex-col gap-3">
-          <div className="flex justify-between text-xs text-gray-500">
-            <span>{LOCALIZATION.smartSearch.lively}</span>
-            <span>{LOCALIZATION.smartSearch.quiet}</span>
+        <div className="flex flex-col gap-2">
+          <div className="flex justify-between text-xs font-semibold">
+            <span className="flex items-center gap-1 text-orange-500">🔥 {LOCALIZATION.smartSearch.lively}</span>
+            <span className="flex items-center gap-1 text-teal-500">{LOCALIZATION.smartSearch.quiet} 🤫</span>
           </div>
-          <div className="px-1">
+          <div className="relative pt-9">
+            {/* Floating value tooltip that tracks the thumb */}
+            <div
+              className="absolute top-0 -translate-x-1/2 transition-all duration-150 ease-out pointer-events-none"
+              style={{ left: `calc(13px + (100% - 26px) * ${(quietnessValue - 1) / 4})` }}
+            >
+              <div className="relative px-2.5 py-1 rounded-lg bg-blue-600 text-white text-xs font-bold shadow-md shadow-blue-500/40">
+                {quietnessValue}
+                <span className="absolute left-1/2 -translate-x-1/2 -bottom-1 w-2 h-2 rotate-45 bg-blue-600" />
+              </div>
+            </div>
             <input
               type="range"
               min="1"
               max="5"
               value={quietnessValue}
               onChange={handleQuietnessChange}
-              className="w-full h-1.5 appearance-none rounded-sm bg-gray-200 outline-none cursor-pointer accent-green-500"
+              className="range-quiet w-full"
               aria-label={LOCALIZATION.smartSearch.quietness}
             />
           </div>
@@ -216,17 +240,17 @@ function SmartSearchPage() {
         animate="visible"
       >
         <h2 className="text-base font-semibold mb-3 text-gray-900 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-green-500 shrink-0"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-teal-500 shrink-0"></span>
           {LOCALIZATION.smartSearch.amenities}
         </h2>
         <div className="flex flex-wrap gap-2">
           {AMENITY_OPTIONS.map((option) => (
             <motion.button
               key={option.value}
-              className={`px-4 py-2 border-2 rounded-[20px] cursor-pointer text-sm transition-all ${
+              className={`px-5 py-2.5 border-2 rounded-full cursor-pointer text-sm font-medium transition-all ${
                 (conditions.amenities || []).includes(option.value)
-                  ? 'border-green-500 bg-green-500 text-white hover:bg-green-600'
-                  : 'border-gray-200 bg-white text-inherit hover:border-green-500 hover:bg-green-500/5'
+                  ? 'border-blue-500 bg-blue-50 text-blue-700 ring-2 ring-blue-400/60 shadow-lg shadow-blue-500/25'
+                  : 'border-gray-200 bg-white text-gray-600 hover:border-blue-300 hover:bg-blue-50/60 hover:shadow-md'
               }`}
               onClick={() => handleAmenityToggle(option.value)}
               type="button"
@@ -242,7 +266,7 @@ function SmartSearchPage() {
 
       {/* Submit Button */}
       <motion.button
-        className="block w-full py-4 border-none rounded-xl bg-green-500 text-white text-base font-semibold cursor-pointer transition-colors mt-2 mb-6 hover:bg-green-600 active:bg-green-700"
+        className="block w-full py-4 border-none rounded-xl bg-brand-gradient text-white text-base font-semibold cursor-pointer transition-all mt-2 mb-6 shadow-lg shadow-blue-500/30 hover:opacity-95 hover:shadow-xl hover:shadow-cyan-500/30"
         onClick={handleSubmit}
         type="button"
         whileHover={{ scale: 1.02 }}
@@ -276,7 +300,7 @@ function SmartSearchPage() {
               {results.map((workspace, index) => (
                 <motion.article
                   key={workspace.id}
-                  className="flex gap-4 p-4 rounded-2xl bg-white shadow-sm cursor-pointer transition-all hover:shadow-md hover:-translate-y-px focus:outline-2 focus:outline-green-500 focus:outline-offset-2"
+                  className="group flex gap-4 p-4 rounded-2xl bg-white ring-1 ring-blue-100 shadow-sm cursor-pointer transition-all hover:shadow-2xl hover:shadow-blue-500/20 hover:ring-blue-300 hover:-translate-y-1 focus:outline-2 focus:outline-blue-500 focus:outline-offset-2"
                   custom={index}
                   variants={resultVariants}
                   initial="hidden"
@@ -295,7 +319,7 @@ function SmartSearchPage() {
                   <div className="shrink-0 w-[120px] h-[90px] rounded-xl overflow-hidden">
                     {workspace.photos && workspace.photos[0] ? (
                       <img
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                         src={workspace.photos[0]}
                         alt={workspace.name || 'ワークスペース'}
                         loading="lazy"
@@ -307,7 +331,7 @@ function SmartSearchPage() {
                   <div className="flex-1 flex flex-col gap-1 min-w-0">
                     <h3 className="text-base font-semibold text-gray-900 m-0 whitespace-nowrap overflow-hidden text-ellipsis">{workspace.name}</h3>
                     <div className="flex gap-3 text-[0.8125rem] text-gray-500 items-center">
-                      <span className="flex items-center gap-1 text-green-500">
+                      <span className="flex items-center gap-1 text-cyan-500">
                         <MapPin size={12} /> {workspace.distanceFromHust != null ? `${workspace.distanceFromHust}km` : '—'}
                       </span>
                       <span className="text-amber-500 font-semibold flex items-center gap-1">
@@ -317,7 +341,7 @@ function SmartSearchPage() {
                     {workspace.featureTags && workspace.featureTags.length > 0 && (
                       <div className="flex flex-wrap gap-1.5 mt-1.5">
                         {workspace.featureTags.slice(0, 5).map((tag, index) => (
-                          <span key={index} className="px-2 py-0.5 rounded-[10px] border border-green-500 text-[0.6875rem] text-green-500 font-medium">
+                          <span key={index} className="px-2 py-0.5 rounded-[10px] border border-blue-100 bg-blue-50 text-[0.6875rem] text-blue-700 font-medium">
                             {tag}
                           </span>
                         ))}

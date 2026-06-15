@@ -1,9 +1,51 @@
 @import "tailwindcss";
 
-/* Custom theme via CSS variables for consistency */
+/* Clean, modern cool-tone theme via CSS variables for consistency */
 :root {
-  --color-primary: #22c55e;
-  --color-primary-hover: #16a34a;
+  --color-primary: #2563eb;        /* blue-600 */
+  --color-primary-hover: #1d4ed8;  /* blue-700 */
+  --color-accent: #06b6d4;         /* cyan-500 */
+  --color-accent-2: #6366f1;       /* indigo-500 */
+}
+
+/* Brand gradient used across primary actions, the logo, and highlights */
+@utility bg-brand-gradient {
+  background-image: linear-gradient(135deg, #06b6d4 0%, #3b82f6 50%, #6366f1 100%);
+}
+
+/* Clipped gradient text for headings and the logo */
+@utility text-brand-gradient {
+  background-image: linear-gradient(135deg, #0891b2 0%, #2563eb 50%, #4f46e5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Faint grid pattern, layered behind the hero */
+@utility bg-grid-faint {
+  background-image:
+    linear-gradient(to right, rgba(37, 99, 235, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(37, 99, 235, 0.06) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* Mesh gradient for the hero backdrop */
+@utility hero-mesh {
+  background-image:
+    radial-gradient(at 12% 18%, rgba(59, 130, 246, 0.40) 0px, transparent 50%),
+    radial-gradient(at 88% 12%, rgba(6, 182, 212, 0.38) 0px, transparent 50%),
+    radial-gradient(at 70% 88%, rgba(99, 102, 241, 0.38) 0px, transparent 50%),
+    radial-gradient(at 25% 90%, rgba(56, 189, 248, 0.30) 0px, transparent 50%);
+}
+
+/* Soft, cool page backdrop */
+@utility app-gradient-bg {
+  background-image:
+    radial-gradient(1100px circle at 0% 0%, rgba(59, 130, 246, 0.10), transparent 45%),
+    radial-gradient(1100px circle at 100% 0%, rgba(6, 182, 212, 0.10), transparent 45%),
+    radial-gradient(900px circle at 50% 100%, rgba(99, 102, 241, 0.07), transparent 50%),
+    linear-gradient(180deg, #eff6ff 0%, #ffffff 40%, #ecfeff 100%);
 }
 
 /* Keep transition animations that can't be done with Tailwind alone */
@@ -41,3 +83,47 @@
 /* Scrollbar hide utility */
 .scrollbar-hide::-webkit-scrollbar { display: none; }
 .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Gradient range slider (Smart Search quietness): thick track + large glowing thumb */
+.range-quiet {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+.range-quiet:focus { outline: none; }
+
+.range-quiet::-webkit-slider-runnable-track {
+  height: 12px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #fb923c 0%, #fbbf24 35%, #34d399 70%, #2dd4bf 100%);
+}
+.range-quiet::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  margin-top: -7px;
+  border-radius: 9999px;
+  background: #ffffff;
+  border: 3px solid #3b82f6;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.45);
+  transition: transform 0.15s ease;
+}
+.range-quiet:active::-webkit-slider-thumb { transform: scale(1.18); }
+
+.range-quiet::-moz-range-track {
+  height: 12px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #fb923c 0%, #fbbf24 35%, #34d399 70%, #2dd4bf 100%);
+}
+.range-quiet::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 9999px;
+  background: #ffffff;
+  border: 3px solid #3b82f6;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.45);
+  cursor: pointer;
+}

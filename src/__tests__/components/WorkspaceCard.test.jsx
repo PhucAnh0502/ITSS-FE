@@ -61,19 +61,19 @@ describe('WorkspaceCard', () => {
     expect(screen.getByText(mockWorkspace.description)).toBeInTheDocument();
   });
 
-  it('renders up to 5 feature tags', () => {
+  it('renders up to 3 feature tags', () => {
     render(<WorkspaceCard workspace={mockWorkspace} />);
-    mockWorkspace.featureTags.forEach((tag) => {
+    mockWorkspace.featureTags.slice(0, 3).forEach((tag) => {
       expect(screen.getByText(tag)).toBeInTheDocument();
     });
   });
 
-  it('renders at most 5 tags even if more are provided', () => {
+  it('renders at most 3 tags even if more are provided', () => {
     const manyTags = { ...mockWorkspace, featureTags: ['A', 'B', 'C', 'D', 'E', 'F', 'G'] };
     render(<WorkspaceCard workspace={manyTags} />);
-    expect(screen.getByText('E')).toBeInTheDocument();
-    expect(screen.queryByText('F')).not.toBeInTheDocument();
-    expect(screen.queryByText('G')).not.toBeInTheDocument();
+    expect(screen.getByText('C')).toBeInTheDocument();
+    expect(screen.queryByText('D')).not.toBeInTheDocument();
+    expect(screen.queryByText('E')).not.toBeInTheDocument();
   });
 
   it('calls onClick when card is clicked', () => {

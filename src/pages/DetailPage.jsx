@@ -113,9 +113,9 @@ function DetailPage() {
 
       {/* Workspace Info */}
       <section className="mb-6">
-        <h1 className="text-2xl font-semibold m-0 mb-1 text-gray-900 tracking-tight">{workspace.name}</h1>
+        <h1 className="text-2xl font-bold m-0 mb-1 text-brand-gradient tracking-tight">{workspace.name}</h1>
         {workspace.nameJa && <p className="text-sm text-gray-500 m-0 mb-2">{workspace.nameJa}</p>}
-        <span className="inline-block bg-green-500/10 text-green-500 text-xs font-medium px-2.5 py-1 rounded-xl mb-3">{workspace.categoryLabelJa}</span>
+        <span className="inline-block bg-linear-to-r from-blue-100 to-cyan-100 text-blue-700 text-xs font-semibold px-2.5 py-1 rounded-xl mb-3">{workspace.categoryLabelJa}</span>
 
         <div className="mb-4">
           <StarRating rating={workspace.rating} count={workspace.reviewCount} />
@@ -148,9 +148,9 @@ function DetailPage() {
             if (!config) return null;
             const IconComponent = config.icon;
             return (
-              <div key={amenity} className="flex items-center gap-1.5 bg-gray-100 px-3 py-2 rounded-lg text-sm">
-                <IconComponent size={18} />
-                <span className="text-gray-900 font-medium">{config.label}</span>
+              <div key={amenity} className="flex items-center gap-1.5 bg-blue-50 text-blue-700 px-3 py-2 rounded-lg text-sm ring-1 ring-blue-100">
+                <IconComponent size={18} className="text-cyan-500" />
+                <span className="font-medium">{config.label}</span>
               </div>
             );
           })}
@@ -163,7 +163,7 @@ function DetailPage() {
           <h2 className="text-lg font-semibold text-gray-900 m-0">{LOCALIZATION.headings.communityReviews}</h2>
           {reviews.length > 0 && (
             <button
-              className="bg-transparent border-none text-green-500 text-sm font-medium cursor-pointer px-2 py-1 rounded transition-colors hover:bg-green-500/10"
+              className="bg-transparent border-none text-blue-600 text-sm font-medium cursor-pointer px-2 py-1 rounded transition-colors hover:bg-blue-500/10"
               onClick={handleSeeAllReviews}
             >
               {LOCALIZATION.misc.seeAll}
@@ -186,7 +186,7 @@ function DetailPage() {
       {/* Action Buttons */}
       <section className="flex gap-3 pt-4 border-t border-gray-200 md:max-w-[400px]">
         <button
-          className="flex-1 py-3.5 px-5 border-none rounded-xl text-base font-semibold cursor-pointer transition-all active:scale-[0.97] bg-green-500 text-white hover:opacity-90"
+          className="flex-1 py-3.5 px-5 border-none rounded-xl text-base font-semibold cursor-pointer transition-all active:scale-[0.97] bg-brand-gradient text-white shadow-lg shadow-blue-500/30 hover:opacity-90"
           onClick={handleReserve}
         >
           {LOCALIZATION.buttons.reserve}
@@ -223,7 +223,7 @@ function DetailPage() {
             >
               <p className="text-lg font-semibold text-gray-900 m-0 mb-5">{LOCALIZATION.misc.reservationComplete}</p>
               <button
-                className="bg-green-500 text-white border-none rounded-lg px-6 py-2.5 text-sm font-medium cursor-pointer transition-opacity hover:opacity-90"
+                className="bg-brand-gradient text-white border-none rounded-lg px-6 py-2.5 text-sm font-medium cursor-pointer transition-opacity hover:opacity-90"
                 onClick={handleCloseModal}
               >
                 {LOCALIZATION.misc.close}

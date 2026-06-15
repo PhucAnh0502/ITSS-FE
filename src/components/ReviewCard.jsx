@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ThumbsUp, MessageCircle } from 'lucide-react';
 import StarRating from './StarRating';
 import ReviewDetailModal from './ReviewDetailModal';
@@ -26,9 +27,83 @@ function formatRelativeTime(postedAt) {
   return 'たった今';
 }
 
+/** A single media tile with optional video label / "+N more" overlay. */
+function MediaTile({ item, className, extra }) {
+  return (
+    <div className={`relative overflow-hidden bg-gray-100 ${className}`}>
+      <img src={item.url} alt="" className="w-full h-full object-cover" loading="lazy" />
+      {item.type === 'video' && (
+        <span className="absolute bottom-1.5 left-1.5 bg-black/70 text-white text-[0.625rem] px-1.5 py-0.5 rounded font-medium">
+          Short Video
+        </span>
+      )}
+      {extra}
+    </div>
+  );
+}
+
+/** Media-first gallery: edge-to-edge, with a 1 / 2 / mosaic layout by count. */
+function ReviewMedia({ media }) {
+  const count = media.length;
+  if (count === 0) return null;
+
+  return (
+    <div className="-mx-4 my-3">
+      {count === 1 && <MediaTile item={media[0]} className="h-56" />}
+
+      {count === 2 && (
+        <div className="grid grid-cols-2 gap-0.5">
+          <MediaTile item={media[0]} className="h-40" />
+          <MediaTile item={media[1]} className="h-40" />
+        </div>
+      )}
+
+      {count >= 3 && (
+        <div className="grid grid-cols-2 grid-rows-2 gap-0.5 h-64">
+          <MediaTile item={media[0]} className="row-span-2 h-full" />
+          <MediaTile item={media[1]} className="h-full" />
+          <MediaTile
+            item={media[2]}
+            className="h-full"
+            extra={
+              count > 3 ? (
+                <div className="absolute inset-0 bg-black/55 flex items-center justify-center text-white text-lg font-bold">
+                  +{count - 3}
+                </div>
+              ) : null
+            }
+          />
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** Small radial particle burst played when a review is marked helpful. */
+function HelpfulBurst() {
+  const dots = [0, 1, 2, 3, 4, 5];
+  return (
+    <span className="absolute inset-0 flex items-center justify-center pointer-events-none">
+      {dots.map((i) => {
+        const angle = (i / dots.length) * Math.PI * 2;
+        return (
+          <motion.span
+            key={i}
+            className="absolute w-1 h-1 rounded-full bg-blue-500"
+            initial={{ x: 0, y: 0, opacity: 1, scale: 1 }}
+            animate={{ x: Math.cos(angle) * 14, y: Math.sin(angle) * 14, opacity: 0, scale: 0.3 }}
+            transition={{ duration: 0.5, ease: 'easeOut' }}
+          />
+        );
+      })}
+    </span>
+  );
+}
+
 export default function ReviewCard({ review, onHelpful, isHelpfulActive, helpfulCount, onAddComment }) {
   const [expanded, setExpanded] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
+  const [burst, setBurst] = useState(false);
   const commentCount = review.comments?.length || 0;
   const displayHelpfulCount = helpfulCount != null ? helpfulCount : review.helpfulCount;
 
@@ -36,6 +111,14 @@ export default function ReviewCard({ review, onHelpful, isHelpfulActive, helpful
 
   function handleCommentClick() {
     setModalOpen(true);
+  }
+
+  function handleHelpfulClick() {
+    if (!isHelpfulActive) {
+      setBurst(true);
+      setTimeout(() => setBurst(false), 600);
+    }
+    if (onHelpful) onHelpful(review.id);
   }
 
   function handleAddComment(reviewId, text) {
@@ -46,31 +129,34 @@ export default function ReviewCard({ review, onHelpful, isHelpfulActive, helpful
 
   return (
     <>
-      <div className="review-card bg-white rounded-2xl p-4 text-left shadow-sm border-none flex flex-col min-h-[220px]">
-        <div className="flex items-center gap-2 mb-2">
+      <div className="review-card bg-white rounded-2xl p-4 text-left shadow-sm ring-1 ring-blue-100 hover:shadow-xl hover:shadow-blue-500/10 transition-shadow flex flex-col">
+        {/* Reviewer header */}
+        <div className="flex items-center gap-2.5 mb-3">
           <img
-            className="w-10 h-10 rounded-full object-cover shrink-0"
+            className="w-10 h-10 rounded-full object-cover shrink-0 ring-2 ring-blue-100"
             src={review.reviewerAvatar}
             alt={review.reviewerName}
           />
-          <div className="flex flex-col gap-0.5 flex-1 min-w-0">
-            <span className="text-sm font-semibold text-gray-900 whitespace-nowrap overflow-hidden text-ellipsis">{review.reviewerName}</span>
-            <span className="text-[0.6875rem] text-white font-semibold bg-green-500 px-2 py-0.5 rounded-full inline-block w-fit">{review.badgeLabelJa || '認証済み学生'}</span>
+          <div className="flex flex-col gap-1 flex-1 min-w-0">
+            <span className="text-sm font-semibold text-gray-900 truncate">{review.reviewerName}</span>
+            <span className="text-[0.6875rem] font-semibold text-blue-700 bg-white/60 backdrop-blur-sm px-2 py-0.5 rounded-full inline-flex items-center w-fit border border-white/70 ring-1 ring-blue-200/60">
+              {review.badgeLabelJa || '認証済み学生'}
+            </span>
           </div>
-          <span className="text-xs text-gray-500 whitespace-nowrap shrink-0">{formatRelativeTime(review.postedAt)}</span>
+          <span className="text-xs text-gray-400 whitespace-nowrap shrink-0">{formatRelativeTime(review.postedAt)}</span>
         </div>
 
         <div className="mb-2">
           <StarRating rating={review.rating} />
         </div>
 
-        <div className="flex-1 mb-2">
-          <p className={`text-sm text-gray-900 leading-relaxed m-0 ${!expanded && isLongText ? 'line-clamp-3' : ''}`}>
+        <div className="mb-1">
+          <p className={`text-sm text-gray-800 leading-relaxed m-0 ${!expanded && isLongText ? 'line-clamp-3' : ''}`}>
             {review.text}
           </p>
           {isLongText && (
             <button
-              className="inline-block mt-1 p-0 border-none bg-transparent text-green-500 text-[0.8125rem] font-medium cursor-pointer hover:opacity-70 transition-opacity"
+              className="inline-block mt-1 p-0 border-none bg-transparent text-blue-600 text-[0.8125rem] font-medium cursor-pointer hover:opacity-70 transition-opacity"
               onClick={() => setExpanded(!expanded)}
             >
               {expanded ? '閉じる' : 'もっと見る'}
@@ -78,40 +164,41 @@ export default function ReviewCard({ review, onHelpful, isHelpfulActive, helpful
           )}
         </div>
 
-        {review.media && review.media.length > 0 && (
-          <div className="flex gap-2 overflow-x-auto mb-2 scrollbar-hide">
-            {review.media.map((item, index) => (
-              <div key={index} className="relative shrink-0 w-[120px] h-[90px] rounded-lg overflow-hidden">
-                <img src={item.url} alt="" className="w-full h-full object-cover" />
-                {item.type === 'video' && (
-                  <span className="absolute bottom-1 left-1 bg-black/70 text-white text-[0.625rem] px-1.5 py-0.5 rounded font-medium">Short Video</span>
-                )}
-              </div>
-            ))}
-          </div>
-        )}
+        {review.media && review.media.length > 0 && <ReviewMedia media={review.media} />}
 
-        <div className="flex items-center gap-4 pt-2 border-t border-gray-200">
-          <button
-            className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-[0.8125rem] transition-all ${
+        <div className="flex items-center gap-3 pt-3 mt-2 border-t border-gray-100">
+          <motion.button
+            type="button"
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[0.8125rem] cursor-pointer transition-colors ${
               isHelpfulActive
-                ? 'bg-green-50 border border-green-500 text-green-500'
-                : 'text-gray-500 bg-slate-50 border border-gray-200 hover:border-green-500 hover:text-green-500'
+                ? 'bg-blue-50 border border-blue-400 text-blue-600'
+                : 'text-gray-500 bg-slate-50 border border-gray-200 hover:border-blue-400 hover:text-blue-600'
             }`}
-            onClick={() => onHelpful && onHelpful(review.id)}
+            onClick={handleHelpfulClick}
+            whileTap={{ scale: 0.92 }}
           >
-            <ThumbsUp size={14} />
+            <motion.span
+              className="relative inline-flex"
+              animate={isHelpfulActive ? { scale: [1, 1.5, 1] } : { scale: 1 }}
+              transition={{ duration: 0.35, ease: 'easeOut' }}
+            >
+              <ThumbsUp size={14} fill={isHelpfulActive ? '#2563eb' : 'none'} />
+              <AnimatePresence>{burst && <HelpfulBurst />}</AnimatePresence>
+            </motion.span>
             <span className="font-medium">{LOCALIZATION.buttons.helpful}</span>
             <span className="font-semibold">({displayHelpfulCount})</span>
-          </button>
+          </motion.button>
 
-          <button
-            className="flex items-center gap-1 px-3 py-1.5 rounded-full text-[0.8125rem] text-gray-500 bg-slate-50 border border-gray-200 cursor-pointer transition-all hover:border-green-500 hover:text-green-500"
+          <motion.button
+            type="button"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[0.8125rem] text-gray-500 bg-slate-50 border border-gray-200 cursor-pointer transition-colors hover:border-cyan-400 hover:text-cyan-600"
             onClick={handleCommentClick}
+            whileTap={{ scale: 0.92 }}
+            whileHover={{ scale: 1.03 }}
           >
             <MessageCircle size={14} />
-            <span className="font-medium">💬 {LOCALIZATION.misc.comments} ({commentCount})</span>
-          </button>
+            <span className="font-medium">{LOCALIZATION.misc.comments} ({commentCount})</span>
+          </motion.button>
         </div>
       </div>
 

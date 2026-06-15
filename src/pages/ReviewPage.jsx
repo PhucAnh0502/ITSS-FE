@@ -121,7 +121,7 @@ function ReviewPage() {
       {/* Header */}
       <header className="mb-2">
         <motion.h1
-          className="text-[1.75rem] font-bold m-0 mb-1 text-gray-900"
+          className="text-[1.75rem] font-extrabold m-0 mb-1 text-brand-gradient"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -144,7 +144,7 @@ function ReviewPage() {
             onSelect={(tag) => setCategory(tag || 'all')}
           />
           <motion.button
-            className="bg-green-500 text-white border-none rounded-3xl px-5 py-2.5 text-sm font-semibold cursor-pointer transition-colors whitespace-nowrap flex items-center gap-1.5 hover:bg-green-600 focus-visible:outline-2 focus-visible:outline-green-500 focus-visible:outline-offset-2"
+            className="bg-brand-gradient text-white border-none rounded-3xl px-5 py-2.5 text-sm font-semibold cursor-pointer transition-opacity whitespace-nowrap flex items-center gap-1.5 shadow-sm shadow-blue-500/30 hover:opacity-90 focus-visible:outline-2 focus-visible:outline-blue-500 focus-visible:outline-offset-2"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => setWriteModalOpen(true)}
@@ -159,7 +159,7 @@ function ReviewPage() {
       {filteredReviews.length === 0 ? (
         <EmptyState message={LOCALIZATION.empty.noReviews} />
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-4">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-5 mt-4">
           {filteredReviews.map((review, index) => (
             <motion.div
               key={review.id}
@@ -167,7 +167,7 @@ function ReviewPage() {
               variants={cardVariants}
               initial="hidden"
               animate="visible"
-              className="flex min-w-0"
+              className="mb-5 break-inside-avoid"
             >
               <ReviewCard
                 review={review}
